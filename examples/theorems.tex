@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{aliascnt}
+\usepackage{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newaliascnt{lemma}{theorem}
+\newtheorem{lemma}[lemma]{Lemma}
+\aliascntresetthe{lemma}
+\providecommand{\lemmaautorefname}{Lemma}
+\theoremstyle{definition}
+\newaliascnt{definition}{theorem}
+\newtheorem{definition}[definition]{Definition}
+\aliascntresetthe{definition}
+\providecommand{\definitionautorefname}{Definition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\numberwithin{equation}{section}
+\begin{document}
+\section{Instant theorem and equation previews}
+\begin{definition}[Norm]\label{def:norm}
+For a real number $x$, its norm is $\lvert x\rvert$.
+\end{definition}
+
+\begin{theorem}[Pythagorean identity]\label{thm:identity}
+For every real $x$, we have $\sin^2 x+\cos^2 x=1$.
+\end{theorem}
+
+\begin{proof}
+This follows from the unit circle.
+\end{proof}
+
+\begin{align}
+ \sin^2 x+\cos^2 x &= 1 \label{eq:identity}\\
+ \hat{x} &= \frac{x}{\lVert x\rVert} \tag{N}\label{eq:normal}
+\end{align}
+
+Theorem~\ref{thm:identity} gives \eqref{eq:identity}.
+The normalization is \eqref{eq:normal}; see also \autoref{def:norm}.
+
+\begin{remark}
+Try the Equation ribbon to insert a matrix, an accent, or paired delimiters.
+\end{remark}
+
+\section{Practice theorem editing}
+\begin{definition}[A positive sequence]\label{def:positive}
+A sequence $(a_n)$ is positive if $a_n>0$ for every $n$.
+
+This second paragraph is part of the definition. Press Enter in its body to
+add a paragraph using a blank source line.
+\end{definition}
+
+\begin{lemma}[A simple consequence]
+If $(a_n)$ is positive, then $a_n+a_{n+1}>0$.
+\end{lemma}
+\begin{proof}
+Add the two strict inequalities from Definition~\ref{def:positive}.
+\end{proof}
+
+Click a theorem title to add, edit or remove it. The Theorems tab appears only
+inside a theorem; Manage theorem environments edits name, printed title, style,
+counter sharing and numbering. Home, Paragraph also lists the declared theorem
+styles. Try a custom unnumbered remark and inspect its declaration in the preamble.
+
+\section{Prepare appendices}
+Appendices use ordinary headings after \verb|\appendix|. In PasTeX, choose
+Insert, Environment, Start appendices, then insert a Section heading from Home.
+The command changes numbering for the following sections. Sections before it keep their original numbers.
+
+The supporting calculation is in Appendix~\ref{app:calculation}; the extra
+assumptions are in Appendix~\ref{app:assumptions}. References, equations and
+theorems use the appendix letter automatically.
+The command \verb|\autoref| also supplies the name: see \autoref{app:calculation}.
+
+\appendix
+\section{Supporting calculation}\label{app:calculation}
+\subsection{A finite sum}\label{app:sum}
+\begin{equation}\label{eq:appendix-sum}
+  \sum_{k=1}^{n} k = \frac{n(n+1)}{2}.
+\end{equation}
+\begin{theorem}[Induction]
+Equation~\eqref{eq:appendix-sum} holds for every positive integer $n$.
+\end{theorem}
+\begin{proof}
+The case $n=1$ is immediate. Add $n+1$ to both sides for the next case.
+\end{proof}
+
+\section{Additional assumptions}\label{app:assumptions}
+For a book or report, use \verb|\chapter{...}| after \verb|\appendix| instead:
+chapters become A, B, and so on, and their sections become A.1, A.2, and so on.
+For a document split into files, put \verb|\appendix| before the appendix's
+\verb|\input| or \verb|\include| command in the master file.
+\end{document}

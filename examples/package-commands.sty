@@ -1,0 +1,9 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{package-commands}[2026/10/04 PasTeX package discovery example]
+\RequirePackage{amsmath,amssymb,stmaryrd}
+\newcommand{\packageparen}[1]{\left(#1\right)}
+\newcommand{\packagehalf}[1]{\frac{#1}{2}}
+\let\packagealias\packageparen
+\DeclareMathOperator{\packageop}{distance}
+\endinput

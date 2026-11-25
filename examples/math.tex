@@ -1,0 +1,335 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,mathtools,bm,mathrsfs,extarrows,graphicx}
+\usepackage[nointegrals]{wasysym}
+\usepackage{pifont,stmaryrd}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\newcommand{\R}{\mathbb{R}}
+\def\myparen#1{\left(#1\right)}
+\DeclareMathOperator{\rank}{rank}
+\providecommand{\reallywidehat}[1]{\mathpalette\PasTeXWideHat{#1}}
+\providecommand{\PasTeXWideHat}[2]{%
+  \begingroup\sbox0{$#1#2$}%
+  \mathord{\overset{\resizebox{\wd0}{0.45ex}{$\wedge$}}{#1#2}}%
+  \endgroup}
+\begin{document}
+\section*{Mathematics in PasTeX}
+This reference covers symbols, structures, fonts, equation layouts, and custom
+commands. Click a formula to edit it; the Equation tab provides insertion tools.
+Press Space to leave a script, and use the arrow keys to move between fields.
+See the user's guide for tables, figures, theorems, and bibliography editing.
+
+\section{Inline, displayed, and numbered formulas}
+Inline mathematics, such as $f\colon\R\to\R$ and $E=mc^2$, follows the surrounding
+text. A displayed formula occupies its own line:
+\[
+ (a+b)^2=a^2+2ab+b^2.
+\]
+Select a formula and press Alt+= to turn it into body text. Use the layout
+controls to change an inline formula into a display.
+
+\begin{equation}\label{eq:gaussian}
+ \int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}.
+\end{equation}
+Equation~\eqref{eq:gaussian} demonstrates a label and a clickable reference.
+A custom tag replaces the automatic equation number:
+\begin{equation}
+ a^2+b^2=c^2.\tag{P}\label{eq:pythagoras}
+\end{equation}
+Compare Equation~\eqref{eq:pythagoras} with Equation~\eqref{eq:gaussian}.
+
+\section{Symbols, relations, and arrows}
+Common lowercase Greek letters and their variants:
+\[
+ \alpha,\,\beta,\,\gamma,\,\delta,\,\epsilon,\,\varepsilon,\,\zeta,\,\eta,
+ \theta,\,\vartheta,\,\iota,\,\kappa,\,\lambda,\,\mu,\,\nu,\,\xi,\,\pi,
+ \varpi,\,\rho,\,\varrho,\,\sigma,\,\varsigma,\,\tau,\,\upsilon,\,\phi,
+ \varphi,\,\chi,\,\psi,\,\omega.
+\]
+Uppercase Greek letters:
+\[
+ \Gamma,\,\Delta,\,\Theta,\,\Lambda,\,\Xi,\,\Pi,\,\Sigma,\,\Upsilon,\,\Phi,
+ \Psi,\,\Omega.
+\]
+Operators, relations, sets, and miscellaneous symbols:
+\[
+ a\pm b,\quad a\mp b,\quad a\times b,\quad a\div b,\quad a\cdot b,\quad
+ A\cap B,\quad A\cup B,\quad A\setminus B,\quad A\oplus B,\quad A\otimes B
+\]
+\[
+ x\leq y,\quad x\geq y,\quad x\neq y,\quad x\approx y,\quad x\equiv y,\quad
+ x\sim y,\quad x\in A,\quad A\subseteq B,\quad \forall x,\quad \exists y,\quad
+ \varnothing,\quad \infty,\quad \nabla,\quad \partial.
+\]
+\[
+ A\to B,\quad A\leftarrow B,\quad A\leftrightarrow B,\quad
+ A\Rightarrow B,\quad A\Leftarrow B,\quad A\Leftrightarrow B,\quad
+ x\mapsto x^2,\quad A\hookrightarrow B,\quad A\xrightarrow{f}B.
+\]
+
+\subsection*{Installed symbol packages}
+Equation, Symbols opens a searchable browser. Choose an installed package, or
+the Comprehensive symbol list, then insert a command and its required package.
+These examples use wasysym, pifont and stmaryrd:
+\[
+ \smiley\quad\text{\phone}\quad\CheckedBox\quad\HF\quad\LEFTcircle\quad
+ \text{\ding{172}}\quad\llbracket x\rrbracket\quad a\apprle b.
+\]
+Double brackets also support fixed sizes and automatic growth:
+\[
+ \Bigl\llbracket x\Bigr\rrbracket\quad
+ \left\llbracket\frac{x+1}{y}\right\rrbracket\quad
+ \llfloor x\rrfloor\quad\llceil y\rrceil\quad
+ \biginterleave_{i=1}^{n} A_i.
+\]
+Package-defined symbols use the installed font outlines and metrics. Some
+catalogue entries require packages or programmable definitions beyond native
+preview; use permanent preview to check their complete output.
+Text symbols such as \verb|\phone| need \verb|\text{\phone}| inside mathematics.
+
+\section{Fractions, roots, and scripts}
+Compare inline $x_i^2$, $x^{n^2}_{i,j}$, $\sqrt{x}$, $\sqrt[n]{x+1}$,
+and $\frac{1}{n^2}$. Empty arguments use editable placeholders in instant
+editing; placeholders do not become part of the source.
+
+\[
+ \frac{a+b}{c+d}\qquad
+ \frac{x}{\lVert\frac{x}{y}\rVert}\qquad
+ \sqrt[3]{\frac{a+b}{c+d}}\qquad
+ \binom{n}{k}
+\]
+Explicit text and display styles:
+\[
+ \tfrac{1}{2}+\dfrac{1}{2}\qquad
+ \tbinom{n}{k}+\dbinom{n}{k}\qquad
+ \sqrt{\pi}+\sqrt[n]{x+1}.
+\]
+
+\section{Operators and limits}
+Named functions stay upright: $\sin x+\cos x$, $\log x$, $\exp x$,
+$\max(a,b)$, and $\rank A$.
+\[
+ \sum_{n=0}^{\infty}\frac{x^n}{n!}=\mathrm{e}^x,\qquad
+ \prod_{k=1}^{n}k=n!,\qquad
+ \lim_{x\to0}\frac{\sin x}{x}=1
+\]
+\[
+ \int_0^1x^2\,\mathrm{d}x=\frac{1}{3},\qquad
+ \iint_D f(x,y)\,\mathrm{d}x\,\mathrm{d}y,\qquad
+ \oint_C\bm{F}\cdot\mathrm{d}\bm{r}
+\]
+Inline limits, $\sum_{n=0}^{\infty}a_n$ and $\int_{\mathbb{R}}f(x)\,dx$,
+use smaller operators than the displayed versions.
+\[
+ \bigcup_{i=1}^n A_i,\qquad
+ \bigcap_{i=1}^n A_i,\qquad
+ \bigoplus_{i=1}^n V_i,\qquad
+ \bigotimes_{i=1}^n V_i.
+\]
+
+\subsection{Modular arithmetic}
+The AMS commands distinguish a binary remainder operator from a congruence
+qualifier. Their arguments remain editable in instant preview:
+\[
+ a\bmod n,\qquad a\equiv b\pmod{n},\qquad
+ a\equiv b\mod{n},\qquad a\equiv b\pod{n}.
+\]
+Compare inline $a\equiv b\pmod{n}$ and the subscript $x_{a\bmod n}$ with
+the display above. Named logarithms stay upright: $\lg(100)=2$.
+
+\subsection{Math styles and invisible spacing}
+The four arguments of \verb|\mathchoice| select display, text, script and
+scriptscript forms. This command adapts as it enters smaller scripts:
+\newcommand{\stylemark}{\mathchoice{D}{T}{S}{Q}}
+Inline $\stylemark$ and $x_{\stylemark_{\stylemark}}$ compare with
+\[
+ \stylemark,\qquad a+\phantom{b}=c,\qquad a+\hphantom{b}=c.
+\]
+The phantom commands reserve the dimensions of their arguments.
+The following fraction uses \verb|\mathpalette| to pass the current math
+style to a two-argument helper.
+\newcommand{\adaptfrac}[2]{{#1\frac{#2}{1+#2}}}
+\newcommand{\stylefrac}[1]{\mathpalette\adaptfrac{#1}}
+Compare inline $\stylefrac{x}$ and a script $a_{\stylefrac{x}}$ with
+the displayed form
+\[
+  \stylefrac{x}.
+\]
+
+\subsection{Labelled arrows and functions}
+Use Equation, Arrows for extensible arrows; edit the upper label in braces and
+an optional lower label in brackets. Functions and limits have a separate gallery.
+Insert math command opens a name-and-arguments editor for other commands.
+\[
+ A\xrightarrow[g]{f}B,\qquad
+ A\xleftarrow{p}B,\qquad
+ a\xlongequal[\text{definition}]{n\to\infty}b,\qquad
+ U\xhookrightarrow{i}V\xRightarrow{T}W.
+\]
+\[
+ \sin x+\cos x,\qquad \lim_{x\to0}\frac{\sin x}{x}=1,
+ \qquad \sup_{x\in[0,1]}x=1,\qquad \limsup_{n\to\infty}a_n.
+\]
+\verb|\xlongequal| comes from \texttt{extarrows}; additional labelled arrows
+come from \texttt{mathtools}. The preamble defines \verb|\reallywidehat| using
+\texttt{amsmath} and \texttt{graphicx} to stretch over a long expression:
+\[
+ \widehat{abc}\qquad \reallywidehat{a+b+c+d+e+f}.
+\]
+
+\section{Matrices and determinants}
+Choose the matrix type and dimensions from the Equation tab. Within a matrix,
+arrow keys move through cells; the grid tools add or delete rows and columns.
+\[
+ \begin{matrix}a&b\\c&d\end{matrix}\quad
+ \begin{pmatrix}1&2&3\\4&5&6\end{pmatrix}\quad
+ \begin{bmatrix}a&b\\c&d\end{bmatrix}\quad
+ \begin{Bmatrix}a&b\\c&d\end{Bmatrix}
+\]
+\[
+ \begin{vmatrix}a&b\\c&d\end{vmatrix}=ad-bc,\qquad
+ \begin{Vmatrix}x&0\\0&y\end{Vmatrix}.
+\]
+A small matrix can appear inline:
+$A=\left(\begin{smallmatrix}1&0\\0&1\end{smallmatrix}\right)$.
+An array allows explicit column alignment:
+\[
+ \begin{array}{rcl}
+  x+y&=&3\\
+  x-y&=&1
+ \end{array}
+\]
+
+\section{Delimiters and spacing}
+Automatically sized delimiters:
+\[
+ \left(\frac{1}{1+x^2}\right)\quad
+ \left[\sum_{n=1}^N n\right]\quad
+ \left\{\frac{a}{b},\sqrt[n]{c}\right\}\quad
+ \left\langle\frac{x}{y},z\right\rangle
+\]
+\[
+ \left\lvert\frac{x}{y}\right\rvert\quad
+ \left\lVert\frac{x}{y}\right\rVert\quad
+ \left.\frac{x^3}{3}\right|_0^1.
+\]
+Fixed sizes and unmatched sides:
+\[
+ \bigl(x\bigr)\quad \Bigl[x\Bigr]\quad \biggl\{x\biggr\}\quad
+ \Biggl\langle x\Biggr\rangle\quad
+ \left\{x\in\R\mid x>0\right..
+\]
+Click a space marker during instant editing to choose a preset or a width.
+The following examples compare ordinary, thin, medium, thick, quad, and
+double-quad spacing:
+\[
+ ab\qquad a\,b\qquad a\:b\qquad a\;b\qquad
+ a\quad b\qquad a\qquad b.
+\]
+
+\section{Accents and annotations}
+Compare fixed $\hat{x}$ and $\hat{xxxxxxxxxxxx}$ with extensible
+$\widehat{x}$, $\widehat{xx}$, and $\widehat{xxxxxxxxxxxx}$.
+\[
+ \bar{x}+\overline{AB}+\vec{v}+\tilde{x}+\widetilde{xyz}
+ +\dot{x}+\ddot{x}+\underline{a+b}
+\]
+\[
+ \boxed{a+b}\qquad
+ \overset{!}{=}\qquad \underset{x\to0}{\lim} f(x)\qquad
+ \underbrace{a+\cdots+a}_{n\text{ terms}}.
+\]
+
+\section*{Mathematical alphabets}
+Ordinary variables are italic; numbers and named operators are upright.
+Text inside a formula uses the document's text font.
+\[
+ \begin{aligned}
+  \text{Default}    &\quad ABCxyz0123456789+\alpha+\pi\\
+  \text{Roman}      &\quad \mathrm{ABCxyz0123456789}\\
+  \text{Italic}     &\quad \mathit{ABCxyz0123456789}\\
+  \text{Bold roman} &\quad \mathbf{ABCxyz0123456789}\\
+  \text{Sans serif} &\quad \mathsf{ABCxyz0123456789}\\
+  \text{Typewriter} &\quad \mathtt{ABCxyz0123456789}
+ \end{aligned}
+\]
+Special alphabets:
+\[
+ \begin{aligned}
+  \text{Calligraphic}&\quad\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}\\
+  \text{Blackboard} &\quad\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZ}\\
+  \text{RSFS script}&\quad\mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}\\
+  \text{Fraktur}    &\quad\mathfrak{ABCDEFxyz0123456789}
+ \end{aligned}
+\]
+Use \verb|\boldsymbol| or \verb|\bm| for bold Greek letters and symbols:
+\[
+ \alpha+\beta+\pi+\sum_{n=0}^{\infty}a_n\qquad
+ \boldsymbol{\alpha+\beta+\pi+\sum_{n=0}^{\infty}a_n}\qquad
+ \mathbf{A}\bm{x}=\bm{b}.
+\]
+\[
+ \mathscr{F}(f)(\xi)=
+ \int_{\mathbb{R}}f(x)\,\mathrm{e}^{-2\pi\mathrm{i}x\xi}\,\mathrm{d}x,
+ \qquad \mathcal{L}(V),\quad \mathfrak{g}.
+\]
+
+\section{Equation environments}
+An alignment uses ampersands to mark matching columns:
+\begin{align}
+ (a+b)^2&=a^2+2ab+b^2\label{eq:expand}\\
+ (a-b)^2&=a^2-2ab+b^2
+\end{align}
+Equation~\eqref{eq:expand} links to its numbered row.
+\begin{align*}
+ e^{i\theta}&=\cos\theta+i\sin\theta\\
+ \nabla\cdot\mathbf{E}&=\frac{\rho}{\varepsilon_0}\\
+ \sum_{n=1}^{\infty}\frac{1}{n^2}&=\frac{\pi^2}{6}
+\end{align*}
+Use aligned or gathered for smaller blocks inside a display:
+\[
+ \begin{aligned}
+  x+y&=3\\
+  x-y&=1
+ \end{aligned}
+ \qquad
+ \begin{gathered}
+  x=2\\
+  x^2+y^2=5\\
+  y=1
+ \end{gathered}
+\]
+\begin{gather}
+ a+b=b+a\\
+ a(b+c)=ab+ac
+\end{gather}
+\begin{equation}
+ \begin{split}
+  (a+b+c)^2&=a^2+b^2+c^2\\
+           &\quad+2ab+2bc+2ca
+ \end{split}
+\end{equation}
+\[
+ f(x)=\begin{cases}
+  x^2&\text{if }x\geq0,\\
+  -x&\text{otherwise.}
+ \end{cases}
+ \qquad a_{\text{initial}}=0.
+\]
+
+\section{Custom commands and literal source}
+The preamble defines \verb|\R|, \verb|\myparen|, and \verb|\rank|:
+\[
+ \myparen{\frac{x+1}{2}}\in\R,\qquad \rank A=2.
+\]
+A definition in the body appears as an orange editable object. The definition
+below contains bare mathematics, so its right-hand field uses math rendering:
+\newcommand{\squareplus}[1]{#1^2+1}
+\[
+ \squareplus{x}+\squareplus{y}=x^2+y^2+2.
+\]
+A body-text definition uses the normal text font:
+\newcommand{\greeting}[1]{Hello, \textit{#1}!}
+\greeting{reader} The source remains a custom command.
+Literal source is also editable: \verb|\sqrt[n]{x} + x^2|.
+\end{document}

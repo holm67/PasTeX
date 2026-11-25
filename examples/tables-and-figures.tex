@@ -1,0 +1,132 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass{article}
+\usepackage{amsmath,amssymb,array,diagbox,graphicx,booktabs,hyperref,multirow,adjustbox,tabularx,makecell,pdflscape}
+\usepackage[table]{xcolor}
+\begin{document}
+\listoftables
+\listoffigures
+\section{Tables and figures}
+
+Click a table cell to edit its text or mathematics. Arrow keys and Tab move
+between cells. The Tables ribbon inserts, deletes, duplicates and swaps rows
+and columns, and configures horizontal and vertical lines. References, Contents,
+inserts lists of tables or figures; Ctrl+click an entry to reach its caption.
+
+\begin{table}[htbp]
+\centering
+\caption{Values and formulas}
+\label{tab:values}
+\begin{tabular}{|l|c|r|}
+\hline
+Quantity & Formula & Value \\
+\hline
+Area & $\pi r^2$ & $12.57$ \\
+Sum & $\sum_{n=1}^3 n$ & $6$ \\
+Fraction & $\frac{1}{2}$ & $0.5$ \\
+\hline
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:values} has a caption above its content. Captions are editable
+directly in the instant preview; the caption dialog moves or removes them.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.2\linewidth]{../icons/pastex.png}
+\caption{The PasTeX icon}
+\label{fig:icon}
+\end{figure}
+
+Figure~\ref{fig:icon} has its caption below the image. Insert accepts PNG,
+JPEG and PDF images. Image settings change the file, width and height.
+
+\begin{tabular}{lp{4cm}}
+Text & A paragraph cell can contain a longer sentence that wraps onto
+several lines, including \textbf{bold text} and inline mathematics $x^2$. \\
+Another row & A tabular can appear directly in body text.
+\end{tabular}
+
+\section{Rules and rectangular selections}
+\begin{tabular}{lrr}
+\toprule
+Sample & Before & After \\
+\midrule
+A & 10 & 12 \\
+B & 15 & 18 \\
+C & 20 & 24 \\
+\bottomrule
+\end{tabular}
+
+This grid uses booktabs rules instead of repeated horizontal lines. Select a
+rectangle from A's first value to B's last value. The border buttons apply to
+the selected cells; repeated border actions preserve a single rule.
+Use the lines dialog for a visual overview. Remove a border, then undo.
+
+Duplicate the B row, move it up, then delete it. Repeat with a column. Use arrows
+to leave the first or last cell. Copy a rectangular selection and paste it into
+another selected range. Caption settings change text, placement and label;
+renaming a label updates its references. Try editing the image width as a
+number with a text-width unit, and edit its caption independently of the image.
+
+\subsection*{Repeated columns and diagonal headers}
+The column specification \verb+*{5}{c|}c+ repeats five centered columns with
+right borders, followed by one unruled column. Diagonal labels can contain text
+or mathematics; their direction and dimensions are optional settings.
+
+{\renewcommand{\arraystretch}{1.2}\setlength{\extrarowheight}{1pt}
+\begin{tabular}{*{5}{c|}c}
+\diagbox{Period}{Day} & Mon & Tue & Wed & Thu & Fri \\
+\hline
+Morning & 1 & 2 & 3 & 4 & 5 \\
+Afternoon & 6 & 7 & 8 & 9 & 10
+\end{tabular}}
+
+\begin{center}
+\diagbox[dir=NE,width=6em,height=3em]{$x^2$}{$y$}
+\qquad
+\diagbox{Day}{Room}{Time}
+\end{center}
+
+\section{Merged cells and column formatting}
+Select a rectangular range and choose Table, Merge selected cells. Split cell
+keeps the content in the first cell and restores the empty cells around it.
+\begin{center}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}>{\bfseries}lcr@{}}
+\toprule
+Group & Quantity & Value \\
+\midrule
+\multirow{2}{*}{Samples} & A & 12 \\
+ & B & 18 \\
+\addlinespace[4pt]
+\multicolumn{2}{l}{Combined total} & 30 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{center}
+\section{Flexible columns, multiline cells and colors}
+The X columns share the remaining width. Edit the two lines inside each
+makecell directly; colors are stored in ordinary xcolor table commands.
+\begin{tabularx}{\linewidth}{@{}lXX@{}}
+\toprule
+\rowcolor{blue!10} Name & Description & Notes \\
+\midrule
+Flexible & This column wraps a longer sentence to fit the available width.
+ & \makecell[l]{First line\\Second line} \\
+Colored & \cellcolor{green!15}An emphasized cell & Another flexible column. \\
+\bottomrule
+\end{tabularx}
+
+\section{Saved boxes}
+\newsavebox{\samplebox}
+\sbox{\samplebox}{\textsf{Reusable text} with $x^2$}
+\typeout{PasTeX saved-box example}
+The stored content can appear twice: \usebox{\samplebox} and \usebox{\samplebox}.
+
+\begin{landscape}
+\section{Landscape content}
+The compiled page is rotated by pdflscape. Continuous editing keeps its
+contents upright; use the compiled PDF to check page rotation.
+\begin{tabular}{lll}\toprule First&Second&Third\\\midrule A&B&C\\\bottomrule\end{tabular}
+\end{landscape}
+\end{document}

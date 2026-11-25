@@ -1,0 +1,76 @@
+object FullSourceWindow: TFullSourceForm
+  Left = 200
+  Height = 680
+  Top = 120
+  Width = 900
+  Caption = 'Full document source'
+  ClientHeight = 680
+  ClientWidth = 900
+  Constraints.MinWidth = 640
+  Constraints.MinHeight = 300
+  Position = poMainFormCenter
+  object Toolbar: TPanel
+    Align = alTop
+    Height = 44
+    BevelOuter = bvNone
+    TabOrder = 0
+    object SaveButton: TButton
+      Left = 12
+      Top = 7
+      Width = 92
+      Height = 30
+      Caption = 'Save'
+      OnClick = SaveClick
+      TabOrder = 0
+    end
+    object CloseButton: TButton
+      Left = 116
+      Top = 7
+      Width = 146
+      Height = 30
+      Caption = 'Return to document'
+      OnClick = CloseClick
+      TabOrder = 1
+    end
+    object PreviewPositionButton: TButton
+      Left = 274
+      Top = 7
+      Width = 176
+      Height = 30
+      Caption = 'Go to preview position'
+      Hint = 'Scroll source to the visible preview position without changing the selection'
+      ShowHint = True
+      OnClick = LocateClick
+      TabOrder = 2
+    end
+    object ShowPreviewButton: TButton
+      Left = 462
+      Top = 7
+      Width = 144
+      Height = 30
+      Caption = 'Show in preview'
+      Hint = 'Scroll preview to the source caret, or to the first visible source line if the caret is off-screen'
+      ShowHint = True
+      OnClick = LocateClick
+      TabOrder = 3
+    end
+  end
+  object SourceEditor: TSynEdit
+    Align = alClient
+    Left = 0
+    Top = 44
+    Width = 900
+    Height = 636
+    Font.Name = 'Monospace'
+    Font.Size = 12
+    Highlighter = Highlighter
+    ScrollBars = ssVertical
+    OnChange = SourceChanged
+    OnStatusChange = SourceStatus
+    TabOrder = 1
+  end
+  object Highlighter: TSynTeXSyn
+    left = 300
+    top = 12
+  end
+end

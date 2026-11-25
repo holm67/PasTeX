@@ -1,0 +1,98 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,tikz-cd}
+\usepackage[all]{xy}
+\begin{document}
+\section{Commutative diagrams}
+These examples draw the same square in TikZ-cd and XY-pic. Insert either
+environment from Insert, Environment. Click objects and arrow labels to edit
+their mathematics instantly. Hover over a diagram and click the plus button to
+expand its source; the minus button collapses it. Native PasTeX draws matrix diagrams directly;
+Cached TeX handles the packages' full programmable drawing syntax.
+
+\subsection{TikZ-cd: objects and arrow labels}
+Separate columns with \verb|&| and rows with \verb|\\|. Arrow directions such
+as \texttt{r}, \texttt{d}, and \texttt{dr} refer to another cell.
+\begin{center}
+\begin{tikzcd}[row sep=large,column sep=large]
+  A \arrow[r,"f"] \arrow[d,"g"'] & B \arrow[d,"h"] \\
+  C \arrow[r,"k"'] & D
+\end{tikzcd}
+\end{center}
+Click $f$ and append \verb|\circ p|, or expand Source to change \verb|row sep|.
+
+\begin{center}
+\begin{tikzcd}
+  0 \arrow[r] & U \arrow[r,hook,"i"] & V \arrow[r,two heads,"p"] & W \arrow[r] & 0
+\end{tikzcd}
+\end{center}
+
+\subsection{XY-pic: the same square}
+\verb|\ar[r]^f| puts $f$ above an arrow; \verb|\ar[d]_g| puts $g$ on its other
+side. The \texttt{xy} environment keeps the drawing and its expandable source together.
+\begin{center}
+\begin{xy}
+\xymatrix@R=2pc@C=3pc{
+  A \ar[r]^f \ar[d]_g & B \ar[d]^h \\
+  C \ar[r]_k & D
+}
+\end{xy}
+\end{center}
+
+\begin{center}
+\begin{xy}
+\xymatrix{
+  A \ar@/^/[r]^f & B \ar@/^/[l]^g
+}
+\end{xy}
+\end{center}
+Curved arrows let opposite maps have separate labels. Keep \verb|[all]| on the
+\texttt{xy} package to load its standard drawing extensions.
+An explicit curve height uses a \TeX{} dimension:
+\begin{center}
+\begin{xy}
+\xymatrix{A \ar@/^1pc/[r]^{f+g} & B \ar@/^1pc/[l]_h}
+\end{xy}
+\end{center}
+Edit a label in place while preserving object spacing.
+\subsection{Mathematics inside objects and labels}
+Cell contents use the same formula editor as ordinary equations. Fractions,
+scripts and custom commands can be edited directly; arrow routes are preserved.
+\begin{center}
+\begin{tikzcd}[column sep=large]
+  \frac{A}{I} \arrow[r,"\overline{f}"] & B^{n+1} \\
+  A \arrow[u,two heads,"q"] \arrow[r,hook,"i"'] & B \arrow[u,"p"']
+\end{tikzcd}
+\end{center}
+For an unbraced XY-pic label such as \verb|\ar[r]^f|, adding characters
+automatically groups the label, for example \verb|\ar[r]^{f+1}|.
+
+The older TikZ-cd arrow syntax is editable too:
+\begin{center}
+\begin{tikzcd}
+  A \arrow{r}{f} & B \arrow{r}[swap]{g} & C
+\end{tikzcd}
+\end{center}
+\subsection{Heads, tails and routes}
+These maps distinguish a tail, a maps-to bar, a hook, and a double head.
+\begin{center}
+\begin{tikzcd}
+  A \arrow[r,tail] & B \arrow[r,maps to] & C \arrow[r,hook] & D \arrow[r,two heads] & E
+\end{tikzcd}
+\end{center}
+Swapped hooks and harpoons retain their side. Named TikZ tips can be chosen
+independently at either end of a path.
+\begin{center}
+\begin{tikzcd}
+  A \arrow[r,hook'] & B \arrow[r,harpoon] & C \arrow[r,harpoon'] & D \arrow[r,arrows={Bar-Stealth}] & E
+\end{tikzcd}
+\end{center}
+\begin{center}
+\begin{tikzcd}[column sep=large]
+  A \arrow[r,out=45,in=135,looseness=1.2,"f"] & B
+\end{tikzcd}
+\end{center}
+XY-pic uses its own technical-style arrow tips; its curve height is a
+\TeX{} dimension. Edit an object or label while preserving the arrow route.
+\end{document}

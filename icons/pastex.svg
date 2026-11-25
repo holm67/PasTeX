@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>PasTeX</title>
+  <desc>A typeset sigma on a folded page, with a teal editing caret.</desc>
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="#173653"/>
+  <path d="M124 72H304L388 156V412Q388 440 360 440H124Q96 440 96 412V100Q96 72 124 72Z" fill="#fbf8ef"/>
+  <path d="M304 72V132Q304 156 328 156H388Z" fill="#c7dedf"/>
+  <path d="M154 160H284V204H270L258 181H197L246 248L192 320H260L276 292H290L282 342H148V326L210 249L154 175Z" fill="#173653"/>
+  <path d="M324 206V344M310 206H338M310 344H338" fill="none" stroke="#098b83" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 382H244M266 382H332" fill="none" stroke="#a9c9c8" stroke-width="12" stroke-linecap="round"/>
+</svg>

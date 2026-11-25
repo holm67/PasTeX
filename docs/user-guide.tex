@@ -1,0 +1,590 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newcommand{\result}{\par\noindent\textit{Result.}\ }
+\usepackage[margin=1in]{geometry}
+\title{PasTeX User's Guide}
+\author{PasTeX contributors}
+\date{Version 0.10.0-rc.2 (release candidate)}
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Your first editing session}
+PasTeX edits UTF-8 \LaTeX{} files directly. Save a copy of this guide to
+practice the editing steps and the source/result examples in the appendix.
+Installation, build commands and the example index are in \texttt{docs/developer-guide.tex}.
+
+\begin{enumerate}
+\item Open a file with Ctrl+O. Click a word to place the caret in the instant editor.
+\item Type a sentence. Press Enter to start another paragraph; an unused empty
+paragraph disappears when you leave it.
+\item Drag to select characters, double-click a word, or use Shift with arrow keys.
+Use Ctrl+C, Ctrl+X and Ctrl+V to copy, cut and paste. Selections can cross paragraphs.
+\item Save with Ctrl+S. Undo with Ctrl+Z and redo with Ctrl+Y. The narrow arrows
+beside those buttons show histories; selecting an entry applies several steps.
+\item Open another file. Drag its tab to reorder it, or use the tab's right-click
+menu. Close a tab with its close button or Ctrl+W; unsaved changes prompt for saving.
+\end{enumerate}
+
+\subsection{Find a command}
+Home contains text, paragraph and editing tools. Insert adds objects; References
+handles labels and bibliography. Contextual tabs appear for the current equation,
+table, figure, theorem, box, listing or command definition. View controls the
+workspace; Settings controls the document and application.
+Hover over an icon for its description. Unavailable buttons are gray.
+Use Alt+Q to search commands by name. Ctrl+F1 collapses or restores the ribbon.
+The traditional menubar and context menus provide the same actions in task groups.
+Home, Editing, Properties opens the settings for the command or object at the
+caret. Its argument editor supports required, optional and unbraced arguments,
+with source highlighting and controls to add, remove or reorder them.
+
+\subsection{Focus and paper pages}
+Press F11, or choose View, Focus/fullscreen, to hide the ribbon, tabs and
+navigation. Escape or Exit focus restores the previous window and controls.
+The status-bar layout buttons switch between Continuous and Paged layout in the
+main window; View, Paged layout (Ctrl+Alt+P) is the same command. Click a word on
+native paper pages to edit text and formulas instantly. The shared renderer
+uses the document paper size and margins, breaks long paragraphs across pages
+and reflows changed content through the native renderer. Save and the
+formatting ribbon work in the main window. Ctrl+R opens the compiled PDF for
+checking final pagination, floats and package-specific output routines.
+Native pages support common single-column float placement and page styles,
+including page numbers, fancyhdr fields, marks and header/footer rules.
+Selected text stays synchronized with Full document source across paragraphs.
+The main status bar shows the current page and total.
+Sources start collapsed in page view. Hover to expand them; temporary viewing
+space holds source, labels, comments and active command/environment names
+while preserving page assignments. Collapsing source or leaving a command
+removes its extra space.
+Visual editor and Source editor switch the active paragraph within either layout.
+Continuous layout restores the paragraph workspace.
+
+\subsection{Source and compiled PDF side by side}
+Choose View, Source / compiled PDF (Ctrl+Shift+P), or its status-bar button.
+The complete editable source is on the left and the compiled PDF is on the
+right. Drag the divider to resize the panes. Source fonts, highlighting and
+completion use the normal editor settings; Ctrl+S saves the document.
+
+Compilation runs after a short typing pause. Refresh PDF, above the PDF pane,
+refreshes explicitly; errors leave the previous PDF visible. The right arrow
+on the divider locates the source caret in the PDF. The left arrow locates the
+visible PDF position in source. Ctrl+click the PDF to locate a specific line.
+These actions require the SyncTeX utility supplied by your \TeX{} distribution.
+Open the master file to compile a project; included files are read from disk.
+Use Continuous layout or Paged layout to return to native visual editing.
+
+\subsection{Beamer presentations}
+Open \texttt{examples/beamer.tex} to try native slide editing. The document class
+selects slide dimensions and text defaults. Continuous layout exposes overlay
+contents for editing; Paged layout repeats each frame for its overlays. Edits
+change the shared source, including other overlays of that frame. Fit Width and
+Fit Page use the slide aspect ratio.
+
+For example, \verb|\only<2>{Second slide}| occupies space on overlay two only,
+whereas \verb|\uncover<2->{Revealed text}| reserves space on earlier overlays.
+\verb|\pause| advances the reveal step; \verb|\alert<2>{Important}| changes the
+text color on overlay two. The native renderer also handles \verb|\onslide|,
+\verb|\visible|, \verb|\invisible|, \verb|\alt| and \verb|\temporal|, plus ordinary
+columns, blocks and theorem environments. An \texttt{overprint} environment
+replaces alternatives in the same area. Theme font/color declarations and their
+options are read from installed theme files and document overrides. Infolines
+footers show document metadata and frame counts.
+
+Use \verb|\titlepage| for document metadata and \verb|\framezoom<1><2>(0cm,0cm)(5cm,3cm)|
+for an enlarged region on the second overlay. Handout mode combines the ordinary
+overlays. The example includes both features; command suggestions also complete
+frames, block titles and overlay arguments.
+
+Beamer support is experimental. Use Ctrl+R to verify theme templates, notes,
+zoom hyperlinks and automatic frame breaks in the compiled presentation.
+
+\subsection{Import and exchange documents}
+Use Insert, Spreadsheet data, to read XLSX, ODS, Gnumeric, CSV or TSV. Choose
+a sheet and an optional range such as \texttt{B2:D20}; inspect the grid, then
+insert a table. Import reads cached spreadsheet values into a LaTeX table.
+
+File, Import document, converts Word, ODT, RTF or LyX to a new \texttt{.tex} file.
+Pandoc preserves richer DOCX content and extracts media when installed; the
+built-in DOCX reader imports text, headings, bold/italic runs and simple tables.
+Legacy Word, ODT and RTF require LibreOffice; LyX requires its own executable.
+The original file stays intact. Check converted content before publishing.
+
+\subsection{Tools and shortcuts}
+File, Export project ZIP, packages the source and assets in the document folder.
+
+Settings, Options, \TeX{}, configures each engine's executable and arguments.
+Use \texttt{\{source\}} for the generated source and \texttt{\{output\}} for
+its temporary directory, then Save compile command. Restore defaults resets
+the fields. Tools, Keyboard shortcuts, assigns or clears command bindings;
+clear a conflicting binding first. Escape always leaves focus mode.
+
+\subsection{Notes}
+Insert, Notes, adds a footnote, a separate footnote mark/text pair or a margin
+note. Edit note text and mathematics directly in instant preview. The continuous
+view places editable notes below their paragraph; compiled pages use \TeX{}'s
+footnote and margin placement. See \texttt{text-formatting.tex}.
+
+\subsection{Understand the previews}
+Settings, Preview, \emph{Compile continuous preview automatically} controls
+background \LaTeX{} compilation. Turn it off to keep continuous view native;
+Refresh preview compiles once on request. Native text and mathematics use bundled
+fonts and metrics for standalone editing. PDF preview,
+PDF images and export need the corresponding optional tools. Unsupported package
+programs remain editable source boxes. Cached drawing preview falls back to the
+native drawing backend when the compiler is unavailable.
+Use Settings, System, Check environment and dependencies (also in Help) to
+inspect detected runtimes, compiler paths and optional tools. Select a missing
+component for installation instructions; Check again refreshes the report.
+
+Instant preview updates locally while you type. Permanent preview uses your
+selected \TeX{} engine. During compilation, changed content has a yellow frame;
+a red frame means compilation failed. Other paragraphs retain their last preview.
+The instant editor remains usable after an error. Inspect Settings, Compiler log,
+correct the source, and refresh. Ctrl+R opens the compiled full-document PDF;
+File, Export PDF saves it to a chosen path.
+
+The continuous editor uses a paragraph layout. The PDF is the
+reference for pagination, floats and arbitrary package programs. Native package
+support is partial; unsupported commands and environments retain editable source
+boxes. Diagram preview can use cached \TeX{} output when native drawing differs.
+
+\section{Text, headings and lists}
+\begin{enumerate}
+\item Select a phrase and choose Home, Font, Bold or Italic. Click again to remove
+that style. The buttons and family/size lists reflect the selection.
+\item Choose Roman, Sans Serif or Monospace to change its family. Small caps,
+slanted and upright styles can be combined. Clear formatting removes character styles.
+\item Use Text color for a color; its arrow restores the document default.
+Named sizes follow the document class. Custom accepts a number and unit.
+\item Place the caret in a paragraph and choose its heading in Home, Paragraph.
+Normal removes the heading wrapper. Available headings follow the document class;
+declared theorem environments also appear in this list.
+The \texttt{secnumdepth} counter controls numbering; value 5 includes
+\verb|\paragraph| and \verb|\subparagraph|, as shown in \texttt{text-formatting.tex}.
+\item Choose a list from Insert. Enter adds an item, and the context menu edits
+list structure. Only one unused empty item is retained.
+\end{enumerate}
+
+Try nested styles, alignment, literal code and escaped symbols in
+\texttt{text-formatting.tex}. In visual text, percent and other reserved symbols
+are escaped when inserted. Type \verb|~| for a nonbreaking space, as in
+\verb|Equation~\eqref{eq:guide}|. Ctrl+/ comments or uncomments selected text;
+with an empty selection it affects the current source line. Comments have green
+editing boxes. Math braces and explicit line/space commands have editing marks
+used for editing. Click a horizontal or vertical space marker to
+choose a preset or enter its size.
+
+\section{Write and edit mathematics}
+\begin{enumerate}
+\item Press Alt+= in body text to start an inline equation, or choose Inline or
+Displayed from Insert. Selecting a whole equation and pressing Alt+= removes
+its delimiters. The Equation tab offers inline/display conversion too.
+\item Insert a fraction, root or matrix from Equation. Click an empty argument's
+placeholder and type. Placeholders guide editing and disappear as content is entered.
+\item Use Tab or Shift+Tab between fields. Arrow keys move through the expression.
+Up/Down moves between a fraction's numerator and denominator, retaining the
+horizontal caret position, before moving to another equation row.
+Space leaves the current argument or script; at the formula's end it returns to
+body text. Inside \verb|\text{...}|, Space inserts ordinary text spaces.
+\item Backspace at the start of a script or brace group removes its wrapper and
+keeps the contents. Backspace in an empty equation removes the equation.
+Immediately after a command, Backspace selects the command; press it again to
+delete the selection. Inside its argument, Backspace deletes text normally.
+Empty superscripts and subscripts disappear when the caret leaves them.
+\item Use the symbol galleries for Greek letters, arrows, operators, functions,
+accents and math alphabets. Labelled arrows have editable argument fields.
+\item For aligned equations, choose an environment from Insert. Enter and the
+context menu add/remove rows. The Equation tab and context menu duplicate the
+current row or column; column actions are disabled for fixed-column environments
+such as gather and cases. Matrix tools also change delimiters.
+\end{enumerate}
+
+For example, enter this in equation source:
+\begin{verbatim}
+\sum_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}
+\end{verbatim}
+\begin{equation}\label{eq:guide}
+\sum_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}.
+\end{equation}
+Use \texttt{math.tex} to practice structures, fonts, accents and environments.
+Copying mathematics into body text supplies math delimiters. Copying words from
+\verb|\text{...}| omits its wrapper. Typing a backslash opens command hints:
+Up/Down chooses a hint, Enter or Tab accepts it, and Escape cancels. Space accepts
+the typed command and leaves its argument ready for editing.
+Suggestions follow the text/math context and definitions before the caret.
+
+\subsection{Shortcuts for LyX users}
+The instant editor accepts common sequences from
+\href{https://git.lyx.org/repos/lyx.git}{LyX's keyboard bindings}.
+Press and release Alt+M, then type the keys in the second column.
+Escape cancels a sequence; the status bar shows the pending choices.
+These sequences also work in page view and leave source editors unchanged.
+\begin{center}
+\begin{tabular}{ll}
+Action&Keys after Alt+M\\\hline
+Fraction / square root / indexed root&\texttt{f / s / r}\\
+Superscript / subscript&\texttt{e / x}\\
+Text inside a formula&\texttt{m}\\
+Sum / integral / contour integral / infinity&\texttt{u / i / y / 8}\\
+Paired delimiters&\verb|(|, \verb|[|, \verb|{|, \verb|<|, \verb.|.\\
+Hat / vector / overline / dot / double dot&\verb|h / v / b / . / "|\\
+Greek letters&\texttt{g a} ($\alpha$), \texttt{g p} ($\pi$), \texttt{g G} ($\Gamma$)\\
+Insert / delete / duplicate row&\texttt{w i / w d / w c}\\
+Insert / delete / duplicate column&\texttt{c i / c d / c c}\\
+Inline / numbered equation / align&\texttt{t i / t d / t a}\\
+\end{tabular}
+\end{center}
+Fractions, roots, accents and delimiters enclose selected content. Column actions
+require a suitable matrix or alignment. Ctrl+M starts inline math, or inserts
+\verb|\text{...}| within mathematics. Ctrl+Shift+M creates or converts to displayed math.
+Ctrl+Shift+Z is an additional Redo shortcut.
+
+\section{Move between visual editing and source}
+Ctrl+L opens selected source in a gray box in place. Hover over a body command,
+equation, drawing or group such as \verb|{\itshape Emphasized words}| to reveal
+a dashed outline and plus button. Wrapped outlines follow the lines, with the
+button to the left of the second line. It expands source below the preview; the minus
+on the dashed divider collapses it, including inside \verb|\fbox|. Body groups
+and equations start collapsed in both layouts;
+figures with source editors start expanded in continuous layout. Other content stays visible.
+Hover in the left gutter of a list or other environment to expand its complete source.
+The source editor uses the font, wrapping and highlighting from Settings.
+Drag its bottom grip to resize it; Fit content restores automatic sizing.
+Source editors suggest commands as you type; Enter or Tab accepts an item,
+Escape dismisses the list, and Ctrl+Space opens it again. For example, accept
+\verb|\begin{}|, type \texttt{fig}, then accept \texttt{figure}. PasTeX adds
+the matching \verb|\end{figure}| and places the caret on an indented line inside.
+Suggestions include loaded package commands and definitions preceding the caret.
+Comments and verbatim text remain literal.
+
+After visual edits, opening source or leaving the paragraph formats supported
+environment indentation and equation rows. This preserves comments, literal
+text and the caret position. Plot expressions and data-set function definitions
+use the same source editor, including wrapping and syntax highlighting.
+
+Ctrl+Shift+U opens the complete source in a separate, modeless form. Preamble,
+body and ending are editable there. Caret and selection synchronize with visual
+editing. After scrolling independently, use these buttons:
+\begin{description}
+\item[Go to preview position] Scroll full source to the preview's visible caret,
+or to the visible paragraph when the caret is off screen.
+\item[Show in preview] Scroll the document to the visible source caret, or to the
+top visible source line when the caret is off screen.
+\end{description}
+The same actions are in View, Locate. They preserve the text and selection while moving the view.
+
+\section{Configure a document and define commands}
+Open Settings, Preamble and document settings. Choose the document class and
+edit its options as flags or key/value rows. Add, remove and reorder packages;
+each has its own options and related setup commands. Document information sets
+title, author and date. Complete preamble exposes the remaining source with the
+same theme as other editors. Apply updates the document.
+
+The Fonts tab configures Latin and CJK families, named font commands and font
+features. Choose an installed font or an OpenType/TrueType file; use options such
+as \texttt{BoldFont}, \texttt{ItalicFont}, \texttt{BoldItalicFont}, \texttt{Path},
+\texttt{Extension} and \texttt{Scale}. CJK font commands require Xe\LaTeX;
+Latin fontspec commands also work with Lua\LaTeX. See \texttt{chinese.tex}.
+Feature defaults can target font names or family commands such as
+\verb|\rmfamily|; Append retains the preceding defaults. Named families and
+single-face commands can also be configured here.
+File paths are relative to the document directory. Native preview uses the
+specified file's outlines, including explicit bold and italic faces and CJK fonts.
+Engine tests such as \verb|\ifxetex|, \verb|\ifluatex| and \verb|\ifpdftex|
+select their active branch while preserving the source; nested \verb|\else|
+and \verb|\fi| are supported. \verb|\protect| preserves normal typesetting.
+For stretchable spacing, try \verb|Left\hfill Right| or
+\verb|Contents\dotfill Page 1| in \texttt{text-formatting.tex}.
+Native preview uses the selected font's outlines and HarfBuzz shaping for
+kerning, ligatures and common OpenType features, including small capitals and
+old-style numbers. It also applies numeric scale and word-space settings.
+Other feature options remain in the source for compilation; complex-script,
+variable-font and vertical-layout typography use the compiled \TeX{} output.
+
+\texttt{text-formatting.tex} demonstrates editable \texttt{minipage} columns,
+\verb|\hrule|, \verb|\rule| and \verb|\hdashrule| (from \texttt{dashrule}).
+Minipages accept width, outer alignment, height and inner alignment options.
+Click a rule to switch its command or change its dimensions and dash pattern;
+choosing a dashed rule adds the required package.
+Margin notes remain editable outside the text column. Named font switches,
+such as \verb|\examplekai| in \texttt{chinese.tex}, have gray source markers.
+
+In Packages, select a package and choose Edit source (.sty). PasTeX searches the
+document folder first, then the installed \TeX{} distribution. The source editor
+uses the configured font, highlighting and wrapping. Save writes that file;
+Save As writes a separate copy. A local copy using the original package name
+provides a document-local package override. Package-source
+saves are independent of Apply in the preamble form.
+
+Editable preamble commands are initially collapsed above the body. Expand them
+to edit definitions in orange boxes. Source fragments such as preamble and
+package files retain their original contents and use an editable source view.
+
+\begin{enumerate}
+\item Choose Insert, Commands, Define command. An orange box appears at the caret.
+Enter the command name in the selected field.
+\item Edit its body beside the assignment sign. Text and mathematics render in
+place; the source toggle exposes literal code. For mixed content, use \verb|$...$|.
+The minus button collapses expanded source inside the orange box.
+Hover over the definition name and click its plus button to edit the complete
+definition command, including its declaration type and argument syntax.
+\item Use Configure definition arguments to add, remove or reorder arguments,
+choose Required or Optional, and edit defaults. Right-clicking an argument marker
+also changes its type. Its optional default is editable in the bracketed field.
+\item Typing a new parameter such as \verb|#2| proposes a matching argument.
+It is retained when editing finishes if still used. Existing declared arguments
+are removed only explicitly.
+\item Use Renew command to change an earlier definition, Provide to define only
+when absent, or Declare math operator for an upright function name.
+\end{enumerate}
+
+\texttt{custom-commands.tex} demonstrates plain \TeX{}, optional arguments,
+body redefinitions and macros imported from an adjacent package. To edit a call,
+choose Home, Editing, Properties. Clicking an omitted optional
+argument exposes its default; a value equal to the default is omitted from source.
+
+\section{References, bibliography and appendices}
+Insert a label at its target, then use References to choose that label and the
+reference command. Equation~\eqref{eq:guide} uses \verb|\eqref|. Renaming a label
+updates its references. Click an existing reference to choose a different target.
+Ctrl+hover underlines a link; Ctrl+click follows it in either continuous or paged layout.
+Use \verb|\pageref| for a target's native page number and \verb|\nameref| for its
+heading. Page references update when the native layout changes.
+
+In References, Bibliography, choose database files, backend and style. Installed
+styles are discovered on your computer. Insert the bibliography list in the body,
+then choose bibliography entries through the citation dialog; it also edits notes.
+Use \texttt{references.tex} for BibTeX and \texttt{bibliography-biblatex.tex} for Biber.
+Choose the preamble matching the selected bibliography backend. References, Contents, inserts a table of
+contents or a list of figures/tables. These lists use short captions when supplied;
+Ctrl+click an entry to visit its source, or the heading to change the list title.
+Contents and bibliography blocks render natively from headings and database entries. Common numeric and author--year bibliography formats, native page
+numbers, indentation and dotted leaders are supported. Custom bibliography-style
+programs and package output routines remain authoritative in the compiled PDF.
+The title block can reuse compiled output. Their text is selectable/copyable, but generated
+entries are read only; Ctrl+click follows links or opens the block's configuration.
+
+Choose Start appendices before the first appendix heading. Subsequent headings
+use letters, and counters/references follow the document class. The dashed
+Appendix divider is an editing aid. \texttt{theorems.tex} combines theorem editing,
+proofs, labels and appendices, with equation and theorem numbering examples.
+
+\section{Tables, figures and diagrams}
+\subsection{Tables and images}
+Insert a table and choose its dimensions. Arrow keys navigate cells. A selection
+across cells becomes a rectangular cell selection. The Table tab adds, deletes,
+duplicates or moves rows/columns and edits border rules around selected cells.
+Use properties for column formats and longtable options.
+Repeated specifications such as \verb+*{5}{c|}c+ and diagonal headers made with
+\verb|\diagbox{Row}{Column}| have native previews; load the diagbox package first.
+
+Insert a figure, choose its image, then set width/height as a number and unit.
+Figure tools edit its caption, caption position, label and float placement. In an
+empty figure, inserting an image fills that figure. Include PDF pages lets you
+choose a PDF and page list: \verb|-| means all pages, \verb|2,4-6| selects pages,
+and \verb|3-1| reverses a range. Click included pages to change their configuration.
+Select a cell rectangle and choose \emph{Table, Merge selected cells};
+\emph{Split cell} asks for the number of rows and columns, including for an
+ordinary cell. It keeps the text in the first cell and preserves neighboring
+cells with spans. Choose whether to add borders between the new cells.
+Editing a row or column through a merged area splits the affected spans first.
+The native renderer supports \verb|\multirow|, \verb|\multicolumn|,
+array column declarations and booktabs rules/spacing. Common adjustbox width,
+height, scale, frame and alignment options are supported; arbitrary package
+programming still requires the compiled preview.
+Native tables also support flexible \texttt{tabularx} columns, multiline
+\verb|\makecell|/\verb|\thead| cells, and row, column and cell colors. Common
+\texttt{enumitem} list labels, starting numbers, margins and spacing are read
+from environment options or \verb|\setlist|. Saved boxes made with
+\verb|\sbox| or \verb|\savebox| can be reused with \verb|\usebox|;
+\verb|\typeout| stays an editing-only source object.
+Try \texttt{tables-and-figures.tex} and \texttt{pdf-pages.tex}.
+
+\subsection{TikZ and PGFPlots}
+Open \texttt{tikz-plots.tex}, click a drawing and open its drawing editor.
+Use the icon palettes to add objects or choose a sketch tool. Hover for each name.
+Drag the divider to resize the controls; scroll the left pane to reach lower controls.
+\begin{enumerate}
+\item Choose Node, Path, Arrow, Rectangle or Circle and draw in the preview.
+Paths accept successive clicks; Enter or double-click finishes. Backspace removes
+the last point; Escape cancels. Rectangle uses opposite corners; circle uses center/radius.
+\item Use Move to drag nodes, point handles or whole line segments. Choose a snap
+increment when adding points. Each completed change has undo support.
+\item Select an object to edit its ordered path/node rows and options, then click
+Update. The up/down arrows reorder objects within their environment.
+Node and path styles are separate from tool defaults.
+\item Elements shows the selected object's properties directly. Edit functions and
+coordinate tables there. Add, delete and reorder
+datavisualization datasets; column controls appear for tables. Data set opens its name,
+format and options, with a table for variables and functions. Add, remove or
+reorder declarations there; the Source tab retains literal code and comments.
+\item Browse options by category. Edit suboptions opens nested keys while preserving
+the enclosing option. Suggestions follow the selected command, environment or suboption;
+they come from the installed packages and loaded libraries. Choices and defaults appear
+beside the selected key; pending values are saved when switching keys. Custom keys remain possible.
+Environments edits pictures, axes and scopes;
+select tikzpicture to configure scale and node defaults.
+\item In Native PasTeX mode, click supported node, tick, legend or axis-label text
+to edit it. Apply saves the picture; closing with unapplied changes prompts first.
+\end{enumerate}
+Settings enables diagram preview and selects Cached TeX or Native PasTeX. Cached
+TeX uses the package engine and is the default. Native PasTeX avoids compilation
+for supported objects. The \TeX{} backend handles programmable package features.
+The example includes circuits, data visualization, grids, graphs, decorations,
+polar plots, surfaces and colorbars for comparing both backends.
+
+\texttt{commutative-diagrams.tex} covers TikZ-cd and XY-pic. Click supported cells
+or arrow labels to edit their mathematics; expand source for other changes.
+\texttt{common-packages.tex} covers units, derivatives, hyperlinks, colored boxes,
+listings and longtables. Contextual Box and Listing properties group their options.
+
+The \texttt{custom-commands.tex} example also demonstrates scoped definitions,
+\verb|\begingroup|/\verb|\endgroup|, literal-name \verb|\ifcsname| and simple
+character comparisons with \verb|\if|. Complex TeX conditionals remain source
+objects. Native abstracts and xcolor named colors, mixtures and RGB/HTML models
+use the native editor.
+
+\section{Projects, navigation and appearance}
+Open \texttt{subfiles/main.tex} to edit linked chapters directly in continuous
+or page view. Save writes changes to their original files and preserves the
+master's input commands. Double-dashed separators identify each subfile;
+click its [hide]/[show] control to fold or unfold the linked content. Ctrl+click a separator to open its tab. These guides belong to the editor overlay. The status bar identifies the current subfile.
+Turn off \emph{View, Subfiles in place} to edit the master input commands;
+Ctrl+click a filename to open its tab. Relative paths resolve from the containing
+file. The Methods chapter demonstrates three linked levels, including a
+standalone subfile and an ordinary input. Nested files fold independently;
+\verb|\include| and \verb|\subfileinclude| retain their page breaks.
+Engine conditionals follow the selected compiler, including a file's
+\verb|% !TeX program| directive. Switching compilers preserves unsaved subfile edits.
+Empty, missing or recursive inputs remain visible commands. Make each editing operation within
+one file; replacements spanning file boundaries are rejected. View changes
+reset the editing history. Save checks for conflicting external changes.
+Use \texttt{chinese.tex} with XeLaTeX for bilingual editing and CJK font examples.
+
+View toggles the Navigation panel. Its heading tree and lists of figures,
+tables, labels and subfiles jump to source positions in either layout. Heading
+numbers follow the document counters, numbering depth and appendix settings. The zoom slider and
+zoom percentage are at the right of the status bar. Click the percentage
+to enter a scale or choose a fitting mode. Fit Width follows the
+window size and includes nonempty margin notes in continuous layout. Fit Page
+fits a paper page in paged layout. Right-click the status bar to choose page, position, word count and command
+trail details. Its view icons switch editing mode and continuous or paged layout.
+The fullscreen button beside the zoom controls enters or leaves focus mode;
+F11 toggles it and Escape exits.
+Right-click document content for its settings. Selected text offers formatting;
+equations, tables, figures, references and rules offer their own editing commands.
+Undo and Redo remain in the quick-access bar and Edit menu.
+
+Settings groups appearance, source, preview and \TeX{} preferences. Choose Light,
+Dark or Follow system. Set an installed source font, size, wrapping and syntax colors.
+The quick-access customization dialog adds/removes commands and moves them up/down.
+Document information reports path, size and word count. Help, About includes
+program and detected-tool information useful for reporting a problem.
+
+\section{When something looks wrong}
+\begin{description}
+\item[Compilation fails] Read the first compiler error. Check matching braces,
+required packages, image/database paths and the selected engine. Source remains editable.
+\item[Missing references] Allow compilation and bibliography processing
+to finish. Check label spelling and that BibTeX or Biber is installed.
+\item[A native drawing differs] Compare with Ctrl+R. Select Cached TeX for full
+package output; keep a small source example when reporting a native-rendering issue.
+\item[Fonts or symbols are missing] Check the document's font packages and installed
+fonts. Chinese documents need the appropriate engine and CJK setup.
+\item[Large files respond slowly] Keep source/drawing panes collapsed when unused
+and avoid starting duplicate external compilations. Include your widget set,
+engine, example and steps when reporting a delay.
+\end{description}
+
+\appendix
+\section{Source and result examples}
+The following examples pair editable source with compiled output.
+Use the topic files indexed in \texttt{docs/developer-guide.tex} for larger examples.
+
+\subsection{Text styles and literal symbols}
+\begin{verbatim}
+\textrm{Roman}, \textsf{sans serif}, \texttt{monospace};
+\textbf{bold}, \textit{italic}, \textsc{small capitals}.
+\textsf{\textit{\textbf{Nested styles}}}
+{\small Small text} and {\Large large text}.
+\end{verbatim}
+\result
+\textrm{Roman}, \textsf{sans serif}, \texttt{monospace};
+\textbf{bold}, \textit{italic}, \textsc{small capitals}.
+\textsf{\textit{\textbf{Nested styles}}}
+{\small Small text} and {\Large large text}.
+
+\begin{verbatim}
+50\%, \$5, A\&B, \#1, file\_name, \{group\}.
+\textless{}tag\textgreater{} and \textbackslash{}.
+\end{verbatim}
+\result 50\%, \$5, A\&B, \#1, file\_name, \{group\}.
+\textless{}tag\textgreater{} and \textbackslash{}.
+
+\subsection{Matrices, delimiters and operators}
+\begin{verbatim}
+\begin{pmatrix}1&2\\3&4\end{pmatrix},\quad
+\left\lVert\frac{x}{y}\right\rVert,\quad
+\sum_{n=1}^{\infty}\frac{1}{n^2},\quad \int_0^1 x\,dx
+\end{verbatim}
+\result
+\[\begin{pmatrix}1&2\\3&4\end{pmatrix},\quad
+\left\lVert\frac{x}{y}\right\rVert,\quad
+\sum_{n=1}^{\infty}\frac{1}{n^2},\quad\int_0^1x\,dx\]
+
+\subsection{Command defaults}
+\begin{verbatim}
+\def\myparen#1{\left(#1\right)}
+\newcommand{\hello}[2][Hello]{#1, \textbf{#2}!}
+$\myparen{\frac{1}{2}}$; \hello{reader}; \hello[Welcome]{friend}
+\end{verbatim}
+\def\myparen#1{\left(#1\right)}
+\newcommand{\hello}[2][Hello]{#1, \textbf{#2}!}
+\result $\myparen{\frac{1}{2}}$; \hello{reader}; \hello[Welcome]{friend}
+
+\subsection{Theorems and tables}
+\begin{verbatim}
+% Preamble: \usepackage{amsthm}
+%           \newtheorem{theorem}{Theorem}[section]
+\begin{theorem}[A sum]\label{thm:sum}
+For $n\geq1$, $1+\cdots+n=n(n+1)/2$.
+\end{theorem}
+\begin{proof}Induction on $n$.\end{proof}
+\end{verbatim}
+\result
+\begin{theorem}[A sum]\label{thm:sum}
+For $n\geq1$, $1+\cdots+n=n(n+1)/2$.
+\end{theorem}
+\begin{proof}Induction on $n$.\end{proof}
+
+\begin{verbatim}
+\begin{tabular}{lc}
+\toprule Name & Value \\\midrule
+Alpha & 1 \\ Beta & 2 \\\bottomrule
+\end{tabular}
+\end{verbatim}
+\result
+\begin{center}\begin{tabular}{lc}
+\toprule Name&Value\\\midrule Alpha&1\\Beta&2\\\bottomrule
+\end{tabular}\end{center}
+
+\subsection{Shortcut reference}
+\begin{center}\begin{tabular}{ll}
+\toprule Shortcut&Action\\\midrule
+Ctrl+O / Ctrl+S&Open / save\\
+Ctrl+Shift+S / Ctrl+W&Save as / close tab\\
+Ctrl+Z / Ctrl+Y&Undo / redo\\
+Ctrl+X / Ctrl+C / Ctrl+V&Cut / copy / paste\\
+Alt+=&Toggle inline mathematics\\
+Ctrl+L&Toggle selected source in place\\
+Ctrl+Shift+U&Full document source\\
+Ctrl+R&Open compiled PDF\\
+Ctrl+/&Comment / uncomment\\
+Ctrl+Shift+N&Toggle navigation panel\\
+Ctrl+F1&Collapse / restore ribbon\\
+Alt+Q&Find a command\\
+\bottomrule\end{tabular}\end{center}
+\end{document}

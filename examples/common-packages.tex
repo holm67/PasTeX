@@ -1,0 +1,116 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,siunitx,derivative,wrapfig,longtable,tcolorbox,listings,hyperref}
+\usepackage{cleveref}
+\newtheorem{example}{Example}[section]
+\lstset{basicstyle=\ttfamily\small,keywordstyle=\color{blue},commentstyle=\color{green!40!black},frame=single,breaklines=true}
+\DeclareSIUnit{\widget}{wd}
+\newcommand{\greeting}[2][Hello]{#1, #2!}
+\newcommand{\qtycm}[1]{\qty{#1}{\centi\metre}}
+\begin{document}
+\section{Links}\label{sec:links}
+Visit \href{https://www.latex-project.org/}{the \LaTeX{} project} or
+\url{https://ctan.org/pkg/siunitx}.
+\hypertarget{start}{This is a return point.}
+Use \hyperlink{start}{this link} or \hyperref[sec:links]{the Links section}.
+
+\section{Numbers and units}
+A distance is \qty{1.23e4}{\kilo\metre}.
+An acceleration is \qty{9.81}{\metre\per\second\squared}.
+Compare \qty[per-mode=fraction]{3.5}{\metre\per\second} with
+\qty[locale=DE]{12345.67}{\metre}.
+Custom units work too: \qty{4}{\widget}.
+Small time intervals use \qty{450}{\micro\second}.
+An argument-preserving wrapper gives \qtycm{10}, also inside mathematics:
+$d=\qtycm{25}$.
+
+A range is \qtyrange{1}{5}{\second}; a list is \numlist{1;2;3};
+an angle is \ang{30;15;20}.
+Legacy commands include \SI{10}{\kilogram} and \si{\newton\metre}.
+
+\section{Derivatives}
+\begin{align*}
+  \odv{f}{x} &= 2x, & \odv[order=2]{f}{x} &= 2, \\
+  \pdv{g}{t} &= \cos t, & \pdv[order={2,1}]{h}{x,y} &= 0, \\
+  \odv[order=n]{f}{x} &= 0, & \mdv*{F}{t} &= 0.
+\end{align*}
+Differentials include $\odif{x}$, $\pdif{y}$ and $\fdif{S}$.
+Slash notation is $\odv{f}/{x}$.
+
+\section{Boxes, rules and spacing}
+Fixed-width text can be aligned using \verb|\makebox[3cm][r]{Right}|:
+\makebox[3cm][r]{Right}. A framed box is \fbox{Text $x^2$};
+\framebox[3cm][l]{Left} keeps its chosen width.
+A rule is \rule[2pt]{2cm}{0.6pt}, and \raisebox{2pt}{raised text}
+shares the paragraph with \mbox{unbroken text}.
+\noindent Explicit spacing: left\hspace{1em}right.
+
+\section{Optional defaults}
+\greeting{reader}
+Change the first argument of \greeting[Welcome]{reader} to its default,
+Hello: PasTeX removes the redundant brackets from the source.
+\section{Colored boxes and theorem references}
+\begin{tcolorbox}[title={An editable title with $x^2$},colback=blue!5,colframe=blue!60!black]
+Both this title and the body can be edited in place. Text can be
+\textbf{bold}, and mathematics such as $\frac{1}{1+x^2}$ retains its own fields.
+\end{tcolorbox}
+Click in the box to open its Color box tab and configure its title, colors,
+corner radius or border. Empty properties inherit the preamble settings.
+
+\begin{example}[A positive square]\label{ex:square}
+If $x\in\mathbb{R}$, then $x^2\geq0$. A matrix may be written as
+$A=\begin{pmatrix}1&x\\0&1\end{pmatrix}$.
+\end{example}
+\begin{equation}\label{eq:package-one} a^2+b^2=c^2.\end{equation}
+\begin{equation}\label{eq:package-two} e^{i\pi}+1=0.\end{equation}
+References include \cref{ex:square}, \cref{eq:package-one,eq:package-two},
+\Crefrange{eq:package-one}{eq:package-two}, and \nameref{sec:links}.
+
+\section{Wrapped figures}
+\begin{wrapfigure}{r}{.35\textwidth}
+\centering
+\begin{tabular}{|c|c|}\hline$x$&$x^2$\\\hline1&1\\2&4\\\hline\end{tabular}
+\caption{A small wrapped illustration.}\label{fig:wrapped}
+\end{wrapfigure}
+This paragraph flows beside the illustration before returning to the full
+line width. Edit the caption or any entry in its small table. The width and
+placement are ordinary arguments of the wrapped environment. Text entered
+beside the figure is still part of this paragraph. Continue typing here to
+see the paragraph reflow while the figure stays beside the text. A longer
+paragraph eventually continues underneath the illustration, leaving enough
+room for both its content and caption. See also \cref{fig:wrapped}.
+
+\section{Listings}
+Literal characters inside a listing remain editable as source code. Inline code such as \lstinline|WriteLn('\{Hello\}')|
+is editable too. Edit a word, insert a line, or copy part of the code.
+\begin{lstlisting}[language=Pascal,numbers=left]
+program Greeting;
+begin
+  { Literal backslashes and braces stay visible. }
+  WriteLn('\{Hello\}');
+end.
+\end{lstlisting}
+The Listing tab edits its language, highlighting, font, numbering and frame.
+For example, choose \verb|basicstyle=\ttfamily| for a monospace listing.
+
+\section{Long tables}
+The continuous instant preview shows the initial header and final footer
+once. The TeX engine repeats continuation headers when the table spans pages.
+\begin{longtable}{|l|r|}
+\caption{Editable longtable cells and caption.}\label{tab:packages}\\
+\hline Name&Value\\\hline
+\endfirsthead
+\hline Name (continued)&Value\\\hline
+\endhead
+\hline\multicolumn{2}{r}{Continued on the next page}\\
+\endfoot
+\hline
+\endlastfoot
+Alpha&1\\
+Beta&2\\
+Gamma&3\\
+\hline
+\end{longtable}
+See \cref{tab:packages} for a table reference.
+\end{document}

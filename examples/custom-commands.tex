@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,package-commands}
+
+% Definitions stay in the source. The visual editor expands their math bodies.
+\def\myparen#1{\left(#1\right)}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\pair}[2][x]{\langle #1,#2\rangle}
+\newcommand{\diff}{\mathrm{d}}
+\DeclareMathOperator{\rank}{rank}
+
+\usepackage{wasysym,xcolor}
+\definecolor{exampleblue}{RGB}{25,70,150}
+\begin{document}
+\section{Custom commands}
+
+A plain TeX definition, \verb|\def\myparen#1{\left(#1\right)}|,
+works with ordinary expressions and nested arguments:
+$\myparen{x+1}$ and $\myparen{\frac{1}{\myparen{x}}}$.
+
+The commands \verb|\R| and \verb|\norm{...}| combine standard math fonts
+and paired delimiters: $x\in\R$, $\norm{x}$, and
+$\norm{\frac{x}{y}}$.
+
+The command \verb|\pair| has an optional first argument.
+Its default is $\pair{y}$; an explicit argument gives $\pair[u]{v}$.
+
+An operator declared with \verb|\DeclareMathOperator| has upright letters
+and operator spacing: $\rank A=2$.
+
+\[
+\int_{\R} e^{-x^2}\,\diff x=\sqrt{\pi},
+\qquad \mathcal{A}\subseteq\R.
+\]
+
+\begin{align*}
+\norm{x+y}&\leq\norm{x}+\norm{y},\\
+\myparen{a+b}^2&=a^2+2ab+b^2.
+\end{align*}
+
+\section{Editable definitions in the body}
+Insert, Commands, Define command inserts an orange definition box.
+Its initial name is selected. Rename it, then click its rendered body to edit.
+These definitions are deliberately in the body so their fields can be tried:
+
+\newcommand{\welcome}[2][Hello]{#1, \textbf{#2}!}
+
+The default gives \welcome{reader}; an override gives \welcome[Welcome]{friend}.
+Click the default field and leave it unchanged: the source uses the implicit
+default. Change Welcome to Hello: its brackets should also disappear.
+The source keeps an explicit argument only when it differs from the default.
+
+\NewDocumentCommand{\orderedpair}{m O{y}}{\left(#1,#2\right)}
+
+A required argument can precede an optional one: $\orderedpair{x}$ and
+$\orderedpair{a}[b]$. Use Command definition, Configure definition arguments, or right-click an
+indicator to change its type. Edit the default in its brackets or in the dialog.
+Adding \verb|#3| to the body shows an inferred argument; remove it before
+leaving to discard that provisional argument. Existing arguments require explicit deletion in the dialog.
+
+\newcommand{\measure}[1]{The value is $\frac{#1}{2}$.}
+
+Mixed text and mathematics stay editable in the definition: \measure{x+1}
+Use the source toggle for literal changes and return to instant mode afterward.
+For a command invocation anywhere in body text, Home, Editing, Edit command
+and arguments opens its name and ordered argument rows.
+\section{Commands discovered from packages}
+\LaTeX{} loads the definitions in the adjacent package file.
+PasTeX also reads these definitions for the instant preview:
+$\packageparen{x+1}$, $\packagealias{y-1}$, and $\packagehalf{a+b}$.
+
+Installed packages provide font declarations as well as macros:
+\[
+a\shortleftarrow b,\qquad x\boxdot y,\qquad \packageop(A,B).
+\]
+The arrow and boxed operator use the font declared by the installed
+\texttt{stmaryrd} package.
+
+\renewcommand{\packagehalf}[1]{\frac{#1}{3}}
+This body definition overrides the package definition for the formulas below:
+$\packagehalf{x+y}$.
+
+\def\bodyparen#1{\left[#1\right]}
+Plain \TeX{} definitions can also be edited here: $\bodyparen{x+1}$.
+
+\section{Groups and conditional text}
+\begin{abstract}
+An abstract is editable native text, including formulas such as $E=mc^2$.
+\end{abstract}
+\begingroup\color{exampleblue}This color is local to the explicit group.\endgroup
+This text uses the surrounding color. The \verb|\Square| symbol is \Square.
+
+\ifcsname myparen\endcsname
+The earlier command is defined.
+\else
+The command is undefined.
+\fi
+\if aa The character tokens match.\else They differ.\fi
+\end{document}

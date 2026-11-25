@@ -1,0 +1,99 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+% Continuous layout exposes overlays for editing; Paged layout shows slides.
+% Ctrl+R opens the compiled reference presentation.
+\documentclass[aspectratio=169]{beamer}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{alerted text}{fg=red!75!black}
+\title{Editing presentations with PasTeX}
+\author{PasTeX contributors}
+\date{}
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\section{Editing slides}
+\begin{frame}{Text and mathematics}{An editable widescreen frame}
+Click a word or a formula to edit it through the native preview.
+\[
+  \int_0^1 x^2\,dx=\frac{1}{3},
+  \qquad A=\begin{pmatrix}1&2\\3&4\end{pmatrix}.
+\]
+Use Fit Width or Fit Page to inspect the slide at different scales.
+\end{frame}
+
+\section{Overlays}
+\begin{frame}{Revealing content}
+This sentence appears on every overlay.
+\begin{itemize}[<+->]
+\item The first item appears immediately.
+\item The second item appears on overlay two.
+\item \alert{The last item is emphasized.}
+\end{itemize}
+\only<2>{This sentence occupies space only on overlay two.}
+\uncover<3->{This sentence keeps its space while covered.}
+\end{frame}
+
+\begin{frame}{Pauses and alternatives}
+Start here.\pause
+\par Continue on the next overlay.\pause
+\par \alt<3>{This is the third overlay.}{A different overlay is active.}
+\par An alert can be selective: \alert<3>{watch this value}.
+\[
+  f(x)=\alert<3>{x^2}+\only<2>{1}\only<3->{2}.
+\]
+\end{frame}
+
+\section{Layout}
+\begin{frame}[t]{Columns and blocks}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{.47\textwidth}
+\begin{block}{A statement}
+For every real number $x$, $x^2\geq0$.
+\end{block}
+\begin{exampleblock}{An example}
+Taking $x=2$ gives $x^2=4$.
+\end{exampleblock}
+\end{column}
+\begin{column}{.47\textwidth}
+\begin{alertblock}{A restriction}
+The ordering is an ordering of real numbers.
+\end{alertblock}
+Ordinary text and equations remain editable in each column.
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}[t]{Replacing a statement}
+The alternatives below occupy the same area in Paged layout.
+Continuous layout exposes both alternatives for editing.
+\begin{overprint}
+\onslide<1|handout:1>
+\begin{definition}[Nonnegative]
+A real number $a$ is nonnegative if $a\geq0$.
+\end{definition}
+\onslide<2|handout:0>
+\begin{theorem}[Squares]
+For every real number $x$, the square $x^2$ is nonnegative.
+\end{theorem}
+\end{overprint}
+\end{frame}
+
+\begin{frame}[t]{Magnifying a region}
+% The first overlay shows the whole frame; the second magnifies this region.
+\framezoom<1><2>(0cm,0cm)(5cm,3cm)
+This part is enlarged on the next overlay.
+\[
+  e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}.
+\]
+\end{frame}
+
+\frame{\frametitle{Two frame syntaxes}
+Frames can use either the frame environment or the frame command.
+\par In the preamble, try
+\texttt{\textbackslash usecolortheme\{dolphin\}} to change colors.
+\par Native Beamer support is under development; use the compiled PDF to
+check theme templates and advanced presentation features.
+}
+\end{document}

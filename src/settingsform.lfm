@@ -1,0 +1,294 @@
+object SettingsForm: TSettingsForm
+  Caption = 'PasTeX Settings'
+  ClientWidth = 650
+  ClientHeight = 570
+  Constraints.MinWidth = 610
+  Constraints.MinHeight = 570
+  Position = poOwnerFormCenter
+  object Footer: TPanel
+    Top = 522
+    Width = 650
+    Align = alBottom
+    Height = 48
+    BevelOuter = bvNone
+    object ApplyButton: TButton
+      Left = 426
+      Top = 10
+      Width = 98
+      Height = 30
+      Anchors = [akTop, akRight]
+      Caption = 'Apply'
+      Default = True
+      OnClick = ApplyClick
+    end
+    object CancelButton: TButton
+      Left = 536
+      Top = 10
+      Width = 98
+      Height = 30
+      Anchors = [akTop, akRight]
+      Caption = 'Close'
+      Cancel = True
+      ModalResult = 2
+    end
+  end
+  object Pages: TPageControl
+    Width = 650
+    Height = 522
+    Align = alClient
+    ActivePage = AppearanceTab
+    object AppearanceTab: TTabSheet
+      Caption = 'Appearance'
+      object AppearanceLabel: TLabel
+        Left = 24
+        Top = 30
+        Caption = 'Theme'
+      end
+      object Appearance: TComboBox
+        Left = 210
+        Top = 26
+        Width = 375
+        Style = csDropDownList
+        Items.Strings = (
+          'Light'
+          'Dark'
+          'Follow system'
+        )
+        ItemIndex = 2
+        Text = 'Follow system'
+        OnChange = LiveChange
+      end
+      object ThemeHelp: TLabel
+        Left = 24
+        Top = 80
+        Caption = 'Follow system uses the desktop light or dark appearance. Theme changes apply immediately.'
+        Width = 555
+        Height = 70
+        AutoSize = False
+        WordWrap = True
+      end
+    end
+    object SourceTab: TTabSheet
+      Caption = 'Source editor'
+      object SourceOptions: TPanel
+        Width = 642
+        Align = alTop
+        Height = 296
+        BevelOuter = bvNone
+        object SourceFontLabel: TLabel
+          Left = 24
+          Top = 24
+          Caption = 'Font'
+        end
+        object SourceFont: TComboBox
+          Left = 210
+          Top = 20
+          Width = 375
+          Style = csDropDownList
+          Items.Strings = (
+          )
+          ItemIndex = -1
+          OnChange = LiveChange
+        end
+        object FontLabel: TLabel
+          Left = 24
+          Top = 65
+          Caption = 'Font size'
+        end
+        object SourceSize: TSpinEdit
+          Left = 210
+          Top = 60
+          Width = 100
+          MinValue = 8
+          MaxValue = 36
+          Value = 12
+          OnChange = LiveChange
+        end
+        object SourceWrap: TCheckBox
+          Left = 24
+          Top = 102
+          Width = 560
+          Caption = 'Wrap source lines'
+          OnChange = LiveChange
+          Checked = True
+          State = cbChecked
+        end
+        object HighlightEnabled: TCheckBox
+          Left = 24
+          Top = 140
+          Width = 560
+          Caption = 'Syntax highlighting'
+          OnChange = LiveChange
+          Checked = True
+          State = cbChecked
+        end
+        object HighlightSchemeLabel: TLabel
+          Left = 24
+          Top = 183
+          Caption = 'Color scheme'
+        end
+        object HighlightScheme: TComboBox
+          Left = 210
+          Top = 178
+          Width = 375
+          Style = csDropDownList
+          Items.Strings = (
+            'Follow appearance'
+            'Light'
+            'Dark'
+            'Custom'
+          )
+          ItemIndex = 0
+          Text = 'Follow appearance'
+          OnChange = LiveChange
+        end
+        object HighlightTokenLabel: TLabel
+          Left = 24
+          Top = 226
+          Caption = 'Token color'
+        end
+        object HighlightToken: TComboBox
+          Left = 210
+          Top = 220
+          Width = 255
+          Style = csDropDownList
+          Items.Strings = (
+          )
+          ItemIndex = -1
+          OnChange = TokenChanged
+        end
+        object HighlightColor: TColorButton
+          Left = 480
+          Top = 220
+          Width = 105
+          Height = 30
+          Caption = 'Choose…'
+          OnColorChanged = ColorChanged
+        end
+        object SourceSampleLabel: TLabel
+          Left = 24
+          Top = 274
+          Caption = 'Preview'
+        end
+      end
+      object SourcePreview: TSynEdit
+        Align = alClient
+        BorderSpacing.Left = 24
+        BorderSpacing.Right = 24
+        BorderSpacing.Top = 8
+        BorderSpacing.Bottom = 20
+        ReadOnly = True
+        TabStop = False
+      end
+    end
+    object PreviewTab: TTabSheet
+      Caption = 'Preview'
+      object ScaleLabel: TLabel
+        Left = 24
+        Top = 30
+        Caption = 'Document zoom'
+      end
+      object PreviewScale: TComboBox
+        Left = 210
+        Top = 26
+        Width = 375
+        Style = csDropDownList
+        Items.Strings = (
+          'Fit Width'
+          '50%'
+          '75%'
+          '100%'
+          '125%'
+          '150%'
+          '200%'
+        )
+        ItemIndex = 3
+        Text = '100%'
+        OnChange = LiveChange
+      end
+      object DiagramBackend: TCheckBox
+        Left = 24
+        Top = 94
+        Width = 560
+        Caption = 'Enable drawing instant preview'
+        OnChange = LiveChange
+      end
+      object DiagramRendererLabel: TLabel
+        Left = 24
+        Top = 143
+        Caption = 'Diagram renderer'
+      end
+      object DiagramRenderer: TComboBox
+        Left = 210
+        Top = 138
+        Width = 375
+        Style = csDropDownList
+        Items.Strings = (
+          'Cached TeX'
+          'Native PasTeX'
+        )
+        ItemIndex = 0
+        Text = 'Cached TeX'
+        OnChange = LiveChange
+      end
+      object DiagramHelp: TLabel
+        Left = 24
+        Top = 194
+        Caption = 'Cached TeX renders with the document packages. Native PasTeX updates supported drawings directly and allows figure text editing.'
+        Width = 560
+        Height = 70
+        AutoSize = False
+        WordWrap = True
+      end
+      object RealtimeCompile: TCheckBox
+        Left = 24
+        Top = 294
+        Width = 560
+        Caption = 'Compile continuous preview automatically'
+        Checked = True
+        State = cbChecked
+        OnChange = LiveChange
+      end
+      object RealtimeHelp: TLabel
+        Left = 24
+        Top = 338
+        Width = 560
+        Height = 85
+        AutoSize = False
+        WordWrap = True
+        Caption = 'Turn off background LaTeX compilation to use native instant rendering. Refresh preview compiles on demand. Native editing does not require TeX Live or a PDF renderer.'
+      end
+    end
+    object CompilerTab: TTabSheet
+      Caption = 'TeX'
+      object EngineLabel: TLabel
+        Left = 24
+        Top = 30
+        Caption = 'Default TeX engine'
+      end
+      object DefaultEngine: TComboBox
+        Left = 210
+        Top = 26
+        Width = 375
+        Style = csDropDownList
+        Items.Strings = (
+          'pdflatex'
+          'xelatex'
+          'lualatex'
+        )
+        ItemIndex = 0
+        Text = 'pdflatex'
+        OnChange = LiveChange
+      end
+      object EngineHelp: TLabel
+        Left = 24
+        Top = 80
+        Caption = 'Choose an installed TeX engine. XeLaTeX and LuaLaTeX support Unicode and system fonts.'
+        Width = 555
+        Height = 70
+        AutoSize = False
+        WordWrap = True
+      end
+    end
+  end
+end

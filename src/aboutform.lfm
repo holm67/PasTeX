@@ -1,0 +1,82 @@
+object AboutForm: TAboutForm
+  Caption = 'About PasTeX'
+  ClientWidth = 620
+  ClientHeight = 420
+  Position = poOwnerFormCenter
+  Constraints.MinWidth = 480
+  Constraints.MinHeight = 360
+  object Pages: TPageControl
+    Left = 12
+    Top = 12
+    Width = 596
+    Height = 352
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ActivePage = AboutPage
+    object AboutPage: TTabSheet
+      Caption = 'About'
+      object ProgramLogo: TImage
+        Left = 484
+        Top = 20
+        Width = 80
+        Height = 80
+        Anchors = [akTop, akRight]
+        Center = True
+        Proportional = True
+        Stretch = True
+      end
+      object TitleLabel: TLabel
+        Left = 24
+        Top = 20
+        Caption = 'PasTeX'
+        Font.Size = 22
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object VersionLabel: TLabel
+        Left = 24
+        Top = 68
+        Caption = 'Version'
+      end
+      object DescriptionLabel: TLabel
+        Left = 24
+        Top = 126
+        Caption = 'A visual LaTeX editor built with Lazarus and Free Pascal.'
+        AutoSize = False
+        Width = 532
+        Height = 48
+        Anchors = [akTop, akLeft, akRight]
+        WordWrap = True
+      end
+      object LicenseLabel: TLabel
+        Left = 24
+        Top = 186
+        Caption = 'GNU GPL version 3 or later. See LICENSE for full terms.'
+        AutoSize = False
+        Width = 532
+        Height = 48
+        Anchors = [akTop, akLeft, akRight]
+        WordWrap = True
+      end
+    end
+    object InformationPage: TTabSheet
+      Caption = 'Program information'
+      object Information: TMemo
+        Align = alClient
+        BorderSpacing.Around = 8
+        ReadOnly = True
+        ScrollBars = ssBoth
+        WordWrap = False
+      end
+    end
+  end
+  object CloseButton: TButton
+    Left = 508
+    Top = 376
+    Width = 100
+    Caption = 'Close'
+    Anchors = [akRight, akBottom]
+    Default = True
+    Cancel = True
+    ModalResult = 1
+  end
+end

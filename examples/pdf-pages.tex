@@ -1,0 +1,18 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass[a4paper]{article}
+\usepackage{pdfpages}
+\begin{document}
+\section{Including PDF pages}
+The mwe package supplies the numbered sample PDF used here. Replace its filename
+with a PDF beside this document to include your own pages. The pages option can
+select a single page, a range, a comma-separated list, or all pages with a dash.
+The following command includes page two before page one.
+Click an included page in PasTeX to change the PDF file or page selection.
+Use a dash for all pages, or a list such as 2,4-6. Other pdfpages options are
+preserved when the file or pages change.
+
+\includepdf[pages={2,1}]{example-image-a4-numbered.pdf}
+
+This paragraph follows both included pages. Instant preview keeps their vector
+content and permanent preview keeps this paragraph after the same two pages.
+\end{document}

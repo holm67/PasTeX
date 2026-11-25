@@ -1,0 +1,54 @@
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage[UTF8,fontset=fandol]{ctex}
+\usepackage{amsmath,amssymb}
+\defaultCJKfontfeatures{Script=CJK,Extension=.otf}
+\setCJKmainfont[BoldFont=FandolSong-Bold,ItalicFont=FandolKai-Regular]{FandolSong-Regular}
+\setCJKsansfont[BoldFont=FandolHei-Bold]{FandolHei-Regular}
+\setCJKmonofont{FandolFang-Regular}
+\newCJKfontfamily{\examplekai}[Scale=1.1]{FandolKai-Regular}
+\newfontfamily{\examplelatin}[Numbers=OldStyle,Ligatures=TeX]{lmroman10-regular.otf}
+\begin{document}
+\section{中文与数学}
+你好，世界！这是一个使用 ctex 和 Xe\LaTeX{} 的中文示例。
+普通中文、English words 和行内公式 $f(x)=x^2+1$ 可以一起编辑。
+
+\textbf{这是粗体中文。} \textit{这是楷体中文。}
+\textsf{这是黑体中文。} \texttt{这是仿宋中文。}
+
+{\heiti 黑体中文}、{\songti 宋体中文}、{\kaishu 楷体中文}、
+{\fangsong 仿宋中文}都保留原来的西文字族。
+{\zihao{-4}小四号字}与{\zihao{3}三号字}可以放在同一段中。
+{\ziju{0.3}这几个字有额外的字间距。}
+
+\noindent 这一段不缩进。前半句\hspace{1em}后半句之间有一个字宽的间隔。
+
+\indent 这一段显式缩进。普通中文段落默认缩进两个汉字，
+\verb|\noindent| 取消当前段落的首行缩进，\verb|\indent| 使用文档的缩进长度。
+即时预览中的缩进标记可以点击修改，不会成为编译后的正文。
+
+\begin{equation}\label{eq:chinese}
+  \int_0^1 x^2\,dx=\frac{1}{3}.
+\end{equation}
+公式~\eqref{eq:chinese} 的标签也可以在即时预览中编辑。
+
+\section{自动换行}
+中文段落可以在汉字之间自动换行，并且标点符号不应出现在不合适的行首。
+可以选择一段文字、输入新的汉字，或切换到源码窗口检查同一处的选择范围。
+
+\section{字体与编辑练习}
+在文档设置的 Fonts 页中选择字体或字体文件，并配置粗体、斜体和缩放。
+这个示例使用 \TeX{} Live 自带的 Fandol 字体。
+{\examplekai 这个命名字体使用楷体，并放大到原来的 1.1 倍。}
+{\examplelatin 西文数字与连字示例：office AVATAR 0123456789，
+\textsc{Small Capitals}，以及 ``quoted text''。}
+
+\textsf{\textit{\textbf{嵌套的中文与 English 字体}}}，
+\textbf{\textit{粗体与斜体组合}}，以及普通正文可以放在同一段中。
+选择其中几个汉字，改变字族或字号，再清除格式。源码编辑器使用等宽字体，
+中文字符使用可用的中文等宽字体或后备字体。
+
+在公式前后输入中文：因此 $a>0$，也等价于 $E=mc^2$。
+请尝试输入“不”“你好，世界！”，移动光标到段尾，并在即时视图与完整源码之间
+比较选择范围。按 Ctrl+S 保存，再打开编译后的 PDF 比较字体与换行。
+\end{document}

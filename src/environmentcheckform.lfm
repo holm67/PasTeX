@@ -1,0 +1,100 @@
+object EnvironmentCheckForm: TEnvironmentCheckForm
+  Left = 300
+  Height = 600
+  Top = 180
+  Width = 860
+  Caption = 'Check environment and dependencies'
+  ClientHeight = 600
+  ClientWidth = 860
+  Constraints.MinHeight = 540
+  Constraints.MinWidth = 620
+  Position = poOwnerFormCenter
+  object Heading: TLabel
+    Align = alTop
+    BorderSpacing.Around = 12
+    Height = 44
+    AutoSize = False
+    Caption = 'Native editing works without a TeX installation. Select a component for its purpose, detected location and installation instructions.'
+    WordWrap = True
+  end
+  object ComponentsList: TListView
+    Align = alTop
+    Top = 68
+    Height = 270
+    BorderSpacing.Left = 12
+    BorderSpacing.Right = 12
+    Columns = <
+      item
+        Caption = 'Component'
+        Width = 225
+      end
+      item
+        Caption = 'Status'
+        Width = 195
+      end
+      item
+        Caption = 'Location / feature'
+        Width = 370
+      end>
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    ViewStyle = vsReport
+    OnSelectItem = Selected
+  end
+  object Divider: TSplitter
+    Align = alTop
+    Top = 338
+    Height = 6
+    Cursor = crVSplit
+  end
+  object Details: TMemo
+    Align = alClient
+    BorderSpacing.Around = 12
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    WordWrap = True
+  end
+  object Footer: TPanel
+    Align = alBottom
+    Top = 548
+    Height = 52
+    BevelOuter = bvNone
+    object RefreshButton: TButton
+      Left = 12
+      Top = 10
+      Width = 110
+      Height = 32
+      Caption = 'Check again'
+      OnClick = RefreshClick
+    end
+    object CopyButton: TButton
+      Left = 132
+      Top = 10
+      Width = 110
+      Height = 32
+      Caption = 'Copy report'
+      OnClick = CopyClick
+    end
+    object WebsiteButton: TButton
+      Left = 252
+      Top = 10
+      Width = 145
+      Height = 32
+      Caption = 'Installation guide'
+      Enabled = False
+      OnClick = WebsiteClick
+    end
+    object CloseButton: TButton
+      Left = 748
+      Top = 10
+      Width = 100
+      Height = 32
+      Anchors = [akTop, akRight]
+      Caption = 'Close'
+      Cancel = True
+      Default = True
+      ModalResult = 8
+    end
+  end
+end

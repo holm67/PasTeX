@@ -1,0 +1,17 @@
+% !TeX root = main.tex
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass[main.tex]{subfiles}
+\begin{document}
+\section{A standalone subfile on the current page}
+The master reads this file with \verb|\subfile{methods}|. Its heading
+continues on the current page. Compile \texttt{methods.tex} by itself to
+reuse the master's preamble for this chapter.
+
+The shared command also works here: $\pair{x+y}=x+y$.
+\verb|\subfile| continues the current page; \verb|\include| starts a new one.
+
+\subfile{details/calculation}
+
+This paragraph belongs to \texttt{methods.tex}, after the nested calculation.
+Its closing separator appears before this paragraph in PasTeX.
+\end{document}

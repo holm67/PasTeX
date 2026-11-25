@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+
+% Compile with: pdflatex references; bibtex references; pdflatex references;
+% pdflatex references. The matching database is references.bib.
+\begin{document}
+\tableofcontents
+\section{Cross-references\label{sec:references}}
+
+\LaTeX{} keeps references connected to their labels. This is
+Section~\ref{sec:references}; \autoref{thm:identity} and
+Equation~\eqref{eq:identity} below can be cited before their definitions.
+Use \nameref{sec:references} for a heading name and
+page~\pageref{eq:identity} for an object's page number.
+Change a label in PasTeX to update the commands that refer to it.
+
+\begin{theorem}[An elementary identity]\label{thm:identity}
+For every real number $x$, the following identity holds.
+\begin{equation}\label{eq:identity}
+(x+1)^2=x^2+2x+1.
+\end{equation}
+\end{theorem}
+
+\begin{equation}\tag{A}\label{eq:tagged}
+\sum_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}.
+\end{equation}
+The manually tagged formula is Equation~\eqref{eq:tagged}.
+
+\section{Bibliography citations}
+The typesetting system is described in~\cite{knuth1984}, and
+\LaTeX{} document preparation in~\cite{lamport1994}.
+Several entries can be cited together: \cite{knuth1984,lamport1994}.
+A page note can be added: \cite[Chapter~2]{lamport1994}.
+
+\begin{description}
+\item[Labels] Use \verb|\ref| for sections and \verb|\eqref| for equations.
+\item[Citations] Use \verb|\cite| to refer to entries in the bibliography.
+\end{description}
+
+\section{Try the reference tools}
+Click a reference to choose a different target, and edit a label beside its
+object to update its uses. Ctrl+hover underlines actionable entries; Ctrl+click
+follows the target. Normal clicks remain editing actions. Compare a numbered
+reference, \ref{sec:references}, with its named form, \autoref{sec:references}.
+
+Click a bibliography citation to edit its keys or page note. References,
+Bibliography selects the database, backend and installed styles. This file uses
+traditional BibTeX and the plain style; a saved copy can be used to try another
+style or biblatex. Refresh the preview after changing the setup. The contents
+and bibliography blocks are read only, but their displayed text can be copied;
+Ctrl+click follows their links. Edit the source heading or database entry to
+change generated text.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

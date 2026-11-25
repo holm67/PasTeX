@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,xcolor,dashrule,iftex,enumitem}
+\begin{document}
+\section{Text formatting}
+The Home ribbon writes ordinary TeX commands: \textrm{Roman},
+\textsf{sans serif}, \texttt{monospace}, \textbf{bold}, and \textit{italic}.
+\textcolor[HTML]{285E9C}{Text colors} remain part of the document source.
+
+{\small Small text}, {\normalsize normal text}, and {\Large large text}.
+
+\begin{flushleft}Left aligned paragraph, including inline math $x^2+1$.\end{flushleft}
+
+\begin{center}Centered paragraph with \textbf{bold words}.\end{center}
+
+\begin{flushright}Right aligned paragraph.\end{flushright}
+
+Normal paragraphs use the TeX document's default alignment.
+
+\begin{enumerate}[label=(\alph*),start=3,nosep,leftmargin=2em]
+\item A compact list starting at (c).
+\item Change the label, starting number or spacing in its source options.
+\end{enumerate}
+
+\noindent Left\hfill Centre\hfill Right
+
+\noindent Contents\dotfill Page 1
+
+\noindent Signature\hrulefill Date\hrulefill
+
+The selected engine is
+\ifXeTeX Xe\protect\LaTeX\else
+  \ifLuaTeX Lua\protect\LaTeX\else pdf\protect\LaTeX\fi
+\fi{}; inactive branches remain in the source.
+
+\paragraph{Run-in heading}The body continues on the same line in the normal font.
+
+\subparagraph{Indented heading}Only the heading's first line is indented.
+Longer text wraps at the normal paragraph margin.
+
+\setcounter{secnumdepth}{5}
+\paragraph{Numbered heading}\label{par:numbered}Numbering depth controls which heading levels receive numbers.
+\subparagraph{Numbered detail}This is a child of paragraph~\ref{par:numbered}.
+\setcounter{secnumdepth}{3}
+
+\section{Combining styles}
+\textsf{\textit{\textbf{Bold italic sans serif}}},
+\textrm{\textsc{Small capitals}}, and
+\textsl{\textsc{Slanted small capitals}} combine family, weight and shape.
+Select only part of a styled phrase. The ribbon should show the active styles;
+clicking an active style removes it and preserves the selection. Change the
+family list from Roman to Sans serif, then inspect the source.
+
+\section{Sizes, color and literal characters}
+{\footnotesize Footnote size}, {\small small}, {\normalsize normal},
+{\large large}, and {\LARGE larger text} use named sizes.
+{\fontsize{13pt}{16pt}\selectfont This sentence uses a custom size and baseline.}
+Use Home, Font, Custom to set a number and unit, then undo.
+
+\textcolor[HTML]{A33D30}{A colored phrase with \textbf{bold words} inside it.}
+Select individual characters across the formatting boundary. Restore default
+color with the triangle beside Text color, or use Clear formatting.
+
+Literal characters: \% \$ \& \# \_ \{ \} \textbackslash{}.
+Text angle brackets: \textless{}tag\textgreater{}; math relations: $a<b>c$.
+The logos are \TeX{} and \LaTeX{}. This line ends explicitly.\newline
+The next line still belongs to the same paragraph.
+
+\section{Boxes and local declarations}
+Two top-aligned minipages keep their own line width:
+
+\noindent\begin{minipage}[t]{0.46\linewidth}
+Text and $x^2+1$ in a narrow column.
+\par\hrule height 0.6pt
+A solid rule separates these lines.
+\end{minipage}\hspace{0.04\linewidth}%
+\begin{minipage}[t]{0.46\linewidth}
+A second column with a dashed rule.
+\par\noindent\hdashrule{\linewidth}{0.6pt}{3pt 2pt}
+\end{minipage}
+
+Text and mathematics can share a frame: \fbox{Text $x^2+\frac{1}{y}$}.
+Compare \framebox[8em][c]{Centered $a+b$} and \mbox{Unbroken text $n^2$}.
+Click inside a box to open the Box tab; Box settings changes its contents,
+width or alignment. Edit box source expands its code in place.
+
+Fixed-height boxes support outer and inner alignment:
+\parbox[t][3em][t]{.35\linewidth}{Top-aligned text\\on two lines.}\quad
+\parbox[t][3em][b]{.35\linewidth}{Bottom-aligned text\\on two lines.}
+
+{\small\bfseries Local size and weight declarations apply only inside this group.}
+Hover over a group or command to reveal its dashed outline. The plus button
+opens editable source; the minus collapses it. These controls belong to the editor overlay.
+
+% Select this comment and use Ctrl+/ to turn it into ordinary text.
+\section{Selection and scrolling practice}
+Drag across several lines and paragraphs, then scroll using the wheel while
+leaving the caret in the document. The selection and viewport should remain
+where you put them. Double-click a word, extend with Shift+arrows, copy it, and
+compare the selection in the full source editor using Ctrl+Shift+U.
+
+This second paragraph provides another selection endpoint. Ctrl+L shows a
+gray source box for a selection; toggling it back keeps the source unchanged.
+
+\section{Literal text}
+In PasTeX, click inside either example and type. Enter inserts a literal line
+break; braces, percent signs and backslashes keep their original characters.
+Undo and redo work as in the body. The source remains ordinary \LaTeX.
+
+\begin{verbatim}
+\frac{x}{y}  $literal delimiters$  % literal percent
+    indented text with {braces} and a backslash: \
+two  spaces    four spaces
+\end{verbatim}
+
+The starred environment makes spaces visible in both previews:
+\begin{verbatim*}
+one space  two spaces   three spaces
+\unknown{literal command}
+\end{verbatim*}
+
+Use inline \verb|\verb| for a short literal fragment, for example
+\verb|C:\work\notes.tex|. Unsupported literal environments from other packages
+keep their complete editable source box.
+\section{Footnotes and margin notes}
+This sentence has an editable footnote\footnote{A note can contain
+\textbf{formatted text} and mathematics such as $x^2+1$.}.
+The next mark and its text are separate commands\footnotemark.
+\footnotetext{This note belongs to the preceding mark.}
+A short margin note\marginpar{Review this paragraph.} demonstrates placement
+outside the text column. The compiled paged view uses the document's real layout.
+\end{document}

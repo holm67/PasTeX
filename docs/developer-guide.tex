@@ -1,0 +1,70 @@
+% !TeX program = pdflatex
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,booktabs,hyperref}
+\usepackage[margin=1in]{geometry}
+\title{PasTeX Developer Reference}
+\author{PasTeX contributors}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Build}
+Install Lazarus with LCL and SynEdit and its matching Free Pascal compiler.
+Linux builds support Qt6, Qt5, GTK2 and GTK3. Qt requires the corresponding
+QtPas bridge. Select a widget set and build mode as follows.
+\begin{verbatim}
+./build.sh default qt6
+./build.sh debug qt6
+./build.sh release qt6
+\end{verbatim}
+The default widget set is GTK2. Use \texttt{./build.sh release} to build all
+four Linux variants. Override \texttt{LAZBUILD} or \texttt{LAZFLAGS} for a
+custom Lazarus installation.
+
+On Windows, run the following in PowerShell.
+\begin{verbatim}
+.\build-windows.ps1 -Mode Default
+.\build-windows.ps1 -Mode Release
+\end{verbatim}
+Open \texttt{pastex.lpi} to work in the Lazarus IDE. Default and debug builds
+go to \texttt{bin/default/} and \texttt{bin/debug/}. Release builds use
+\texttt{bin/release/vX.X.X/} and include the CPU, OS and widget set in the
+executable name.
+
+A \TeX{} distribution enables compiled preview, bibliography processing and
+PDF export. Poppler tools or Poppler GLib provide PDF display. FreeType and
+HarfBuzz enable outline rendering and OpenType shaping, with widget text as
+a fallback. Install the packages and fonts required by the document.
+
+\section{Source structure}
+\begin{center}\small
+\begin{tabular}{ll}\toprule
+Area & Units in \texttt{src/}\\\midrule
+Syntax and expansion & paragraphmodel, mathmodel, texmacros\\
+Native text and math & draftlayout, texlinebreak, texfontdata\\
+Outlines and font selection & nativetexglyphs, texfontshapes, texfontconfig\\
+Page layout & nativepagination, nativefloats, pagedview\\
+Diagrams & nativediagrams, diagrampreview, plotgeometry\\
+References and bibliography & texcontext, nativegenerated, bibliographydata\\
+Compiled preview & texrenderer, formularender, vectorpreview\\\bottomrule
+\end{tabular}
+\end{center}
+Native layout uses \TeX{} font metrics and glyph outlines. Paged and continuous
+editing share the renderer. The selected \TeX{} engine produces the final PDF.
+Implementation references include the
+\href{https://tug.org/texlive/doc/tlbuild.pdf}{TeX Live build and source guide},
+the \href{https://www.latex-project.org/help/documentation/source2e.pdf}{LaTeX kernel sources},
+and the \href{https://ctan.org/pkg/amsmath}{AMS math sources}.
+
+\section{Fonts and artwork}
+The executable embeds baseline TeX fonts, metrics and notices in
+\texttt{resources/native-fonts.res}. To regenerate the bundle with \TeX{}
+installed, run \texttt{python3 scripts/bundle\_native\_fonts.py}. The fonts
+retain the licenses listed in \texttt{resources/FONT-LICENSES.txt}.
+
+Open \texttt{src/mainform.pas} in Lazarus and press F12 for the form designer.
+Artwork lives in \texttt{icons/}. Regenerate the application and toolbar icon
+exports with \texttt{icons/export\_icons.py} and
+\texttt{icons/export\_toolbar\_ico.py}.
+\end{document}

@@ -1,0 +1,27 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+% !BIB program = biber
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{references.bib}
+\usepackage[colorlinks=true]{hyperref}
+\title{Bibliography with biblatex}
+\author{PasTeX contributors}
+\date{}
+\begin{document}
+\maketitle
+\section{Citations and notes}
+Open References, Bibliography to change databases, backend and style.
+Choose an installed style, such as numeric, authoryear or apa. Refresh the
+preview after changing it. Citation entries can be clicked to edit their
+keys and optional notes.
+
+A parenthetical citation is \parencite{knuth1984}; a narrative citation is
+\textcite{lamport1994}. Notes are supported:
+\parencite[see][123]{knuth1984}. Several entries can be cited together:
+\parencite{knuth1984,lamport1994}.
+
+The formatted list below follows the document's bibliography style.
+Select its text to copy it; Ctrl+click a link to open its destination.
+\printbibliography
+\end{document}

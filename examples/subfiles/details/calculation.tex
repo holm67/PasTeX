@@ -1,0 +1,14 @@
+% !TeX root = ../main.tex
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\subsection{A nested calculation}
+The Methods chapter reads this file with
+\verb|\subfile{details/calculation}|. It can also compile independently.
+The following input is relative to this subfile's directory.
+
+\input{steps}
+
+This sentence returns to \texttt{details/calculation.tex} after the input.
+Edit the steps in place, then save: only their own file changes.
+\end{document}

@@ -1,0 +1,3616 @@
+licenses/AMS-OFL.txt
+Copyright (c) 1997, 2009, American Mathematical Society (http://www.ams.org).
+All Rights Reserved.
+
+"cmb10" is a Reserved Font Name for this Font Software.
+"cmbsy10" is a Reserved Font Name for this Font Software.
+"cmbsy5" is a Reserved Font Name for this Font Software.
+"cmbsy6" is a Reserved Font Name for this Font Software.
+"cmbsy7" is a Reserved Font Name for this Font Software.
+"cmbsy8" is a Reserved Font Name for this Font Software.
+"cmbsy9" is a Reserved Font Name for this Font Software.
+"cmbx10" is a Reserved Font Name for this Font Software.
+"cmbx12" is a Reserved Font Name for this Font Software.
+"cmbx5" is a Reserved Font Name for this Font Software.
+"cmbx6" is a Reserved Font Name for this Font Software.
+"cmbx7" is a Reserved Font Name for this Font Software.
+"cmbx8" is a Reserved Font Name for this Font Software.
+"cmbx9" is a Reserved Font Name for this Font Software.
+"cmbxsl10" is a Reserved Font Name for this Font Software.
+"cmbxti10" is a Reserved Font Name for this Font Software.
+"cmcsc10" is a Reserved Font Name for this Font Software.
+"cmcsc8" is a Reserved Font Name for this Font Software.
+"cmcsc9" is a Reserved Font Name for this Font Software.
+"cmdunh10" is a Reserved Font Name for this Font Software.
+"cmex10" is a Reserved Font Name for this Font Software.
+"cmex7" is a Reserved Font Name for this Font Software.
+"cmex8" is a Reserved Font Name for this Font Software.
+"cmex9" is a Reserved Font Name for this Font Software.
+"cmff10" is a Reserved Font Name for this Font Software.
+"cmfi10" is a Reserved Font Name for this Font Software.
+"cmfib8" is a Reserved Font Name for this Font Software.
+"cminch" is a Reserved Font Name for this Font Software.
+"cmitt10" is a Reserved Font Name for this Font Software.
+"cmmi10" is a Reserved Font Name for this Font Software.
+"cmmi12" is a Reserved Font Name for this Font Software.
+"cmmi5" is a Reserved Font Name for this Font Software.
+"cmmi6" is a Reserved Font Name for this Font Software.
+"cmmi7" is a Reserved Font Name for this Font Software.
+"cmmi8" is a Reserved Font Name for this Font Software.
+"cmmi9" is a Reserved Font Name for this Font Software.
+"cmmib10" is a Reserved Font Name for this Font Software.
+"cmmib5" is a Reserved Font Name for this Font Software.
+"cmmib6" is a Reserved Font Name for this Font Software.
+"cmmib7" is a Reserved Font Name for this Font Software.
+"cmmib8" is a Reserved Font Name for this Font Software.
+"cmmib9" is a Reserved Font Name for this Font Software.
+"cmr10" is a Reserved Font Name for this Font Software.
+"cmr12" is a Reserved Font Name for this Font Software.
+"cmr17" is a Reserved Font Name for this Font Software.
+"cmr5" is a Reserved Font Name for this Font Software.
+"cmr6" is a Reserved Font Name for this Font Software.
+"cmr7" is a Reserved Font Name for this Font Software.
+"cmr8" is a Reserved Font Name for this Font Software.
+"cmr9" is a Reserved Font Name for this Font Software.
+"cmsl10" is a Reserved Font Name for this Font Software.
+"cmsl12" is a Reserved Font Name for this Font Software.
+"cmsl8" is a Reserved Font Name for this Font Software.
+"cmsl9" is a Reserved Font Name for this Font Software.
+"cmsltt10" is a Reserved Font Name for this Font Software.
+"cmss10" is a Reserved Font Name for this Font Software.
+"cmss12" is a Reserved Font Name for this Font Software.
+"cmss17" is a Reserved Font Name for this Font Software.
+"cmss8" is a Reserved Font Name for this Font Software.
+"cmss9" is a Reserved Font Name for this Font Software.
+"cmssbx10" is a Reserved Font Name for this Font Software.
+"cmssdc10" is a Reserved Font Name for this Font Software.
+"cmssi10" is a Reserved Font Name for this Font Software.
+"cmssi12" is a Reserved Font Name for this Font Software.
+"cmssi17" is a Reserved Font Name for this Font Software.
+"cmssi8" is a Reserved Font Name for this Font Software.
+"cmssi9" is a Reserved Font Name for this Font Software.
+"cmssq8" is a Reserved Font Name for this Font Software.
+"cmssqi8" is a Reserved Font Name for this Font Software.
+"cmsy10" is a Reserved Font Name for this Font Software.
+"cmsy5" is a Reserved Font Name for this Font Software.
+"cmsy6" is a Reserved Font Name for this Font Software.
+"cmsy7" is a Reserved Font Name for this Font Software.
+"cmsy8" is a Reserved Font Name for this Font Software.
+"cmsy9" is a Reserved Font Name for this Font Software.
+"cmtcsc10" is a Reserved Font Name for this Font Software.
+"cmtex10" is a Reserved Font Name for this Font Software.
+"cmtex8" is a Reserved Font Name for this Font Software.
+"cmtex9" is a Reserved Font Name for this Font Software.
+"cmti10" is a Reserved Font Name for this Font Software.
+"cmti12" is a Reserved Font Name for this Font Software.
+"cmti7" is a Reserved Font Name for this Font Software.
+"cmti8" is a Reserved Font Name for this Font Software.
+"cmti9" is a Reserved Font Name for this Font Software.
+"cmtt10" is a Reserved Font Name for this Font Software.
+"cmtt12" is a Reserved Font Name for this Font Software.
+"cmtt8" is a Reserved Font Name for this Font Software.
+"cmtt9" is a Reserved Font Name for this Font Software.
+"cmu10" is a Reserved Font Name for this Font Software.
+"cmvtt10" is a Reserved Font Name for this Font Software.
+"euex10" is a Reserved Font Name for this Font Software.
+"euex7" is a Reserved Font Name for this Font Software.
+"euex8" is a Reserved Font Name for this Font Software.
+"euex9" is a Reserved Font Name for this Font Software.
+"eufb10" is a Reserved Font Name for this Font Software.
+"eufb5" is a Reserved Font Name for this Font Software.
+"eufb7" is a Reserved Font Name for this Font Software.
+"eufm10" is a Reserved Font Name for this Font Software.
+"eufm5" is a Reserved Font Name for this Font Software.
+"eufm7" is a Reserved Font Name for this Font Software.
+"eurb10" is a Reserved Font Name for this Font Software.
+"eurb5" is a Reserved Font Name for this Font Software.
+"eurb7" is a Reserved Font Name for this Font Software.
+"eurm10" is a Reserved Font Name for this Font Software.
+"eurm5" is a Reserved Font Name for this Font Software.
+"eurm7" is a Reserved Font Name for this Font Software.
+"eusb10" is a Reserved Font Name for this Font Software.
+"eusb5" is a Reserved Font Name for this Font Software.
+"eusb7" is a Reserved Font Name for this Font Software.
+"eusm10" is a Reserved Font Name for this Font Software.
+"eusm5" is a Reserved Font Name for this Font Software.
+"eusm7" is a Reserved Font Name for this Font Software.
+"lasy10" is a Reserved Font Name for this Font Software.
+"lasy5" is a Reserved Font Name for this Font Software.
+"lasy6" is a Reserved Font Name for this Font Software.
+"lasy7" is a Reserved Font Name for this Font Software.
+"lasy8" is a Reserved Font Name for this Font Software.
+"lasy9" is a Reserved Font Name for this Font Software.
+"lasyb10" is a Reserved Font Name for this Font Software.
+"lcircle1" is a Reserved Font Name for this Font Software.
+"lcirclew" is a Reserved Font Name for this Font Software.
+"lcmss8" is a Reserved Font Name for this Font Software.
+"lcmssb8" is a Reserved Font Name for this Font Software.
+"lcmssi8" is a Reserved Font Name for this Font Software.
+"line10" is a Reserved Font Name for this Font Software.
+"linew10" is a Reserved Font Name for this Font Software.
+"msam10" is a Reserved Font Name for this Font Software.
+"msam5" is a Reserved Font Name for this Font Software.
+"msam6" is a Reserved Font Name for this Font Software.
+"msam7" is a Reserved Font Name for this Font Software.
+"msam8" is a Reserved Font Name for this Font Software.
+"msam9" is a Reserved Font Name for this Font Software.
+"msbm10" is a Reserved Font Name for this Font Software.
+"msbm5" is a Reserved Font Name for this Font Software.
+"msbm6" is a Reserved Font Name for this Font Software.
+"msbm7" is a Reserved Font Name for this Font Software.
+"msbm8" is a Reserved Font Name for this Font Software.
+"msbm9" is a Reserved Font Name for this Font Software.
+"wncyb10" is a Reserved Font Name for this Font Software.
+"wncyi10" is a Reserved Font Name for this Font Software.
+"wncyr10" is a Reserved Font Name for this Font Software.
+"wncysc10" is a Reserved Font Name for this Font Software.
+"wncyss10" is a Reserved Font Name for this Font Software.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+
+licenses/AMS-README.txt
+README for amsfonts 3.04 [2013/01/14]
+
+Copyright 2001, 2009, 2013 American Mathematical Society.
+
+This work may be distributed and/or modified under the
+conditions of the LaTeX Project Public License, either version 1.3c
+of this license or (at your option) any later version.
+The latest version of this license is in
+  http://www.latex-project.org/lppl.txt
+and version 1.3c or later is part of all distributions of LaTeX
+version 2005/12/01 or later.
+
+This work has the LPPL maintenance status `maintained'.
+
+The Current Maintainer of this work is the American Mathematical
+Society.
+
+American Mathematical Society
+Technical Support
+Publications Technical Group
+201 Charles Street
+Providence, RI 02904
+USA
+tel: (401) 455-4080
+     (800) 321-4267 (USA and Canada only)
+fax: (401) 331-3842
+email: tech-support@ams.org
+
+========================================================================
+
+If you have obtained a bundled AMSFonts collection (amsfonts.zip), this
+will unpack into the standard TeX Directory Structure (TDS) tree.
+First, determine the local TEXMF directory for your system, which we
+will call texmf-local in this 00README file; this directory should be
+identified in the documentation for the TeX distribution you're using.
+Place the zip file into a convenient directory and unpack it using
+the texmf-local directory as the "Extract to" target.  Some examples:
+
+  WinZIP:  Click on "Extract" and then in the "Extract to" box, enter
+           \sw\texmf-local  (or whatever the local branch of TEXMF is
+           on your system)
+  unzip:   unzip amsfonts.zip -d texmf-local
+
+See the web page
+  http://tug.org/fonts/fontinstall.html
+for some general information on identifying your local TEXMF tree and
+installing fonts on various platforms.  (This includes specific details
+for MikTeX, MacTeX, and other systems based on TeX Live.)
+
+If your installation is not arranged in a TDS tree, see also the section
+below, "Installing AMSFonts 3.0 on your system", as well as the user
+documentation for your TeX distribution.
+
+------------------------------------------------------------------------
+
+What changes were made between AMSFonts 3.03 and AMSFonts 3.04?
+
+Version 3.04 is a minor update to provide more fluid interoperability
+with stix.sty.  It should be fully compatible with version 3.03.
+
+------------------------------------------------------------------------
+
+What changes were made between AMSFonts 3.02 and AMSFonts 3.03?
+
+The Type 1 Euler fonts have been upgraded from version 003.002 to
+003.003 with the following changes:
+
+1) Some inconsistencies with the character widths in the corresponding
+   TFM files have been fixed.
+
+2) Minor optimizations were carried out on some of the character
+   outlines.
+
+The changes affect only the PFB, AFM, and PFM files.  Thanks to Taco
+Hoekwater and Stephen Moye.
+
+What changes were made between AMSFonts 3.01 and AMSFonts 3.02?
+
+The internal Unicode-compliant glyph names used for version 3.00 of
+the Type 1 fonts resulted in a major incompatibility in reusing PDF
+documents that had the previous version of the fonts embedded.  All
+glyph names have now been reverted to their previous values and some
+minor inconsistencies in the encoding vectors have been fixed.  This
+affects all PFB and AFM files.
+
+What changes were made between AMSFonts 3.00 and AMSFonts 3.01?
+
+The encoding vectors of several of the Type 1 fonts were augmented
+with some some duplicate entries in the high-bit range (128--255) for
+compatibility with earlier releases of the fonts and with some older
+PDF software that had trouble rendering characters with low character
+codes (0-31).  Also, a couple of typos in the latxfont.map file were
+fixed.
+
+What changes were made between AMSFonts 2.2d and AMSFonts 3.0?
+
+The licenses were restated to clarify the copying and redistribution
+conditions to make them more compatible with third-party collections
+such as TeX Live.  In particular, all Type 1 fonts and those .mf files
+originally created at AMS are now released under the SIL Open Font
+License (OFL), a copy of which is included with this distribution.
+
+.pk files are no longer distributed or supported by the AMS.  Where
+Type 1 fonts are available, modern TeX distributions do not require
+PK fonts.  When PK fonts are required for some specialized purpose,
+they can easily be generated on the fly.
+
+In the Computer Modern fonts, some shape changes made by Donald Knuth
+in 1992 were not included in the Type 1 fonts distributed in version 2.2
+of the AMSFonts collection.  These shape changes have now been made,
+and all CM glyph shapes should now be identical between Knuth's Metafont
+sources and the Type 1 fonts.  Since Knuth's original changes did not
+affect the metrics, no metrics were affected by this upgrade, and no
+changes to the .tfm files were needed.  However, owing to the system
+under which the reference copies of the .tfm files are archived, the
+original file dates have been lost; recent file dates do not imply
+any content changes.
+
+The Euler fonts, designed by Hermann Zapf, were originally released in
+the 1990s.  Zapf reshaped many of the glyphs, with implementation and
+assistance from Hans Hagen, Taco Hoekwater, and Volker RW Schaa.  The
+updated version 3.0 was presented to Donald Knuth on his birthday,
+January 10, 2008.  These updates were carefully designed to work with
+the metrics for version 2.2, so no changes to the .tfm files were
+needed.  Since the updates were made directly to the Type 1 files,
+the (incompatible) .mf files have been removed from the distribution.
+
+There have been no shape changes to the "extra symbols" or cyrillic.
+
+Where possible, all glyphs have been given Unicode-compliant names
+to make them work better with Unicode-aware viewers (e.g.,
+cut-and-paste of Cyrillic characters should work better).
+
+Some modifications were made in the LaTeX support files to adapt to
+the new set of (fully scalable) font sizes.  Now that Type 1 fonts
+are available for all defined sizes, the "psamsfonts" option is no
+longer needed.  This has been implemented in such a way as to ensure
+that existing LaTeX input calling for this option will still compile.
+In particular, any support files containing "57" in the file name
+have been either eliminated or converted to no-ops.
+
+The location of some files has changed, so if you are installing the
+new distribution on top of an existing one, be sure to delete the
+old copies from the previous locations.  Remove these directories
+that are no longer used:
+
+  doc/ams/amsfonts [replaced by doc/fonts/amsfonts]
+  fonts/source/ams [replaced by fonts/source/public/amsfonts]
+  fonts/tfm/ams [replaced by fonts/tfm/public/amsfonts]
+  tex/latex/amsfonts/obsolete [obsolete; not superseded]
+
+Also remove these files from the indicated areas:
+
+  fonts/source/public/misc/dummy*
+    [replaced by fonts/source/public/amsfonts/dummy]
+  fonts/tfm/public/misc/dummy*
+    [replaced by fonts/tfm/public/amsfonts/dummy]
+
+The manual (amsfndoc) will be updated later this year.  Some of the
+information it contains is incomplete or obsolete.  In particular,
+Appendix A, Installation Procedures, should be ignored completely;
+see below for installation procedures if your system is not based on
+a TDS structure.
+
+------------------------------------------------------------------------
+
+What changes were made between AMSFonts 2.2 and AMSFonts 2.2d?
+
+No changes were made to the fonts themselves, either to the Metafont
+sources, the .tfm or .pk files.
+
+The primary purpose of this upgrade was to fix bugs in the LaTeX
+support files and to update the User's Guide.
+
+------------------------------------------------------------------------
+
+What changes were made between AMSFonts 2.1 and AMSFonts 2.2?
+
+The primary change was the inclusion of LaTeX support macro files as
+part of the AMSFonts distribution.  The files in the "latex"
+subdirectory are compatible with LaTeX2e, the LaTeX standard since
+1995.  Users of LaTeX 2.09 are strongly encouraged to upgrade to
+LaTeX2e, as AMS no longer supports the use of AMSFonts with LaTeX 2.09.
+
+The only significant change to the characters in the fonts was a bug
+fix which corrected an anomaly in the Blackboard Bold N character from
+the MSBM fonts. That character printed incorrectly at a few resolutions
+(including 600dpi); it now prints correctly at all resolutions.  The
+metrics for AMSFonts 2.2 were unchanged from those for AMSFonts 2.1. 
+
+There was also a slight change to the file amssym.tex, and very
+significant changes to the User's Guide.
+
+------------------------------------------------------------------------
+
+INSTALLING AMSFonts 3.0 ON YOUR SYSTEM
+
+These instructions assume that you were unable to unzip the bundle
+directly into a TEXMF TDS tree.
+
+1. Installing the fonts:
+
+Unzip the bundle into a work area.  This will produce a tree with the
+following structure:
+
+  source
+  source/latex
+  source/latex/amsfonts
+  tex
+  tex/latex
+  tex/latex/amsfonts
+  tex/plain
+  tex/plain/amsfonts
+  fonts
+  fonts/source
+  fonts/source/public
+  fonts/source/public/amsfonts
+  fonts/source/public/amsfonts/cmextra
+  fonts/source/public/amsfonts/cyrillic
+  fonts/source/public/amsfonts/dummy
+  fonts/source/public/amsfonts/symbols
+  fonts/tfm
+  fonts/tfm/public
+  fonts/tfm/public/amsfonts
+  fonts/tfm/public/amsfonts/cmextra
+  fonts/tfm/public/amsfonts/cyrillic
+  fonts/tfm/public/amsfonts/dummy
+  fonts/tfm/public/amsfonts/euler
+  fonts/tfm/public/amsfonts/symbols
+  fonts/type1
+  fonts/type1/public
+  fonts/type1/public/amsfonts
+  fonts/type1/public/amsfonts/cm
+  fonts/type1/public/amsfonts/cmextra
+  fonts/type1/public/amsfonts/cyrillic
+  fonts/type1/public/amsfonts/euler
+  fonts/type1/public/amsfonts/latxfont
+  fonts/type1/public/amsfonts/symbols
+  fonts/afm
+  fonts/afm/public
+  fonts/afm/public/amsfonts
+  fonts/afm/public/amsfonts/cm
+  fonts/afm/public/amsfonts/cmextra
+  fonts/afm/public/amsfonts/cyrillic
+  fonts/afm/public/amsfonts/euler
+  fonts/afm/public/amsfonts/latxfont
+  fonts/afm/public/amsfonts/symbols
+  fonts/map
+  fonts/map/dvips
+  fonts/map/dvips/amsfonts
+  doc
+  doc/fonts
+  doc/fonts/amsfonts
+
+Move the files in the branch  fonts/type1/public/amsfonts/  to the
+directory where your system expects to find .pfb (Type 1) files.
+
+Move the files in the branch  fonts/tfm/public/amsfonts/  to the
+directory where your system expects to find .tfm files.
+
+Update the map files for your device drivers using the .map files in
+fonts/map/dvips/amsfonts/ ; consult the documentation for your TeX
+distribution for advice.
+
+Depending on what TeX system you use, it may also be necessary to update
+a filename database; see the documentation for your TeX distribution.
+
+2. Installing the (La)TeX support files:
+
+There are two sets of files which provide macros necessary for using
+AMSFonts 3.0 in TeX. One set is for Plain TeX or AMS-TeX, and one set
+is for LaTeX.  If you use Plain TeX or AMS-TeX, then the files in
+tex/plain/amsfonts/  should be placed in the directory (or a directory
+in the path) which your implementation of TeX searches for input files.
+If you use LaTeX, then the files in  tex/latex/amsfonts/  should be
+placed in that directory. (If you use LaTeX 2.09, then we strongly
+encourage you to upgrade to LaTeX2e; AMS does not provide support for
+use of AMSFonts in LaTeX 2.09.)  If you are likely to use both LaTeX
+and Plain TeX or AMS-TeX, then install the files from both directories
+where your TeX will find them for input.
+
+Depending on what TeX system you use, it may also be necessary to update
+a filename database; see the documentation for your TeX distribution.
+
+3. The User's Guide and other documentation:
+
+You can get a copy of the User's Guide via a link on the web page
+
+    http://www.ams.org/tex/amsfonts.html
+
+The User's Guide still describes AMSFonts 2.2d; however, processing and
+printing it from the files in this distribution is a good test of your
+AMSFonts installation.
+
+In order to TeX and print the User's Guide, you must first install the
+fonts.  The "source" subdirectory (source/latex/amsfonts/) contains
+five input files with names beginning with "amsfndoc".  When your font
+installation is complete, process the file "amsfndoc.tex" with Plain
+TeX (not AMS-TeX or LaTeX).  It will input four other "amsfndoc" files:
+.def, .cyr, .ins and .fnt.  The output will be a complete guide to the
+use of AMSFonts 2.2d.  Instructions for the use of the fonts themselves
+are still valid, though somewhat incomplete; however, the installation
+instructions in Appendix A are obsolete and should be ignored.  The
+User's Guide is scheduled to be updated later this year.
+
+The directory  source/latex/amsfonts/  contains a file named
+"amsfonts.faq" in which we will place frequently asked questions about
+AMSFonts.
+
+This directory also contains LaTeX .dtx files containing technical
+commentary on the source code for the LaTeX support files in the
+AMSFonts distribution.  Although these .dtx files are included for
+reference, most users can ignore them.
+
+------------------------------------------------------------------------
+
+USE OF THE LATEX "amsfonts" PACKAGE
+
+Version 3.0 of the LaTeX package amsfonts.sty is carefully constructed
+to allow it to be used for processing pre-existing documents.  This
+means that documents that load amsfonts.sty through statements such
+as the following should continue to work without change.
+
+1.  \documentclass{amsart}
+
+2.  \documentclass{article}
+    \usepackage{amsfonts}
+
+3.  \documentclass{article}
+    \usepackage{amsmath,amsthm}
+
+4.  \documentclass{article}
+    \usepackage{amssymb}
+
+There is an exception, however, for the variants 2 and 3: If your
+document was written a very long time ago AND if it uses any of the
+symbols
+
+  \square                \Box
+  \lozenge               \Diamond
+  \vartriangleright      \rhd
+  \vartriangleleft       \lhd
+  \trianglerighteq       \unrhd
+  \trianglelefteq        \unlhd
+  \rightsquigarrow       \leadsto
+                         \Join
+
+then you may find that those symbol commands now produce "Undefined
+control sequence" errors.  For the symbols in the first column, the
+easiest way to fix this is to load the amssymb package, i.e. change
+variants 2 and 3 to
+
+2a.  \documentclass{article}
+     \usepackage{amssymb}
+
+3a.  \documentclass{article}
+     \usepackage{amssymb,amsmath,amsthm}
+
+For symbols in the second column (\Box, etc.), you have a choice of
+either adding the latexsym package or defining them in terms of
+equivalent symbols from the amssymb package.
+
+If you are using an AMS document class (amsart, amsbook, amsproc), the
+amsfonts are automatically included; however, you must load the amssymb
+package to have access to the specific symbol names.
+
+
+licenses/GUST-FONT-LICENSE.txt
+% This is version 1.0, dated 22 June 2009, of the GUST Font License.
+% (GUST is the Polish TeX Users Group, http://www.gust.org.pl)
+%
+% For the most recent version of this license see
+% http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
+% or
+% http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+%
+% This work may be distributed and/or modified under the conditions
+% of the LaTeX Project Public License, either version 1.3c of this
+% license or (at your option) any later version.
+%
+% Please also observe the following clause:
+% 1) it is requested, but not legally required, that derived works be
+%    distributed only after changing the names of the fonts comprising this
+%    work and given in an accompanying "manifest", and that the
+%    files comprising the Work, as listed in the manifest, also be given
+%    new names. Any exceptions to this request are also given in the
+%    manifest.
+%
+%    We recommend the manifest be given in a separate file named
+%    MANIFEST-<fontid>.txt, where <fontid> is some unique identification
+%    of the font family. If a separate "readme" file accompanies the Work,
+%    we recommend a name of the form README-<fontid>.txt.
+%
+% The latest version of the LaTeX Project Public License is in
+% http://www.latex-project.org/lppl.txt and version 1.3c or later
+% is part of all distributions of LaTeX version 2006/05/20 or later.
+
+
+licenses/LM-MANIFEST.txt
+###########################################################################
+############          The Latin Modern Family of Fonts         ############
+###########################################################################
+
+Designer (Computer Modern Family of Fonts): Donald E. Knuth
+Authors: Bogus\l{}aw Jackowski and Janusz M. Nowacki
+Version: 2.004
+Date: 30 X 2009
+
+Copyright 2003--2009 by B. Jackowski and J.M. Nowacki
+(on behalf of TeX USERS GROUPS).
+This work is released under the GUST Font License.
+For the most recent version of this license see
+http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt or
+http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+This work has the LPPL maintenance status "maintained".
+The Current Maintainer of this work is Bogus\l{}aw Jackowski
+and Janusz M. Nowacki.
+This work consists of the files listed in this file.
+
+Below, in three sections required by the GUST Font License,
+font names and file names specific for the Latin Modern
+Family of Fonts are listed.
+
+NOTE: the names of the directories are not subject to the renaming
+restrictions.
+
+1. Font names which should be changed in derived works as requested
+   by clause 1 of GUST-FONT-LICENSE.txt
+
+   1.1 PostScript names
+       1.1.1 PostScript family names (and PFM names)
+       1.1.1a Text fonts
+              LMMono8
+              LMMono9
+              LMMono10
+              LMMono12
+              LMMonoCaps10
+              LMMonoLt10
+              LMMonoLtCond10
+              LMMonoProp10
+              LMMonoPropLt10
+              LMMonoSlant10
+              LMRoman5
+              LMRoman6
+              LMRoman7
+              LMRoman8
+              LMRoman9
+              LMRoman10
+              LMRoman12
+              LMRoman17
+              LMRomanCaps10
+              LMRomanDemi10
+              LMRomanDunh10
+              LMRomanSlant8
+              LMRomanSlant9
+              LMRomanSlant10
+              LMRomanSlant12
+              LMRomanSlant17
+              LMRomanUnsl10
+              LMSans8
+              LMSans9
+              LMSans10
+              LMSans12
+              LMSans17
+              LMSansDemiCond10
+              LMSansQuot8
+
+       1.1.1b Math fonts
+              LMMathExtension10
+              LMMathItalic5
+              LMMathItalic6
+              LMMathItalic7
+              LMMathItalic8
+              LMMathItalic9
+              LMMathItalic10
+              LMMathItalic12
+              LMMathSymbols5
+              LMMathSymbols6
+              LMMathSymbols7
+              LMMathSymbols8
+              LMMathSymbols9
+              LMMathSymbols10
+
+       1.1.2 PostScript font and full names
+       1.1.2a Text fonts
+              LMMono8-Regular
+              LMMono9-Regular
+              LMMono10-Italic
+              LMMono10-Regular
+              LMMono12-Regular
+              LMMonoCaps10-Oblique
+              LMMonoCaps10-Regular
+              LMMonoLt10-Bold
+              LMMonoLt10-BoldOblique
+              LMMonoLt10-Oblique
+              LMMonoLt10-Regular
+              LMMonoLtCond10-Oblique
+              LMMonoLtCond10-Regular
+              LMMonoProp10-Oblique
+              LMMonoProp10-Regular
+              LMMonoPropLt10-Bold
+              LMMonoPropLt10-BoldOblique
+              LMMonoPropLt10-Oblique
+              LMMonoPropLt10-Regular
+              LMMonoSlant10-Regular
+              LMRoman5-Bold
+              LMRoman5-Regular
+              LMRoman6-Bold
+              LMRoman6-Regular
+              LMRoman7-Bold
+              LMRoman7-Italic
+              LMRoman7-Regular
+              LMRoman8-Bold
+              LMRoman8-Italic
+              LMRoman8-Regular
+              LMRoman9-Bold
+              LMRoman9-Italic
+              LMRoman9-Regular
+              LMRoman10-Bold
+              LMRoman10-BoldItalic
+              LMRoman10-Italic
+              LMRoman10-Regular
+              LMRoman12-Bold
+              LMRoman12-Italic
+              LMRoman12-Regular
+              LMRoman17-Regular
+              LMRomanCaps10-Oblique
+              LMRomanCaps10-Regular
+              LMRomanDemi10-Oblique
+              LMRomanDemi10-Regular
+              LMRomanDunh10-Oblique
+              LMRomanDunh10-Regular
+              LMRomanSlant8-Regular
+              LMRomanSlant9-Regular
+              LMRomanSlant10-Bold
+              LMRomanSlant10-Regular
+              LMRomanSlant12-Regular
+              LMRomanSlant17-Regular
+              LMRomanUnsl10-Regular
+              LMSans8-Oblique
+              LMSans8-Regular
+              LMSans9-Oblique
+              LMSans9-Regular
+              LMSans10-Bold
+              LMSans10-BoldOblique
+              LMSans10-Oblique
+              LMSans10-Regular
+              LMSans12-Oblique
+              LMSans12-Regular
+              LMSans17-Oblique
+              LMSans17-Regular
+              LMSansDemiCond10-Oblique
+              LMSansDemiCond10-Regular
+              LMSansQuot8-Bold
+              LMSansQuot8-BoldOblique
+              LMSansQuot8-Oblique
+              LMSansQuot8-Regular
+
+       1.1.2b Math fonts
+              LMMathExtension10-Regular
+              LMMathItalic5-Bold
+              LMMathItalic5-Regular
+              LMMathItalic6-Regular
+              LMMathItalic7-Bold
+              LMMathItalic7-Regular
+              LMMathItalic8-Regular
+              LMMathItalic9-Regular
+              LMMathItalic10-Bold
+              LMMathItalic10-Regular
+              LMMathItalic12-Regular
+              LMMathSymbols5-Bold
+              LMMathSymbols5-Regular
+              LMMathSymbols6-Regular
+              LMMathSymbols7-Bold
+              LMMathSymbols7-Regular
+              LMMathSymbols8-Regular
+              LMMathSymbols9-Regular
+              LMMathSymbols10-Bold
+              LMMathSymbols10-Regular
+
+   1.2 OTF names
+       1.2.1 OTF family names (used in the implementation of feature `size')
+             Latin Modern Mono
+             Latin Modern Mono Caps
+             Latin Modern Mono Light
+             Latin Modern Mono Light Cond
+             Latin Modern Mono Prop
+             Latin Modern Mono Prop Light
+             Latin Modern Mono Slanted
+             Latin Modern Roman
+             Latin Modern Roman Caps
+             Latin Modern Roman Demi
+             Latin Modern Roman Dunhill
+             Latin Modern Roman Slanted
+             Latin Modern Roman Unslanted
+             Latin Modern Sans
+             Latin Modern Sans Demi Cond
+             Latin Modern Sans Quotation
+
+       1.2.2 OTF full menu names
+             Latin Modern Mono 8 Regular
+             Latin Modern Mono 9 Regular
+             Latin Modern Mono 10 Italic
+             Latin Modern Mono 10 Regular
+             Latin Modern Mono 12 Regular
+             Latin Modern Mono Caps 10 Oblique
+             Latin Modern Mono Caps 10 Regular
+             Latin Modern Mono Light 10 Bold
+             Latin Modern Mono Light 10 Bold Oblique
+             Latin Modern Mono Light 10 Oblique
+             Latin Modern Mono Light 10 Regular
+             Latin Modern Mono Light Cond 10 Oblique
+             Latin Modern Mono Light Cond 10 Regular
+             Latin Modern Mono Prop 10 Oblique
+             Latin Modern Mono Prop 10 Regular
+             Latin Modern Mono Prop Light 10 Bold
+             Latin Modern Mono Prop Light 10 BoldOblique
+             Latin Modern Mono Prop Light 10 Oblique
+             Latin Modern Mono Prop Light 10 Regular
+             Latin Modern Mono Slanted 10 Regular
+             Latin Modern Roman 5 Bold
+             Latin Modern Roman 5 Regular
+             Latin Modern Roman 6 Bold
+             Latin Modern Roman 6 Regular
+             Latin Modern Roman 7 Bold
+             Latin Modern Roman 7 Italic
+             Latin Modern Roman 7 Regular
+             Latin Modern Roman 8 Bold
+             Latin Modern Roman 8 Italic
+             Latin Modern Roman 8 Regular
+             Latin Modern Roman 9 Bold
+             Latin Modern Roman 9 Italic
+             Latin Modern Roman 9 Regular
+             Latin Modern Roman 10 Bold
+             Latin Modern Roman 10 Bold Italic
+             Latin Modern Roman 10 Italic
+             Latin Modern Roman 10 Regular
+             Latin Modern Roman 12 Bold
+             Latin Modern Roman 12 Italic
+             Latin Modern Roman 12 Regular
+             Latin Modern Roman 17 Regular
+             Latin Modern Roman Caps 10 Oblique
+             Latin Modern Roman Caps 10 Regular
+             Latin Modern Roman Demi 10 Oblique
+             Latin Modern Roman Demi 10 Regular
+             Latin Modern Roman Dunhill 10 Oblique
+             Latin Modern Roman Dunhill 10 Regular
+             Latin Modern Roman Slanted 8 Regular
+             Latin Modern Roman Slanted 9 Regular
+             Latin Modern Roman Slanted 10 Bold
+             Latin Modern Roman Slanted 10 Regular
+             Latin Modern Roman Slanted 12 Regular
+             Latin Modern Roman Slanted 17 Regular
+             Latin Modern Roman Unslanted 10 Regular
+             Latin Modern Sans 8 Oblique
+             Latin Modern Sans 8 Regular
+             Latin Modern Sans 9 Oblique
+             Latin Modern Sans 9 Regular
+             Latin Modern Sans 10 Bold
+             Latin Modern Sans 10 Bold Oblique
+             Latin Modern Sans 10 Oblique
+             Latin Modern Sans 10 Regular
+             Latin Modern Sans 12 Oblique
+             Latin Modern Sans 12 Regular
+             Latin Modern Sans 17 Oblique
+             Latin Modern Sans 17 Regular
+             Latin Modern Sans Demi Cond 10 Oblique
+             Latin Modern Sans Demi Cond 10 Regular
+             Latin Modern Sans Quotation 8 Bold
+             Latin Modern Sans Quotation 8 Bold Oblique
+             Latin Modern Sans Quotation 8 Oblique
+             Latin Modern Sans Quotation 8 Regular
+
+       1.2.3 OTF Macintosh menu names
+             LM Mono 8 Regular
+             LM Mono 9 Regular
+             LM Mono 10 Italic
+             LM Mono 10 Regular
+             LM Mono 12 Regular
+             LM Mono Caps 10 Oblique
+             LM Mono Caps 10 Regular
+             LM Mono Light 10 Bold
+             LM Mono Light 10 Bold Oblique
+             LM Mono Light 10 Oblique
+             LM Mono Light 10 Regular
+             LM Mono Light Cond 10 Oblique
+             LM Mono Light Cond 10 Regular
+             LM Mono Prop 10 Oblique
+             LM Mono Prop 10 Regular
+             LM Mono Prop Light 10 Bold
+             LM Mono Prop Light 10 BoldOblique
+             LM Mono Prop Light 10 Oblique
+             LM Mono Prop Light 10 Regular
+             LM Mono Slanted 10 Regular
+             LM Roman 5 Bold
+             LM Roman 5 Regular
+             LM Roman 6 Bold
+             LM Roman 6 Regular
+             LM Roman 7 Bold
+             LM Roman 7 Italic
+             LM Roman 7 Regular
+             LM Roman 8 Bold
+             LM Roman 8 Italic
+             LM Roman 8 Regular
+             LM Roman 9 Bold
+             LM Roman 9 Italic
+             LM Roman 9 Regular
+             LM Roman 10 Bold
+             LM Roman 10 Bold Italic
+             LM Roman 10 Italic
+             LM Roman 10 Regular
+             LM Roman 12 Bold
+             LM Roman 12 Italic
+             LM Roman 12 Regular
+             LM Roman 17 Regular
+             LM Roman Caps 10 Oblique
+             LM Roman Caps 10 Regular
+             LM Roman Demi 10 Oblique
+             LM Roman Demi 10 Regular
+             LM Roman Dunhill 10 Oblique
+             LM Roman Dunhill 10 Regular
+             LM Roman Slanted 8 Regular
+             LM Roman Slanted 9 Regular
+             LM Roman Slanted 10 Bold
+             LM Roman Slanted 10 Regular
+             LM Roman Slanted 12 Regular
+             LM Roman Slanted 17 Regular
+             LM Roman Unslanted 10 Regular
+             LM Sans 8 Oblique
+             LM Sans 8 Regular
+             LM Sans 9 Oblique
+             LM Sans 9 Regular
+             LM Sans 10 Bold
+             LM Sans 10 Bold Oblique
+             LM Sans 10 Oblique
+             LM Sans 10 Regular
+             LM Sans 12 Oblique
+             LM Sans 12 Regular
+             LM Sans 17 Oblique
+             LM Sans 17 Regular
+             LM Sans Demi Cond 10 Oblique
+             LM Sans Demi Cond 10 Regular
+             LM Sans Quot 8 Bold
+             LM Sans Quot 8 Bold Oblique
+             LM Sans Quot 8 Oblique
+             LM Sans Quot 8 Regular
+
+2. Files whose names should be changed in derived works as requested
+   by clause 1 of GUST-FONT-LICENSE.txt
+
+   doc/fonts/lm/MANIFEST-Latin-Modern.txt
+   doc/fonts/lm/README-Latin-Modern.txt
+   doc/fonts/lm/lm-hist.txt
+   doc/fonts/lm/lm-info.pdf
+   doc/fonts/lm/tstlmot1.tex
+   doc/fonts/lm/tstlmot1.pdf
+   doc/fonts/lm/tstlmot4.tex
+   doc/fonts/lm/tstlmot4.pdf
+   doc/fonts/lm/tstlmqx.tex
+   doc/fonts/lm/tstlmqx.pdf
+   doc/fonts/lm/tstlmt1.tex
+   doc/fonts/lm/tstlmt1.pdf
+   doc/fonts/lm/tstlmts1.tex
+   doc/fonts/lm/tstlmts1.pdf
+   fonts/afm/public/lm/lmb10.afm
+   fonts/afm/public/lm/lmbo10.afm
+   fonts/afm/public/lm/lmbsy10.afm
+   fonts/afm/public/lm/lmbsy10.aft
+   fonts/afm/public/lm/lmbsy5.afm
+   fonts/afm/public/lm/lmbsy5.aft
+   fonts/afm/public/lm/lmbsy7.afm
+   fonts/afm/public/lm/lmbsy7.aft
+   fonts/afm/public/lm/lmbx10.afm
+   fonts/afm/public/lm/lmbx12.afm
+   fonts/afm/public/lm/lmbx5.afm
+   fonts/afm/public/lm/lmbx6.afm
+   fonts/afm/public/lm/lmbx7.afm
+   fonts/afm/public/lm/lmbx8.afm
+   fonts/afm/public/lm/lmbx9.afm
+   fonts/afm/public/lm/lmbxi10.afm
+   fonts/afm/public/lm/lmbxo10.afm
+   fonts/afm/public/lm/lmcsc10.afm
+   fonts/afm/public/lm/lmcsco10.afm
+   fonts/afm/public/lm/lmdunh10.afm
+   fonts/afm/public/lm/lmduno10.afm
+   fonts/afm/public/lm/lmex10.afm
+   fonts/afm/public/lm/lmex10.aft
+   fonts/afm/public/lm/lmmi10.afm
+   fonts/afm/public/lm/lmmi10.aft
+   fonts/afm/public/lm/lmmi12.afm
+   fonts/afm/public/lm/lmmi12.aft
+   fonts/afm/public/lm/lmmi5.afm
+   fonts/afm/public/lm/lmmi5.aft
+   fonts/afm/public/lm/lmmi6.afm
+   fonts/afm/public/lm/lmmi6.aft
+   fonts/afm/public/lm/lmmi7.afm
+   fonts/afm/public/lm/lmmi7.aft
+   fonts/afm/public/lm/lmmi8.afm
+   fonts/afm/public/lm/lmmi8.aft
+   fonts/afm/public/lm/lmmi9.afm
+   fonts/afm/public/lm/lmmi9.aft
+   fonts/afm/public/lm/lmmib10.afm
+   fonts/afm/public/lm/lmmib10.aft
+   fonts/afm/public/lm/lmmib5.afm
+   fonts/afm/public/lm/lmmib5.aft
+   fonts/afm/public/lm/lmmib7.afm
+   fonts/afm/public/lm/lmmib7.aft
+   fonts/afm/public/lm/lmr10.afm
+   fonts/afm/public/lm/lmr12.afm
+   fonts/afm/public/lm/lmr17.afm
+   fonts/afm/public/lm/lmr5.afm
+   fonts/afm/public/lm/lmr6.afm
+   fonts/afm/public/lm/lmr7.afm
+   fonts/afm/public/lm/lmr8.afm
+   fonts/afm/public/lm/lmr9.afm
+   fonts/afm/public/lm/lmri10.afm
+   fonts/afm/public/lm/lmri12.afm
+   fonts/afm/public/lm/lmri7.afm
+   fonts/afm/public/lm/lmri8.afm
+   fonts/afm/public/lm/lmri9.afm
+   fonts/afm/public/lm/lmro10.afm
+   fonts/afm/public/lm/lmro12.afm
+   fonts/afm/public/lm/lmro17.afm
+   fonts/afm/public/lm/lmro8.afm
+   fonts/afm/public/lm/lmro9.afm
+   fonts/afm/public/lm/lmss10.afm
+   fonts/afm/public/lm/lmss12.afm
+   fonts/afm/public/lm/lmss17.afm
+   fonts/afm/public/lm/lmss8.afm
+   fonts/afm/public/lm/lmss9.afm
+   fonts/afm/public/lm/lmssbo10.afm
+   fonts/afm/public/lm/lmssbx10.afm
+   fonts/afm/public/lm/lmssdc10.afm
+   fonts/afm/public/lm/lmssdo10.afm
+   fonts/afm/public/lm/lmsso10.afm
+   fonts/afm/public/lm/lmsso12.afm
+   fonts/afm/public/lm/lmsso17.afm
+   fonts/afm/public/lm/lmsso8.afm
+   fonts/afm/public/lm/lmsso9.afm
+   fonts/afm/public/lm/lmssq8.afm
+   fonts/afm/public/lm/lmssqbo8.afm
+   fonts/afm/public/lm/lmssqbx8.afm
+   fonts/afm/public/lm/lmssqo8.afm
+   fonts/afm/public/lm/lmsy10.afm
+   fonts/afm/public/lm/lmsy10.aft
+   fonts/afm/public/lm/lmsy5.afm
+   fonts/afm/public/lm/lmsy5.aft
+   fonts/afm/public/lm/lmsy6.afm
+   fonts/afm/public/lm/lmsy6.aft
+   fonts/afm/public/lm/lmsy7.afm
+   fonts/afm/public/lm/lmsy7.aft
+   fonts/afm/public/lm/lmsy8.afm
+   fonts/afm/public/lm/lmsy8.aft
+   fonts/afm/public/lm/lmsy9.afm
+   fonts/afm/public/lm/lmsy9.aft
+   fonts/afm/public/lm/lmtcsc10.afm
+   fonts/afm/public/lm/lmtcso10.afm
+   fonts/afm/public/lm/lmtk10.afm
+   fonts/afm/public/lm/lmtko10.afm
+   fonts/afm/public/lm/lmtl10.afm
+   fonts/afm/public/lm/lmtlc10.afm
+   fonts/afm/public/lm/lmtlco10.afm
+   fonts/afm/public/lm/lmtlo10.afm
+   fonts/afm/public/lm/lmtt10.afm
+   fonts/afm/public/lm/lmtt12.afm
+   fonts/afm/public/lm/lmtt8.afm
+   fonts/afm/public/lm/lmtt9.afm
+   fonts/afm/public/lm/lmtti10.afm
+   fonts/afm/public/lm/lmtto10.afm
+   fonts/afm/public/lm/lmu10.afm
+   fonts/afm/public/lm/lmvtk10.afm
+   fonts/afm/public/lm/lmvtko10.afm
+   fonts/afm/public/lm/lmvtl10.afm
+   fonts/afm/public/lm/lmvtlo10.afm
+   fonts/afm/public/lm/lmvtt10.afm
+   fonts/afm/public/lm/lmvtto10.afm
+   fonts/enc/dvips/lm/lm-cs.enc
+   fonts/enc/dvips/lm/lm-cssc.enc
+   fonts/enc/dvips/lm/lm-cstt.enc
+   fonts/enc/dvips/lm/lm-ec.enc
+   fonts/enc/dvips/lm/lm-l7x.enc
+   fonts/enc/dvips/lm/lm-mathex.enc
+   fonts/enc/dvips/lm/lm-mathit.enc
+   fonts/enc/dvips/lm/lm-mathsy.enc
+   fonts/enc/dvips/lm/lm-qx.enc
+   fonts/enc/dvips/lm/lm-qxtt.enc
+   fonts/enc/dvips/lm/lm-rep-cstt.enc
+   fonts/enc/dvips/lm/lm-rep-t5psn.enc
+   fonts/enc/dvips/lm/lm-rep-cmin.enc
+   fonts/enc/dvips/lm/lm-rep-cmit.enc
+   fonts/enc/dvips/lm/lm-rep-cmitt.enc
+   fonts/enc/dvips/lm/lm-rep-cmrm.enc
+   fonts/enc/dvips/lm/lm-rep-cmsc.enc
+   fonts/enc/dvips/lm/lm-rep-cmtt.enc
+   fonts/enc/dvips/lm/lm-rep-csin.enc
+   fonts/enc/dvips/lm/lm-rep-csrm.enc
+   fonts/enc/dvips/lm/lm-rep-cssc.enc
+   fonts/enc/dvips/lm/lm-rep-plin.enc
+   fonts/enc/dvips/lm/lm-rep-plit.enc
+   fonts/enc/dvips/lm/lm-rep-plitt.enc
+   fonts/enc/dvips/lm/lm-rep-plrm.enc
+   fonts/enc/dvips/lm/lm-rep-plsc.enc
+   fonts/enc/dvips/lm/lm-rep-pltt.enc
+   fonts/enc/dvips/lm/lm-rm.enc
+   fonts/enc/dvips/lm/lm-t5.enc
+   fonts/enc/dvips/lm/lm-texnansi.enc
+   fonts/enc/dvips/lm/lm-ts1.enc
+   fonts/map/dvipdfm/lm/lm-ec.map
+   fonts/map/dvipdfm/lm/lm-math.map
+   fonts/map/dvipdfm/lm/lm-rm.map
+   fonts/map/dvipdfm/lm/lm-texnansi.map
+   fonts/map/dvips/lm/lm.map
+   fonts/map/dvips/lm/lm-cs.map
+   fonts/map/dvips/lm/lm-ec.map
+   fonts/map/dvips/lm/lm-l7x.map
+   fonts/map/dvips/lm/lm-math.map
+   fonts/map/dvips/lm/lm-qx.map
+   fonts/map/dvips/lm/lm-rep-cmtext.map
+   fonts/map/dvips/lm/lm-rep-cmtext-interpolated.map
+   fonts/map/dvips/lm/lm-rep-cstext.map
+   fonts/map/dvips/lm/lm-rep-pltext.map
+   fonts/map/dvips/lm/lm-rep-vntext.map
+   fonts/map/dvips/lm/lm-rep-cmother.map
+   fonts/map/dvips/lm/lm-rm.map
+   fonts/map/dvips/lm/lm-t5.map
+   fonts/map/dvips/lm/lm-texnansi.map
+   fonts/map/dvips/lm/lm-ts1.map
+   fonts/opentype/public/lm/lmmono10-italic.otf
+   fonts/opentype/public/lm/lmmono10-regular.otf
+   fonts/opentype/public/lm/lmmono12-regular.otf
+   fonts/opentype/public/lm/lmmono8-regular.otf
+   fonts/opentype/public/lm/lmmono9-regular.otf
+   fonts/opentype/public/lm/lmmonocaps10-oblique.otf
+   fonts/opentype/public/lm/lmmonocaps10-regular.otf
+   fonts/opentype/public/lm/lmmonolt10-bold.otf
+   fonts/opentype/public/lm/lmmonolt10-boldoblique.otf
+   fonts/opentype/public/lm/lmmonolt10-oblique.otf
+   fonts/opentype/public/lm/lmmonolt10-regular.otf
+   fonts/opentype/public/lm/lmmonoltcond10-oblique.otf
+   fonts/opentype/public/lm/lmmonoltcond10-regular.otf
+   fonts/opentype/public/lm/lmmonoprop10-oblique.otf
+   fonts/opentype/public/lm/lmmonoprop10-regular.otf
+   fonts/opentype/public/lm/lmmonoproplt10-bold.otf
+   fonts/opentype/public/lm/lmmonoproplt10-boldoblique.otf
+   fonts/opentype/public/lm/lmmonoproplt10-oblique.otf
+   fonts/opentype/public/lm/lmmonoproplt10-regular.otf
+   fonts/opentype/public/lm/lmmonoslant10-regular.otf
+   fonts/opentype/public/lm/lmroman10-bold.otf
+   fonts/opentype/public/lm/lmroman10-bolditalic.otf
+   fonts/opentype/public/lm/lmroman10-italic.otf
+   fonts/opentype/public/lm/lmroman10-regular.otf
+   fonts/opentype/public/lm/lmroman12-bold.otf
+   fonts/opentype/public/lm/lmroman12-italic.otf
+   fonts/opentype/public/lm/lmroman12-regular.otf
+   fonts/opentype/public/lm/lmroman17-regular.otf
+   fonts/opentype/public/lm/lmroman5-bold.otf
+   fonts/opentype/public/lm/lmroman5-regular.otf
+   fonts/opentype/public/lm/lmroman6-bold.otf
+   fonts/opentype/public/lm/lmroman6-regular.otf
+   fonts/opentype/public/lm/lmroman7-bold.otf
+   fonts/opentype/public/lm/lmroman7-italic.otf
+   fonts/opentype/public/lm/lmroman7-regular.otf
+   fonts/opentype/public/lm/lmroman8-bold.otf
+   fonts/opentype/public/lm/lmroman8-italic.otf
+   fonts/opentype/public/lm/lmroman8-regular.otf
+   fonts/opentype/public/lm/lmroman9-bold.otf
+   fonts/opentype/public/lm/lmroman9-italic.otf
+   fonts/opentype/public/lm/lmroman9-regular.otf
+   fonts/opentype/public/lm/lmromancaps10-oblique.otf
+   fonts/opentype/public/lm/lmromancaps10-regular.otf
+   fonts/opentype/public/lm/lmromandemi10-oblique.otf
+   fonts/opentype/public/lm/lmromandemi10-regular.otf
+   fonts/opentype/public/lm/lmromandunh10-oblique.otf
+   fonts/opentype/public/lm/lmromandunh10-regular.otf
+   fonts/opentype/public/lm/lmromanslant10-bold.otf
+   fonts/opentype/public/lm/lmromanslant10-regular.otf
+   fonts/opentype/public/lm/lmromanslant12-regular.otf
+   fonts/opentype/public/lm/lmromanslant17-regular.otf
+   fonts/opentype/public/lm/lmromanslant8-regular.otf
+   fonts/opentype/public/lm/lmromanslant9-regular.otf
+   fonts/opentype/public/lm/lmromanunsl10-regular.otf
+   fonts/opentype/public/lm/lmsans10-bold.otf
+   fonts/opentype/public/lm/lmsans10-boldoblique.otf
+   fonts/opentype/public/lm/lmsans10-oblique.otf
+   fonts/opentype/public/lm/lmsans10-regular.otf
+   fonts/opentype/public/lm/lmsans12-oblique.otf
+   fonts/opentype/public/lm/lmsans12-regular.otf
+   fonts/opentype/public/lm/lmsans17-oblique.otf
+   fonts/opentype/public/lm/lmsans17-regular.otf
+   fonts/opentype/public/lm/lmsans8-oblique.otf
+   fonts/opentype/public/lm/lmsans8-regular.otf
+   fonts/opentype/public/lm/lmsans9-oblique.otf
+   fonts/opentype/public/lm/lmsans9-regular.otf
+   fonts/opentype/public/lm/lmsansdemicond10-oblique.otf
+   fonts/opentype/public/lm/lmsansdemicond10-regular.otf
+   fonts/opentype/public/lm/lmsansquot8-bold.otf
+   fonts/opentype/public/lm/lmsansquot8-boldoblique.otf
+   fonts/opentype/public/lm/lmsansquot8-oblique.otf
+   fonts/opentype/public/lm/lmsansquot8-regular.otf
+   fonts/tfm/public/lm/cs-lmb10.tfm
+   fonts/tfm/public/lm/cs-lmbx5.tfm
+   fonts/tfm/public/lm/cs-lmbx6.tfm
+   fonts/tfm/public/lm/cs-lmbx7.tfm
+   fonts/tfm/public/lm/cs-lmbx8.tfm
+   fonts/tfm/public/lm/cs-lmbx9.tfm
+   fonts/tfm/public/lm/cs-lmbo10.tfm
+   fonts/tfm/public/lm/cs-lmbx10.tfm
+   fonts/tfm/public/lm/cs-lmbx12.tfm
+   fonts/tfm/public/lm/cs-lmbxi10.tfm
+   fonts/tfm/public/lm/cs-lmbxo10.tfm
+   fonts/tfm/public/lm/cs-lmcsc10.tfm
+   fonts/tfm/public/lm/cs-lmcsco10.tfm
+   fonts/tfm/public/lm/cs-lmdunh10.tfm
+   fonts/tfm/public/lm/cs-lmduno10.tfm
+   fonts/tfm/public/lm/cs-lmr10.tfm
+   fonts/tfm/public/lm/cs-lmr12.tfm
+   fonts/tfm/public/lm/cs-lmr17.tfm
+   fonts/tfm/public/lm/cs-lmr5.tfm
+   fonts/tfm/public/lm/cs-lmr6.tfm
+   fonts/tfm/public/lm/cs-lmr7.tfm
+   fonts/tfm/public/lm/cs-lmr8.tfm
+   fonts/tfm/public/lm/cs-lmr9.tfm
+   fonts/tfm/public/lm/cs-lmri7.tfm
+   fonts/tfm/public/lm/cs-lmri8.tfm
+   fonts/tfm/public/lm/cs-lmri9.tfm
+   fonts/tfm/public/lm/cs-lmro8.tfm
+   fonts/tfm/public/lm/cs-lmro9.tfm
+   fonts/tfm/public/lm/cs-lmri10.tfm
+   fonts/tfm/public/lm/cs-lmri12.tfm
+   fonts/tfm/public/lm/cs-lmro10.tfm
+   fonts/tfm/public/lm/cs-lmro12.tfm
+   fonts/tfm/public/lm/cs-lmro17.tfm
+   fonts/tfm/public/lm/cs-lmss8.tfm
+   fonts/tfm/public/lm/cs-lmss9.tfm
+   fonts/tfm/public/lm/cs-lmss10.tfm
+   fonts/tfm/public/lm/cs-lmss12.tfm
+   fonts/tfm/public/lm/cs-lmss17.tfm
+   fonts/tfm/public/lm/cs-lmssbo10.tfm
+   fonts/tfm/public/lm/cs-lmssbx10.tfm
+   fonts/tfm/public/lm/cs-lmssdc10.tfm
+   fonts/tfm/public/lm/cs-lmssdo10.tfm
+   fonts/tfm/public/lm/cs-lmsso10.tfm
+   fonts/tfm/public/lm/cs-lmsso12.tfm
+   fonts/tfm/public/lm/cs-lmtt8.tfm
+   fonts/tfm/public/lm/cs-lmtt9.tfm
+   fonts/tfm/public/lm/cs-lmtcsc10.tfm
+   fonts/tfm/public/lm/cs-lmtcso10.tfm
+   fonts/tfm/public/lm/cs-lmtl10.tfm
+   fonts/tfm/public/lm/cs-lmtlo10.tfm
+   fonts/tfm/public/lm/cs-lmtlc10.tfm
+   fonts/tfm/public/lm/cs-lmtlco10.tfm
+   fonts/tfm/public/lm/cs-lmtk10.tfm
+   fonts/tfm/public/lm/cs-lmtko10.tfm
+   fonts/tfm/public/lm/cs-lmtt10.tfm
+   fonts/tfm/public/lm/cs-lmu10.tfm
+   fonts/tfm/public/lm/cs-lmvtt10.tfm
+   fonts/tfm/public/lm/cs-lmvtto10.tfm
+   fonts/tfm/public/lm/cs-lmvtl10.tfm
+   fonts/tfm/public/lm/cs-lmvtlo10.tfm
+   fonts/tfm/public/lm/cs-lmvtk10.tfm
+   fonts/tfm/public/lm/cs-lmvtko10.tfm
+   fonts/tfm/public/lm/cs-lmsso17.tfm
+   fonts/tfm/public/lm/cs-lmsso8.tfm
+   fonts/tfm/public/lm/cs-lmsso9.tfm
+   fonts/tfm/public/lm/cs-lmssq8.tfm
+   fonts/tfm/public/lm/cs-lmssqbo8.tfm
+   fonts/tfm/public/lm/cs-lmssqbx8.tfm
+   fonts/tfm/public/lm/cs-lmssqo8.tfm
+   fonts/tfm/public/lm/cs-lmtt12.tfm
+   fonts/tfm/public/lm/cs-lmtti10.tfm
+   fonts/tfm/public/lm/cs-lmtto10.tfm
+   fonts/tfm/public/lm/ec-lmb10.tfm
+   fonts/tfm/public/lm/ec-lmbx5.tfm
+   fonts/tfm/public/lm/ec-lmbx6.tfm
+   fonts/tfm/public/lm/ec-lmbx7.tfm
+   fonts/tfm/public/lm/ec-lmbx8.tfm
+   fonts/tfm/public/lm/ec-lmbx9.tfm
+   fonts/tfm/public/lm/ec-lmbo10.tfm
+   fonts/tfm/public/lm/ec-lmbx10.tfm
+   fonts/tfm/public/lm/ec-lmbx12.tfm
+   fonts/tfm/public/lm/ec-lmbxi10.tfm
+   fonts/tfm/public/lm/ec-lmbxo10.tfm
+   fonts/tfm/public/lm/ec-lmcsc10.tfm
+   fonts/tfm/public/lm/ec-lmcsco10.tfm
+   fonts/tfm/public/lm/ec-lmdunh10.tfm
+   fonts/tfm/public/lm/ec-lmduno10.tfm
+   fonts/tfm/public/lm/ec-lmr10.tfm
+   fonts/tfm/public/lm/ec-lmr12.tfm
+   fonts/tfm/public/lm/ec-lmr17.tfm
+   fonts/tfm/public/lm/ec-lmr5.tfm
+   fonts/tfm/public/lm/ec-lmr6.tfm
+   fonts/tfm/public/lm/ec-lmr7.tfm
+   fonts/tfm/public/lm/ec-lmr8.tfm
+   fonts/tfm/public/lm/ec-lmr9.tfm
+   fonts/tfm/public/lm/ec-lmri7.tfm
+   fonts/tfm/public/lm/ec-lmri8.tfm
+   fonts/tfm/public/lm/ec-lmri9.tfm
+   fonts/tfm/public/lm/ec-lmro8.tfm
+   fonts/tfm/public/lm/ec-lmro9.tfm
+   fonts/tfm/public/lm/ec-lmri10.tfm
+   fonts/tfm/public/lm/ec-lmri12.tfm
+   fonts/tfm/public/lm/ec-lmro10.tfm
+   fonts/tfm/public/lm/ec-lmro12.tfm
+   fonts/tfm/public/lm/ec-lmro17.tfm
+   fonts/tfm/public/lm/ec-lmss8.tfm
+   fonts/tfm/public/lm/ec-lmss9.tfm
+   fonts/tfm/public/lm/ec-lmss10.tfm
+   fonts/tfm/public/lm/ec-lmss12.tfm
+   fonts/tfm/public/lm/ec-lmss17.tfm
+   fonts/tfm/public/lm/ec-lmssbo10.tfm
+   fonts/tfm/public/lm/ec-lmssbx10.tfm
+   fonts/tfm/public/lm/ec-lmssdc10.tfm
+   fonts/tfm/public/lm/ec-lmssdo10.tfm
+   fonts/tfm/public/lm/ec-lmsso10.tfm
+   fonts/tfm/public/lm/ec-lmsso12.tfm
+   fonts/tfm/public/lm/ec-lmtt8.tfm
+   fonts/tfm/public/lm/ec-lmtt9.tfm
+   fonts/tfm/public/lm/ec-lmtcsc10.tfm
+   fonts/tfm/public/lm/ec-lmtcso10.tfm
+   fonts/tfm/public/lm/ec-lmtl10.tfm
+   fonts/tfm/public/lm/ec-lmtlo10.tfm
+   fonts/tfm/public/lm/ec-lmtlc10.tfm
+   fonts/tfm/public/lm/ec-lmtlco10.tfm
+   fonts/tfm/public/lm/ec-lmtk10.tfm
+   fonts/tfm/public/lm/ec-lmtko10.tfm
+   fonts/tfm/public/lm/ec-lmtt10.tfm
+   fonts/tfm/public/lm/ec-lmu10.tfm
+   fonts/tfm/public/lm/ec-lmvtt10.tfm
+   fonts/tfm/public/lm/ec-lmvtto10.tfm
+   fonts/tfm/public/lm/ec-lmvtl10.tfm
+   fonts/tfm/public/lm/ec-lmvtlo10.tfm
+   fonts/tfm/public/lm/ec-lmvtk10.tfm
+   fonts/tfm/public/lm/ec-lmvtko10.tfm
+   fonts/tfm/public/lm/ec-lmsso17.tfm
+   fonts/tfm/public/lm/ec-lmsso8.tfm
+   fonts/tfm/public/lm/ec-lmsso9.tfm
+   fonts/tfm/public/lm/ec-lmssq8.tfm
+   fonts/tfm/public/lm/ec-lmssqbo8.tfm
+   fonts/tfm/public/lm/ec-lmssqbx8.tfm
+   fonts/tfm/public/lm/ec-lmssqo8.tfm
+   fonts/tfm/public/lm/ec-lmtt12.tfm
+   fonts/tfm/public/lm/ec-lmtti10.tfm
+   fonts/tfm/public/lm/ec-lmtto10.tfm
+   fonts/tfm/public/lm/l7x-lmr5.tfm
+   fonts/tfm/public/lm/l7x-lmr6.tfm
+   fonts/tfm/public/lm/l7x-lmr7.tfm
+   fonts/tfm/public/lm/l7x-lmr8.tfm
+   fonts/tfm/public/lm/l7x-lmr9.tfm
+   fonts/tfm/public/lm/l7x-lmb10.tfm
+   fonts/tfm/public/lm/l7x-lmbo10.tfm
+   fonts/tfm/public/lm/l7x-lmbx10.tfm
+   fonts/tfm/public/lm/l7x-lmbx12.tfm
+   fonts/tfm/public/lm/l7x-lmbx5.tfm
+   fonts/tfm/public/lm/l7x-lmbx6.tfm
+   fonts/tfm/public/lm/l7x-lmbx7.tfm
+   fonts/tfm/public/lm/l7x-lmbx8.tfm
+   fonts/tfm/public/lm/l7x-lmbx9.tfm
+   fonts/tfm/public/lm/l7x-lmbxi10.tfm
+   fonts/tfm/public/lm/l7x-lmbxo10.tfm
+   fonts/tfm/public/lm/l7x-lmcsc10.tfm
+   fonts/tfm/public/lm/l7x-lmcsco10.tfm
+   fonts/tfm/public/lm/l7x-lmdunh10.tfm
+   fonts/tfm/public/lm/l7x-lmduno10.tfm
+   fonts/tfm/public/lm/l7x-lmr10.tfm
+   fonts/tfm/public/lm/l7x-lmr12.tfm
+   fonts/tfm/public/lm/l7x-lmr17.tfm
+   fonts/tfm/public/lm/l7x-lmri10.tfm
+   fonts/tfm/public/lm/l7x-lmri12.tfm
+   fonts/tfm/public/lm/l7x-lmri7.tfm
+   fonts/tfm/public/lm/l7x-lmri8.tfm
+   fonts/tfm/public/lm/l7x-lmri9.tfm
+   fonts/tfm/public/lm/l7x-lmro10.tfm
+   fonts/tfm/public/lm/l7x-lmro12.tfm
+   fonts/tfm/public/lm/l7x-lmro17.tfm
+   fonts/tfm/public/lm/l7x-lmro8.tfm
+   fonts/tfm/public/lm/l7x-lmro9.tfm
+   fonts/tfm/public/lm/l7x-lmss10.tfm
+   fonts/tfm/public/lm/l7x-lmss12.tfm
+   fonts/tfm/public/lm/l7x-lmss17.tfm
+   fonts/tfm/public/lm/l7x-lmss8.tfm
+   fonts/tfm/public/lm/l7x-lmss9.tfm
+   fonts/tfm/public/lm/l7x-lmssbo10.tfm
+   fonts/tfm/public/lm/l7x-lmssbx10.tfm
+   fonts/tfm/public/lm/l7x-lmssdc10.tfm
+   fonts/tfm/public/lm/l7x-lmssdo10.tfm
+   fonts/tfm/public/lm/l7x-lmsso10.tfm
+   fonts/tfm/public/lm/l7x-lmsso12.tfm
+   fonts/tfm/public/lm/l7x-lmsso17.tfm
+   fonts/tfm/public/lm/l7x-lmsso8.tfm
+   fonts/tfm/public/lm/l7x-lmsso9.tfm
+   fonts/tfm/public/lm/l7x-lmssq8.tfm
+   fonts/tfm/public/lm/l7x-lmssqbo8.tfm
+   fonts/tfm/public/lm/l7x-lmssqbx8.tfm
+   fonts/tfm/public/lm/l7x-lmssqo8.tfm
+   fonts/tfm/public/lm/l7x-lmtcsc10.tfm
+   fonts/tfm/public/lm/l7x-lmtcso10.tfm
+   fonts/tfm/public/lm/l7x-lmtl10.tfm
+   fonts/tfm/public/lm/l7x-lmtlo10.tfm
+   fonts/tfm/public/lm/l7x-lmtlc10.tfm
+   fonts/tfm/public/lm/l7x-lmtlco10.tfm
+   fonts/tfm/public/lm/l7x-lmtk10.tfm
+   fonts/tfm/public/lm/l7x-lmtko10.tfm
+   fonts/tfm/public/lm/l7x-lmtt10.tfm
+   fonts/tfm/public/lm/l7x-lmtt12.tfm
+   fonts/tfm/public/lm/l7x-lmtt8.tfm
+   fonts/tfm/public/lm/l7x-lmtt9.tfm
+   fonts/tfm/public/lm/l7x-lmtti10.tfm
+   fonts/tfm/public/lm/l7x-lmtto10.tfm
+   fonts/tfm/public/lm/l7x-lmu10.tfm
+   fonts/tfm/public/lm/l7x-lmvtt10.tfm
+   fonts/tfm/public/lm/l7x-lmvtto10.tfm
+   fonts/tfm/public/lm/l7x-lmvtl10.tfm
+   fonts/tfm/public/lm/l7x-lmvtlo10.tfm
+   fonts/tfm/public/lm/l7x-lmvtk10.tfm
+   fonts/tfm/public/lm/l7x-lmvtko10.tfm
+   fonts/tfm/public/lm/lmbsy10.tfm
+   fonts/tfm/public/lm/lmbsy5.tfm
+   fonts/tfm/public/lm/lmbsy7.tfm
+   fonts/tfm/public/lm/lmex10.tfm
+   fonts/tfm/public/lm/lmmi10.tfm
+   fonts/tfm/public/lm/lmmi12.tfm
+   fonts/tfm/public/lm/lmmi5.tfm
+   fonts/tfm/public/lm/lmmi6.tfm
+   fonts/tfm/public/lm/lmmi7.tfm
+   fonts/tfm/public/lm/lmmi8.tfm
+   fonts/tfm/public/lm/lmmi9.tfm
+   fonts/tfm/public/lm/lmmib10.tfm
+   fonts/tfm/public/lm/lmmib5.tfm
+   fonts/tfm/public/lm/lmmib7.tfm
+   fonts/tfm/public/lm/lmsy10.tfm
+   fonts/tfm/public/lm/lmsy5.tfm
+   fonts/tfm/public/lm/lmsy6.tfm
+   fonts/tfm/public/lm/lmsy7.tfm
+   fonts/tfm/public/lm/lmsy8.tfm
+   fonts/tfm/public/lm/lmsy9.tfm
+   fonts/tfm/public/lm/qx-lmb10.tfm
+   fonts/tfm/public/lm/qx-lmbx5.tfm
+   fonts/tfm/public/lm/qx-lmbx6.tfm
+   fonts/tfm/public/lm/qx-lmbx7.tfm
+   fonts/tfm/public/lm/qx-lmbx8.tfm
+   fonts/tfm/public/lm/qx-lmbx9.tfm
+   fonts/tfm/public/lm/qx-lmbo10.tfm
+   fonts/tfm/public/lm/qx-lmbx10.tfm
+   fonts/tfm/public/lm/qx-lmbx12.tfm
+   fonts/tfm/public/lm/qx-lmbxi10.tfm
+   fonts/tfm/public/lm/qx-lmbxo10.tfm
+   fonts/tfm/public/lm/qx-lmcsc10.tfm
+   fonts/tfm/public/lm/qx-lmcsco10.tfm
+   fonts/tfm/public/lm/qx-lmdunh10.tfm
+   fonts/tfm/public/lm/qx-lmduno10.tfm
+   fonts/tfm/public/lm/qx-lmr10.tfm
+   fonts/tfm/public/lm/qx-lmr12.tfm
+   fonts/tfm/public/lm/qx-lmr17.tfm
+   fonts/tfm/public/lm/qx-lmr5.tfm
+   fonts/tfm/public/lm/qx-lmr6.tfm
+   fonts/tfm/public/lm/qx-lmr7.tfm
+   fonts/tfm/public/lm/qx-lmr8.tfm
+   fonts/tfm/public/lm/qx-lmr9.tfm
+   fonts/tfm/public/lm/qx-lmri7.tfm
+   fonts/tfm/public/lm/qx-lmri8.tfm
+   fonts/tfm/public/lm/qx-lmri9.tfm
+   fonts/tfm/public/lm/qx-lmro8.tfm
+   fonts/tfm/public/lm/qx-lmro9.tfm
+   fonts/tfm/public/lm/qx-lmri10.tfm
+   fonts/tfm/public/lm/qx-lmri12.tfm
+   fonts/tfm/public/lm/qx-lmro10.tfm
+   fonts/tfm/public/lm/qx-lmro12.tfm
+   fonts/tfm/public/lm/qx-lmro17.tfm
+   fonts/tfm/public/lm/qx-lmss8.tfm
+   fonts/tfm/public/lm/qx-lmss9.tfm
+   fonts/tfm/public/lm/qx-lmss10.tfm
+   fonts/tfm/public/lm/qx-lmss12.tfm
+   fonts/tfm/public/lm/qx-lmss17.tfm
+   fonts/tfm/public/lm/qx-lmssbo10.tfm
+   fonts/tfm/public/lm/qx-lmssbx10.tfm
+   fonts/tfm/public/lm/qx-lmssdc10.tfm
+   fonts/tfm/public/lm/qx-lmssdo10.tfm
+   fonts/tfm/public/lm/qx-lmsso10.tfm
+   fonts/tfm/public/lm/qx-lmsso12.tfm
+   fonts/tfm/public/lm/qx-lmtt8.tfm
+   fonts/tfm/public/lm/qx-lmtt9.tfm
+   fonts/tfm/public/lm/qx-lmtcsc10.tfm
+   fonts/tfm/public/lm/qx-lmtcso10.tfm
+   fonts/tfm/public/lm/qx-lmtl10.tfm
+   fonts/tfm/public/lm/qx-lmtlo10.tfm
+   fonts/tfm/public/lm/qx-lmtlc10.tfm
+   fonts/tfm/public/lm/qx-lmtlco10.tfm
+   fonts/tfm/public/lm/qx-lmtk10.tfm
+   fonts/tfm/public/lm/qx-lmtko10.tfm
+   fonts/tfm/public/lm/qx-lmtt10.tfm
+   fonts/tfm/public/lm/qx-lmu10.tfm
+   fonts/tfm/public/lm/qx-lmvtt10.tfm
+   fonts/tfm/public/lm/qx-lmvtto10.tfm
+   fonts/tfm/public/lm/qx-lmvtl10.tfm
+   fonts/tfm/public/lm/qx-lmvtlo10.tfm
+   fonts/tfm/public/lm/qx-lmvtk10.tfm
+   fonts/tfm/public/lm/qx-lmvtko10.tfm
+   fonts/tfm/public/lm/qx-lmsso17.tfm
+   fonts/tfm/public/lm/qx-lmsso8.tfm
+   fonts/tfm/public/lm/qx-lmsso9.tfm
+   fonts/tfm/public/lm/qx-lmssq8.tfm
+   fonts/tfm/public/lm/qx-lmssqbo8.tfm
+   fonts/tfm/public/lm/qx-lmssqbx8.tfm
+   fonts/tfm/public/lm/qx-lmssqo8.tfm
+   fonts/tfm/public/lm/qx-lmtt12.tfm
+   fonts/tfm/public/lm/qx-lmtti10.tfm
+   fonts/tfm/public/lm/qx-lmtto10.tfm
+   fonts/tfm/public/lm/rm-lmb10.tfm
+   fonts/tfm/public/lm/rm-lmbx5.tfm
+   fonts/tfm/public/lm/rm-lmbx6.tfm
+   fonts/tfm/public/lm/rm-lmbx7.tfm
+   fonts/tfm/public/lm/rm-lmbx8.tfm
+   fonts/tfm/public/lm/rm-lmbx9.tfm
+   fonts/tfm/public/lm/rm-lmbo10.tfm
+   fonts/tfm/public/lm/rm-lmbx10.tfm
+   fonts/tfm/public/lm/rm-lmbx12.tfm
+   fonts/tfm/public/lm/rm-lmbxi10.tfm
+   fonts/tfm/public/lm/rm-lmbxo10.tfm
+   fonts/tfm/public/lm/rm-lmcsc10.tfm
+   fonts/tfm/public/lm/rm-lmcsco10.tfm
+   fonts/tfm/public/lm/rm-lmdunh10.tfm
+   fonts/tfm/public/lm/rm-lmduno10.tfm
+   fonts/tfm/public/lm/rm-lmr10.tfm
+   fonts/tfm/public/lm/rm-lmr12.tfm
+   fonts/tfm/public/lm/rm-lmr17.tfm
+   fonts/tfm/public/lm/rm-lmr5.tfm
+   fonts/tfm/public/lm/rm-lmr6.tfm
+   fonts/tfm/public/lm/rm-lmr7.tfm
+   fonts/tfm/public/lm/rm-lmr8.tfm
+   fonts/tfm/public/lm/rm-lmr9.tfm
+   fonts/tfm/public/lm/rm-lmri7.tfm
+   fonts/tfm/public/lm/rm-lmri8.tfm
+   fonts/tfm/public/lm/rm-lmri9.tfm
+   fonts/tfm/public/lm/rm-lmro8.tfm
+   fonts/tfm/public/lm/rm-lmro9.tfm
+   fonts/tfm/public/lm/rm-lmri10.tfm
+   fonts/tfm/public/lm/rm-lmri12.tfm
+   fonts/tfm/public/lm/rm-lmro10.tfm
+   fonts/tfm/public/lm/rm-lmro12.tfm
+   fonts/tfm/public/lm/rm-lmro17.tfm
+   fonts/tfm/public/lm/rm-lmss8.tfm
+   fonts/tfm/public/lm/rm-lmss9.tfm
+   fonts/tfm/public/lm/rm-lmss10.tfm
+   fonts/tfm/public/lm/rm-lmss12.tfm
+   fonts/tfm/public/lm/rm-lmss17.tfm
+   fonts/tfm/public/lm/rm-lmssbo10.tfm
+   fonts/tfm/public/lm/rm-lmssbx10.tfm
+   fonts/tfm/public/lm/rm-lmssdc10.tfm
+   fonts/tfm/public/lm/rm-lmssdo10.tfm
+   fonts/tfm/public/lm/rm-lmsso10.tfm
+   fonts/tfm/public/lm/rm-lmsso12.tfm
+   fonts/tfm/public/lm/rm-lmtt8.tfm
+   fonts/tfm/public/lm/rm-lmtt9.tfm
+   fonts/tfm/public/lm/rm-lmtcsc10.tfm
+   fonts/tfm/public/lm/rm-lmtcso10.tfm
+   fonts/tfm/public/lm/rm-lmtl10.tfm
+   fonts/tfm/public/lm/rm-lmtlo10.tfm
+   fonts/tfm/public/lm/rm-lmtlc10.tfm
+   fonts/tfm/public/lm/rm-lmtlco10.tfm
+   fonts/tfm/public/lm/rm-lmtk10.tfm
+   fonts/tfm/public/lm/rm-lmtko10.tfm
+   fonts/tfm/public/lm/rm-lmtt10.tfm
+   fonts/tfm/public/lm/rm-lmu10.tfm
+   fonts/tfm/public/lm/rm-lmvtt10.tfm
+   fonts/tfm/public/lm/rm-lmvtto10.tfm
+   fonts/tfm/public/lm/rm-lmvtl10.tfm
+   fonts/tfm/public/lm/rm-lmvtlo10.tfm
+   fonts/tfm/public/lm/rm-lmvtk10.tfm
+   fonts/tfm/public/lm/rm-lmvtko10.tfm
+   fonts/tfm/public/lm/rm-lmsso17.tfm
+   fonts/tfm/public/lm/rm-lmsso8.tfm
+   fonts/tfm/public/lm/rm-lmsso9.tfm
+   fonts/tfm/public/lm/rm-lmssq8.tfm
+   fonts/tfm/public/lm/rm-lmssqbo8.tfm
+   fonts/tfm/public/lm/rm-lmssqbx8.tfm
+   fonts/tfm/public/lm/rm-lmssqo8.tfm
+   fonts/tfm/public/lm/rm-lmtt12.tfm
+   fonts/tfm/public/lm/rm-lmtti10.tfm
+   fonts/tfm/public/lm/rm-lmtto10.tfm
+   fonts/tfm/public/lm/t5-lmb10.tfm
+   fonts/tfm/public/lm/t5-lmbx5.tfm
+   fonts/tfm/public/lm/t5-lmbx6.tfm
+   fonts/tfm/public/lm/t5-lmbx7.tfm
+   fonts/tfm/public/lm/t5-lmbx8.tfm
+   fonts/tfm/public/lm/t5-lmbx9.tfm
+   fonts/tfm/public/lm/t5-lmbo10.tfm
+   fonts/tfm/public/lm/t5-lmbx10.tfm
+   fonts/tfm/public/lm/t5-lmbx12.tfm
+   fonts/tfm/public/lm/t5-lmbxi10.tfm
+   fonts/tfm/public/lm/t5-lmbxo10.tfm
+   fonts/tfm/public/lm/t5-lmcsc10.tfm
+   fonts/tfm/public/lm/t5-lmcsco10.tfm
+   fonts/tfm/public/lm/t5-lmdunh10.tfm
+   fonts/tfm/public/lm/t5-lmduno10.tfm
+   fonts/tfm/public/lm/t5-lmr10.tfm
+   fonts/tfm/public/lm/t5-lmr12.tfm
+   fonts/tfm/public/lm/t5-lmr17.tfm
+   fonts/tfm/public/lm/t5-lmr5.tfm
+   fonts/tfm/public/lm/t5-lmr6.tfm
+   fonts/tfm/public/lm/t5-lmr7.tfm
+   fonts/tfm/public/lm/t5-lmr8.tfm
+   fonts/tfm/public/lm/t5-lmr9.tfm
+   fonts/tfm/public/lm/t5-lmri7.tfm
+   fonts/tfm/public/lm/t5-lmri8.tfm
+   fonts/tfm/public/lm/t5-lmri9.tfm
+   fonts/tfm/public/lm/t5-lmro8.tfm
+   fonts/tfm/public/lm/t5-lmro9.tfm
+   fonts/tfm/public/lm/t5-lmri10.tfm
+   fonts/tfm/public/lm/t5-lmri12.tfm
+   fonts/tfm/public/lm/t5-lmro10.tfm
+   fonts/tfm/public/lm/t5-lmro12.tfm
+   fonts/tfm/public/lm/t5-lmro17.tfm
+   fonts/tfm/public/lm/t5-lmss8.tfm
+   fonts/tfm/public/lm/t5-lmss9.tfm
+   fonts/tfm/public/lm/t5-lmss10.tfm
+   fonts/tfm/public/lm/t5-lmss12.tfm
+   fonts/tfm/public/lm/t5-lmss17.tfm
+   fonts/tfm/public/lm/t5-lmssbo10.tfm
+   fonts/tfm/public/lm/t5-lmssbx10.tfm
+   fonts/tfm/public/lm/t5-lmssdc10.tfm
+   fonts/tfm/public/lm/t5-lmssdo10.tfm
+   fonts/tfm/public/lm/t5-lmsso10.tfm
+   fonts/tfm/public/lm/t5-lmsso12.tfm
+   fonts/tfm/public/lm/t5-lmtt8.tfm
+   fonts/tfm/public/lm/t5-lmtt9.tfm
+   fonts/tfm/public/lm/t5-lmtcsc10.tfm
+   fonts/tfm/public/lm/t5-lmtcso10.tfm
+   fonts/tfm/public/lm/t5-lmtl10.tfm
+   fonts/tfm/public/lm/t5-lmtlo10.tfm
+   fonts/tfm/public/lm/t5-lmtlc10.tfm
+   fonts/tfm/public/lm/t5-lmtlco10.tfm
+   fonts/tfm/public/lm/t5-lmtk10.tfm
+   fonts/tfm/public/lm/t5-lmtko10.tfm
+   fonts/tfm/public/lm/t5-lmtt10.tfm
+   fonts/tfm/public/lm/t5-lmu10.tfm
+   fonts/tfm/public/lm/t5-lmvtt10.tfm
+   fonts/tfm/public/lm/t5-lmvtto10.tfm
+   fonts/tfm/public/lm/t5-lmvtl10.tfm
+   fonts/tfm/public/lm/t5-lmvtlo10.tfm
+   fonts/tfm/public/lm/t5-lmvtk10.tfm
+   fonts/tfm/public/lm/t5-lmvtko10.tfm
+   fonts/tfm/public/lm/t5-lmsso17.tfm
+   fonts/tfm/public/lm/t5-lmsso8.tfm
+   fonts/tfm/public/lm/t5-lmsso9.tfm
+   fonts/tfm/public/lm/t5-lmssq8.tfm
+   fonts/tfm/public/lm/t5-lmssqbo8.tfm
+   fonts/tfm/public/lm/t5-lmssqbx8.tfm
+   fonts/tfm/public/lm/t5-lmssqo8.tfm
+   fonts/tfm/public/lm/t5-lmtt12.tfm
+   fonts/tfm/public/lm/t5-lmtti10.tfm
+   fonts/tfm/public/lm/t5-lmtto10.tfm
+   fonts/tfm/public/lm/texnansi-lmb10.tfm
+   fonts/tfm/public/lm/texnansi-lmbo10.tfm
+   fonts/tfm/public/lm/texnansi-lmbx10.tfm
+   fonts/tfm/public/lm/texnansi-lmbx12.tfm
+   fonts/tfm/public/lm/texnansi-lmbx5.tfm
+   fonts/tfm/public/lm/texnansi-lmbx6.tfm
+   fonts/tfm/public/lm/texnansi-lmbx7.tfm
+   fonts/tfm/public/lm/texnansi-lmbx8.tfm
+   fonts/tfm/public/lm/texnansi-lmbx9.tfm
+   fonts/tfm/public/lm/texnansi-lmbxi10.tfm
+   fonts/tfm/public/lm/texnansi-lmbxo10.tfm
+   fonts/tfm/public/lm/texnansi-lmcsc10.tfm
+   fonts/tfm/public/lm/texnansi-lmcsco10.tfm
+   fonts/tfm/public/lm/texnansi-lmdunh10.tfm
+   fonts/tfm/public/lm/texnansi-lmduno10.tfm
+   fonts/tfm/public/lm/texnansi-lmr10.tfm
+   fonts/tfm/public/lm/texnansi-lmr12.tfm
+   fonts/tfm/public/lm/texnansi-lmr17.tfm
+   fonts/tfm/public/lm/texnansi-lmr5.tfm
+   fonts/tfm/public/lm/texnansi-lmr6.tfm
+   fonts/tfm/public/lm/texnansi-lmr7.tfm
+   fonts/tfm/public/lm/texnansi-lmr8.tfm
+   fonts/tfm/public/lm/texnansi-lmr9.tfm
+   fonts/tfm/public/lm/texnansi-lmri10.tfm
+   fonts/tfm/public/lm/texnansi-lmri12.tfm
+   fonts/tfm/public/lm/texnansi-lmri7.tfm
+   fonts/tfm/public/lm/texnansi-lmri8.tfm
+   fonts/tfm/public/lm/texnansi-lmri9.tfm
+   fonts/tfm/public/lm/texnansi-lmro10.tfm
+   fonts/tfm/public/lm/texnansi-lmro12.tfm
+   fonts/tfm/public/lm/texnansi-lmro17.tfm
+   fonts/tfm/public/lm/texnansi-lmro8.tfm
+   fonts/tfm/public/lm/texnansi-lmro9.tfm
+   fonts/tfm/public/lm/texnansi-lmss10.tfm
+   fonts/tfm/public/lm/texnansi-lmss12.tfm
+   fonts/tfm/public/lm/texnansi-lmss17.tfm
+   fonts/tfm/public/lm/texnansi-lmss8.tfm
+   fonts/tfm/public/lm/texnansi-lmss9.tfm
+   fonts/tfm/public/lm/texnansi-lmssbo10.tfm
+   fonts/tfm/public/lm/texnansi-lmssbx10.tfm
+   fonts/tfm/public/lm/texnansi-lmssdc10.tfm
+   fonts/tfm/public/lm/texnansi-lmssdo10.tfm
+   fonts/tfm/public/lm/texnansi-lmsso10.tfm
+   fonts/tfm/public/lm/texnansi-lmsso12.tfm
+   fonts/tfm/public/lm/texnansi-lmsso17.tfm
+   fonts/tfm/public/lm/texnansi-lmsso8.tfm
+   fonts/tfm/public/lm/texnansi-lmsso9.tfm
+   fonts/tfm/public/lm/texnansi-lmssq8.tfm
+   fonts/tfm/public/lm/texnansi-lmssqbo8.tfm
+   fonts/tfm/public/lm/texnansi-lmssqbx8.tfm
+   fonts/tfm/public/lm/texnansi-lmssqo8.tfm
+   fonts/tfm/public/lm/texnansi-lmtcsc10.tfm
+   fonts/tfm/public/lm/texnansi-lmtcso10.tfm
+   fonts/tfm/public/lm/texnansi-lmtl10.tfm
+   fonts/tfm/public/lm/texnansi-lmtlo10.tfm
+   fonts/tfm/public/lm/texnansi-lmtlc10.tfm
+   fonts/tfm/public/lm/texnansi-lmtlco10.tfm
+   fonts/tfm/public/lm/texnansi-lmtk10.tfm
+   fonts/tfm/public/lm/texnansi-lmtko10.tfm
+   fonts/tfm/public/lm/texnansi-lmtt10.tfm
+   fonts/tfm/public/lm/texnansi-lmtt12.tfm
+   fonts/tfm/public/lm/texnansi-lmtt8.tfm
+   fonts/tfm/public/lm/texnansi-lmtt9.tfm
+   fonts/tfm/public/lm/texnansi-lmtti10.tfm
+   fonts/tfm/public/lm/texnansi-lmtto10.tfm
+   fonts/tfm/public/lm/texnansi-lmu10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtt10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtto10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtl10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtlo10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtk10.tfm
+   fonts/tfm/public/lm/texnansi-lmvtko10.tfm
+   fonts/tfm/public/lm/ts1-lmr5.tfm
+   fonts/tfm/public/lm/ts1-lmr6.tfm
+   fonts/tfm/public/lm/ts1-lmr7.tfm
+   fonts/tfm/public/lm/ts1-lmr8.tfm
+   fonts/tfm/public/lm/ts1-lmr9.tfm
+   fonts/tfm/public/lm/ts1-lmb10.tfm
+   fonts/tfm/public/lm/ts1-lmbo10.tfm
+   fonts/tfm/public/lm/ts1-lmbx10.tfm
+   fonts/tfm/public/lm/ts1-lmbx12.tfm
+   fonts/tfm/public/lm/ts1-lmbx5.tfm
+   fonts/tfm/public/lm/ts1-lmbx6.tfm
+   fonts/tfm/public/lm/ts1-lmbx7.tfm
+   fonts/tfm/public/lm/ts1-lmbx8.tfm
+   fonts/tfm/public/lm/ts1-lmbx9.tfm
+   fonts/tfm/public/lm/ts1-lmbxi10.tfm
+   fonts/tfm/public/lm/ts1-lmbxo10.tfm
+   fonts/tfm/public/lm/ts1-lmcsc10.tfm
+   fonts/tfm/public/lm/ts1-lmcsco10.tfm
+   fonts/tfm/public/lm/ts1-lmdunh10.tfm
+   fonts/tfm/public/lm/ts1-lmduno10.tfm
+   fonts/tfm/public/lm/ts1-lmr10.tfm
+   fonts/tfm/public/lm/ts1-lmr12.tfm
+   fonts/tfm/public/lm/ts1-lmr17.tfm
+   fonts/tfm/public/lm/ts1-lmri10.tfm
+   fonts/tfm/public/lm/ts1-lmri12.tfm
+   fonts/tfm/public/lm/ts1-lmri7.tfm
+   fonts/tfm/public/lm/ts1-lmri8.tfm
+   fonts/tfm/public/lm/ts1-lmri9.tfm
+   fonts/tfm/public/lm/ts1-lmro10.tfm
+   fonts/tfm/public/lm/ts1-lmro12.tfm
+   fonts/tfm/public/lm/ts1-lmro17.tfm
+   fonts/tfm/public/lm/ts1-lmro8.tfm
+   fonts/tfm/public/lm/ts1-lmro9.tfm
+   fonts/tfm/public/lm/ts1-lmss10.tfm
+   fonts/tfm/public/lm/ts1-lmss12.tfm
+   fonts/tfm/public/lm/ts1-lmss17.tfm
+   fonts/tfm/public/lm/ts1-lmss8.tfm
+   fonts/tfm/public/lm/ts1-lmss9.tfm
+   fonts/tfm/public/lm/ts1-lmssbo10.tfm
+   fonts/tfm/public/lm/ts1-lmssbx10.tfm
+   fonts/tfm/public/lm/ts1-lmssdc10.tfm
+   fonts/tfm/public/lm/ts1-lmssdo10.tfm
+   fonts/tfm/public/lm/ts1-lmsso10.tfm
+   fonts/tfm/public/lm/ts1-lmsso12.tfm
+   fonts/tfm/public/lm/ts1-lmsso17.tfm
+   fonts/tfm/public/lm/ts1-lmsso8.tfm
+   fonts/tfm/public/lm/ts1-lmsso9.tfm
+   fonts/tfm/public/lm/ts1-lmssq8.tfm
+   fonts/tfm/public/lm/ts1-lmssqbo8.tfm
+   fonts/tfm/public/lm/ts1-lmssqbx8.tfm
+   fonts/tfm/public/lm/ts1-lmssqo8.tfm
+   fonts/tfm/public/lm/ts1-lmtcsc10.tfm
+   fonts/tfm/public/lm/ts1-lmtcso10.tfm
+   fonts/tfm/public/lm/ts1-lmtl10.tfm
+   fonts/tfm/public/lm/ts1-lmtlo10.tfm
+   fonts/tfm/public/lm/ts1-lmtlc10.tfm
+   fonts/tfm/public/lm/ts1-lmtlco10.tfm
+   fonts/tfm/public/lm/ts1-lmtk10.tfm
+   fonts/tfm/public/lm/ts1-lmtko10.tfm
+   fonts/tfm/public/lm/ts1-lmtt10.tfm
+   fonts/tfm/public/lm/ts1-lmtt12.tfm
+   fonts/tfm/public/lm/ts1-lmtt8.tfm
+   fonts/tfm/public/lm/ts1-lmtt9.tfm
+   fonts/tfm/public/lm/ts1-lmtti10.tfm
+   fonts/tfm/public/lm/ts1-lmtto10.tfm
+   fonts/tfm/public/lm/ts1-lmu10.tfm
+   fonts/tfm/public/lm/ts1-lmvtt10.tfm
+   fonts/tfm/public/lm/ts1-lmvtto10.tfm
+   fonts/tfm/public/lm/ts1-lmvtl10.tfm
+   fonts/tfm/public/lm/ts1-lmvtlo10.tfm
+   fonts/tfm/public/lm/ts1-lmvtk10.tfm
+   fonts/tfm/public/lm/ts1-lmvtko10.tfm
+   fonts/type1/public/lm/lmb10.pfb
+   fonts/type1/public/lm/lmb10.pfm
+   fonts/type1/public/lm/lmbo10.pfb
+   fonts/type1/public/lm/lmbo10.pfm
+   fonts/type1/public/lm/lmbsy10.pfb
+   fonts/type1/public/lm/lmbsy5.pfb
+   fonts/type1/public/lm/lmbsy7.pfb
+   fonts/type1/public/lm/lmbx10.pfb
+   fonts/type1/public/lm/lmbx10.pfm
+   fonts/type1/public/lm/lmbx12.pfb
+   fonts/type1/public/lm/lmbx12.pfm
+   fonts/type1/public/lm/lmbx5.pfb
+   fonts/type1/public/lm/lmbx5.pfm
+   fonts/type1/public/lm/lmbx6.pfb
+   fonts/type1/public/lm/lmbx6.pfm
+   fonts/type1/public/lm/lmbx7.pfb
+   fonts/type1/public/lm/lmbx7.pfm
+   fonts/type1/public/lm/lmbx8.pfb
+   fonts/type1/public/lm/lmbx8.pfm
+   fonts/type1/public/lm/lmbx9.pfb
+   fonts/type1/public/lm/lmbx9.pfm
+   fonts/type1/public/lm/lmbxi10.pfb
+   fonts/type1/public/lm/lmbxi10.pfm
+   fonts/type1/public/lm/lmbxo10.pfb
+   fonts/type1/public/lm/lmbxo10.pfm
+   fonts/type1/public/lm/lmcsc10.pfb
+   fonts/type1/public/lm/lmcsc10.pfm
+   fonts/type1/public/lm/lmcsco10.pfb
+   fonts/type1/public/lm/lmcsco10.pfm
+   fonts/type1/public/lm/lmdunh10.pfb
+   fonts/type1/public/lm/lmdunh10.pfm
+   fonts/type1/public/lm/lmduno10.pfb
+   fonts/type1/public/lm/lmduno10.pfm
+   fonts/type1/public/lm/lmex10.pfb
+   fonts/type1/public/lm/lmmi10.pfb
+   fonts/type1/public/lm/lmmi12.pfb
+   fonts/type1/public/lm/lmmi5.pfb
+   fonts/type1/public/lm/lmmi6.pfb
+   fonts/type1/public/lm/lmmi7.pfb
+   fonts/type1/public/lm/lmmi8.pfb
+   fonts/type1/public/lm/lmmi9.pfb
+   fonts/type1/public/lm/lmmib10.pfb
+   fonts/type1/public/lm/lmmib5.pfb
+   fonts/type1/public/lm/lmmib7.pfb
+   fonts/type1/public/lm/lmr10.pfb
+   fonts/type1/public/lm/lmr10.pfm
+   fonts/type1/public/lm/lmr12.pfb
+   fonts/type1/public/lm/lmr12.pfm
+   fonts/type1/public/lm/lmr17.pfb
+   fonts/type1/public/lm/lmr17.pfm
+   fonts/type1/public/lm/lmr5.pfb
+   fonts/type1/public/lm/lmr5.pfm
+   fonts/type1/public/lm/lmr6.pfb
+   fonts/type1/public/lm/lmr6.pfm
+   fonts/type1/public/lm/lmr7.pfb
+   fonts/type1/public/lm/lmr7.pfm
+   fonts/type1/public/lm/lmr8.pfb
+   fonts/type1/public/lm/lmr8.pfm
+   fonts/type1/public/lm/lmr9.pfb
+   fonts/type1/public/lm/lmr9.pfm
+   fonts/type1/public/lm/lmri10.pfb
+   fonts/type1/public/lm/lmri10.pfm
+   fonts/type1/public/lm/lmri12.pfb
+   fonts/type1/public/lm/lmri12.pfm
+   fonts/type1/public/lm/lmri7.pfb
+   fonts/type1/public/lm/lmri7.pfm
+   fonts/type1/public/lm/lmri8.pfb
+   fonts/type1/public/lm/lmri8.pfm
+   fonts/type1/public/lm/lmri9.pfb
+   fonts/type1/public/lm/lmri9.pfm
+   fonts/type1/public/lm/lmro10.pfb
+   fonts/type1/public/lm/lmro10.pfm
+   fonts/type1/public/lm/lmro12.pfb
+   fonts/type1/public/lm/lmro12.pfm
+   fonts/type1/public/lm/lmro17.pfb
+   fonts/type1/public/lm/lmro17.pfm
+   fonts/type1/public/lm/lmro8.pfb
+   fonts/type1/public/lm/lmro8.pfm
+   fonts/type1/public/lm/lmro9.pfb
+   fonts/type1/public/lm/lmro9.pfm
+   fonts/type1/public/lm/lmss10.pfb
+   fonts/type1/public/lm/lmss10.pfm
+   fonts/type1/public/lm/lmss12.pfb
+   fonts/type1/public/lm/lmss12.pfm
+   fonts/type1/public/lm/lmss17.pfb
+   fonts/type1/public/lm/lmss17.pfm
+   fonts/type1/public/lm/lmss8.pfb
+   fonts/type1/public/lm/lmss8.pfm
+   fonts/type1/public/lm/lmss9.pfb
+   fonts/type1/public/lm/lmss9.pfm
+   fonts/type1/public/lm/lmssbo10.pfb
+   fonts/type1/public/lm/lmssbo10.pfm
+   fonts/type1/public/lm/lmssbx10.pfb
+   fonts/type1/public/lm/lmssbx10.pfm
+   fonts/type1/public/lm/lmssdc10.pfb
+   fonts/type1/public/lm/lmssdc10.pfm
+   fonts/type1/public/lm/lmssdo10.pfb
+   fonts/type1/public/lm/lmssdo10.pfm
+   fonts/type1/public/lm/lmsso10.pfb
+   fonts/type1/public/lm/lmsso10.pfm
+   fonts/type1/public/lm/lmsso12.pfb
+   fonts/type1/public/lm/lmsso12.pfm
+   fonts/type1/public/lm/lmsso17.pfb
+   fonts/type1/public/lm/lmsso17.pfm
+   fonts/type1/public/lm/lmsso8.pfb
+   fonts/type1/public/lm/lmsso8.pfm
+   fonts/type1/public/lm/lmsso9.pfb
+   fonts/type1/public/lm/lmsso9.pfm
+   fonts/type1/public/lm/lmssq8.pfb
+   fonts/type1/public/lm/lmssq8.pfm
+   fonts/type1/public/lm/lmssqbo8.pfb
+   fonts/type1/public/lm/lmssqbo8.pfm
+   fonts/type1/public/lm/lmssqbx8.pfb
+   fonts/type1/public/lm/lmssqbx8.pfm
+   fonts/type1/public/lm/lmssqo8.pfb
+   fonts/type1/public/lm/lmssqo8.pfm
+   fonts/type1/public/lm/lmsy10.pfb
+   fonts/type1/public/lm/lmsy5.pfb
+   fonts/type1/public/lm/lmsy6.pfb
+   fonts/type1/public/lm/lmsy7.pfb
+   fonts/type1/public/lm/lmsy8.pfb
+   fonts/type1/public/lm/lmsy9.pfb
+   fonts/type1/public/lm/lmtcsc10.pfb
+   fonts/type1/public/lm/lmtcsc10.pfm
+   fonts/type1/public/lm/lmtcso10.pfb
+   fonts/type1/public/lm/lmtcso10.pfm
+   fonts/type1/public/lm/lmtk10.pfb
+   fonts/type1/public/lm/lmtk10.pfm
+   fonts/type1/public/lm/lmtko10.pfb
+   fonts/type1/public/lm/lmtko10.pfm
+   fonts/type1/public/lm/lmtl10.pfb
+   fonts/type1/public/lm/lmtl10.pfm
+   fonts/type1/public/lm/lmtlc10.pfb
+   fonts/type1/public/lm/lmtlc10.pfm
+   fonts/type1/public/lm/lmtlco10.pfb
+   fonts/type1/public/lm/lmtlco10.pfm
+   fonts/type1/public/lm/lmtlo10.pfb
+   fonts/type1/public/lm/lmtlo10.pfm
+   fonts/type1/public/lm/lmtt10.pfb
+   fonts/type1/public/lm/lmtt10.pfm
+   fonts/type1/public/lm/lmtt12.pfb
+   fonts/type1/public/lm/lmtt12.pfm
+   fonts/type1/public/lm/lmtt8.pfb
+   fonts/type1/public/lm/lmtt8.pfm
+   fonts/type1/public/lm/lmtt9.pfb
+   fonts/type1/public/lm/lmtt9.pfm
+   fonts/type1/public/lm/lmtti10.pfb
+   fonts/type1/public/lm/lmtti10.pfm
+   fonts/type1/public/lm/lmtto10.pfb
+   fonts/type1/public/lm/lmtto10.pfm
+   fonts/type1/public/lm/lmu10.pfb
+   fonts/type1/public/lm/lmu10.pfm
+   fonts/type1/public/lm/lmvtk10.pfb
+   fonts/type1/public/lm/lmvtk10.pfm
+   fonts/type1/public/lm/lmvtko10.pfb
+   fonts/type1/public/lm/lmvtko10.pfm
+   fonts/type1/public/lm/lmvtl10.pfb
+   fonts/type1/public/lm/lmvtl10.pfm
+   fonts/type1/public/lm/lmvtlo10.pfb
+   fonts/type1/public/lm/lmvtlo10.pfm
+   fonts/type1/public/lm/lmvtt10.pfb
+   fonts/type1/public/lm/lmvtt10.pfm
+   fonts/type1/public/lm/lmvtto10.pfb
+   fonts/type1/public/lm/lmvtto10.pfm
+   tex/latex/lm/il2lmdh.fd
+   tex/latex/lm/il2lmr.fd
+   tex/latex/lm/il2lmss.fd
+   tex/latex/lm/il2lmssq.fd
+   tex/latex/lm/il2lmtt.fd
+   tex/latex/lm/il2lmvtt.fd
+   tex/latex/lm/l7xlmdh.fd
+   tex/latex/lm/l7xlmr.fd
+   tex/latex/lm/l7xlmss.fd
+   tex/latex/lm/l7xlmssq.fd
+   tex/latex/lm/l7xlmtt.fd
+   tex/latex/lm/l7xlmvtt.fd
+   tex/latex/lm/lmodern.sty
+   tex/latex/lm/ly1lmdh.fd
+   tex/latex/lm/ly1lmr.fd
+   tex/latex/lm/ly1lmss.fd
+   tex/latex/lm/ly1lmssq.fd
+   tex/latex/lm/ly1lmtt.fd
+   tex/latex/lm/ly1lmvtt.fd
+   tex/latex/lm/omllmm.fd
+   tex/latex/lm/omllmr.fd
+   tex/latex/lm/omslmr.fd
+   tex/latex/lm/omslmsy.fd
+   tex/latex/lm/omxlmex.fd
+   tex/latex/lm/ot1lmdh.fd
+   tex/latex/lm/ot1lmr.fd
+   tex/latex/lm/ot1lmss.fd
+   tex/latex/lm/ot1lmssq.fd
+   tex/latex/lm/ot1lmtt.fd
+   tex/latex/lm/ot1lmvtt.fd
+   tex/latex/lm/ot4lmdh.fd
+   tex/latex/lm/ot4lmr.fd
+   tex/latex/lm/ot4lmss.fd
+   tex/latex/lm/ot4lmssq.fd
+   tex/latex/lm/ot4lmtt.fd
+   tex/latex/lm/ot4lmvtt.fd
+   tex/latex/lm/qxlmdh.fd
+   tex/latex/lm/qxlmr.fd
+   tex/latex/lm/qxlmss.fd
+   tex/latex/lm/qxlmssq.fd
+   tex/latex/lm/qxlmtt.fd
+   tex/latex/lm/qxlmvtt.fd
+   tex/latex/lm/t1lmdh.fd
+   tex/latex/lm/t1lmr.fd
+   tex/latex/lm/t1lmss.fd
+   tex/latex/lm/t1lmssq.fd
+   tex/latex/lm/t1lmtt.fd
+   tex/latex/lm/t1lmvtt.fd
+   tex/latex/lm/t5lmdh.fd
+   tex/latex/lm/t5lmr.fd
+   tex/latex/lm/t5lmss.fd
+   tex/latex/lm/t5lmssq.fd
+   tex/latex/lm/t5lmtt.fd
+   tex/latex/lm/t5lmvtt.fd
+   tex/latex/lm/ts1lmdh.fd
+   tex/latex/lm/ts1lmr.fd
+   tex/latex/lm/ts1lmss.fd
+   tex/latex/lm/ts1lmssq.fd
+   tex/latex/lm/ts1lmtt.fd
+   tex/latex/lm/ts1lmvtt.fd
+
+3. Files whose names need not be changed in derived works as requested
+   by clause 1 of GUST-FONT-LICENSE.txt
+
+   doc/fonts/lm/GUST-FONT-LICENSE.txt
+
+
+
+licenses/LM-README.txt
+###########################################################################
+############          The Latin Modern Family of Fonts         ############
+###########################################################################
+
+Font: The Latin Modern Family of Fonts
+Designer (Computer Modern Family of Fonts): Donald E. Knuth
+Author: Bogus\l{}aw Jackowski and Janusz M. Nowacki
+Version: 2.005
+Date: 21 III 2021
+Downloads: http://www.gust.org.pl/projects/e-foundry/latin-modern/
+License:
+  % Copyright 2003--2021 by B. Jackowski and J.M. Nowacki
+  % (on behalf of TeX Users Groups).
+  % This work is released under the GUST Font License
+  %   -- see GUST-FONT-LICENSE.txt.
+  % This work has the LPPL maintenance status "maintained".
+  % The Current Maintainer of this work is Bogus\l{}aw Jackowski
+  % This work consists of the files listed in the MANIFEST.txt file.
+
+###########################################################################
+############       A BRIEF DESCRIPTION OF THE LM PACKAGE       ############
+###########################################################################
+
+The current LM package contains the most recent version
+of the Latin Modern family of fonts in the PostScript Type 1 and
+OpenType format. The fonts are based on Donald E. Knuth's Computer Modern
+fonts in the PostScript Type 1 format, released into public domain by the
+American Mathematical Society (for the history of the outline version of
+the CM fonts see, e.g., http://www.math.utah.edu/~beebe/fonts/bluesky.html ).
+The project is supported by TeX users groups: CSTUG, DANTE eV, GUST,
+GUTenberg, NTG, and TUG.
+
+The Latin Modern Family of fonts consists of 72 text fonts
+(some of them have their counterparts in the standard Computer Modern
+family, some not), namely:
+
+  lmb10.mp lmbo10.mp lmbx10.mp lmbx12.mp lmbx5.mp lmbx6.mp
+  lmbx7.mp lmbx8.mp lmbx9.mp lmbxi10.mp lmbxo10.mp lmcsc10.mp
+  lmcsco10.mp lmdunh10.mp lmduno10.mp lmr10.mp lmr12.mp
+  lmr17.mp lmr5.mp lmr6.mp lmr7.mp lmr8.mp lmr9.mp lmri10.mp
+  lmri12.mp lmri7.mp lmri8.mp lmri9.mp lmro10.mp lmro12.mp
+  lmro17.mp lmro8.mp lmro9.mp lmss10.mp lmss12.mp lmss17.mp
+  lmss8.mp lmss9.mp lmssbo10.mp lmssbx10.mp lmssdc10.mp
+  lmssdo10.mp lmsso10.mp lmsso12.mp lmsso17.mp lmsso8.mp
+  lmsso9.mp lmssq8.mp lmssqbo8.mp lmssqbx8.mp lmssqo8.mp
+  lmtcsc10.mp lmtcso10.mp lmtk10.mp lmtko10.mp lmtl10.mp
+  lmtlc10.mp lmtlco10.mp lmtlo10.mp lmtt10.mp lmtt12.mp
+  lmtt8.mp lmtt9.mp lmtti10.mp lmtto10.mp lmu10.mp lmvtk10.mp
+  lmvtko10.mp lmvtl10.mp lmvtlo10.mp lmvtt10.mp lmvtto10.mp
+
+and 20 math fonts (being at the moment a duplicate of PL math fonts):
+
+  lmbsy10 lmbsy5 lmbsy7 lmex10 lmmi10 lmmi12 lmmi5 lmmi6 lmmi7 lmmi8
+  lmmi9 lmmib10 lmmib5 lmmib7 lmsy10 lmsy5 lmsy6 lmsy7 lmsy8 lmsy9
+
+There is no OpenType format provided for math fonts (yet).
+
+The Latin Modern fonts can be freely used and distributed under the GUST Font
+License (see above) which is a slightly modified version of the LaTeX
+Project Public License (LPPL; see http://www.latex-project.org/lppl.txt )
+
+The fonts, as compared to the CM family, contain a lot of additional
+characters, mainly accented ones. To our knowledge, the repertoir of
+characters covers all European languages as well as some other Latin-based
+alphabets such as Vietnamese and Navajo; at the request of users, recent
+extensions of Latin Modern provide glyphs sufficient for typesetting of
+romanized transliterations of Arabic and Sanskrit scripts.
+
+We have frequently used the information presented by Michael Everson
+at the ``The Alphabets of Europe'' ( http://www.evertype.com/alphabets/ )
+web site. If you know about European languages that are not covered
+completely or if some glyphs have apparently wrong shapes -- please let
+us know. The list of fonts and characters available so far can be found
+at the end of this file.
+
+The LaTeX support, i.e., *.fd and *.sty files, is part of this
+distribution (see below) but ConTeXt and XeLaTeX support for
+Latin Modern is distributed separately, with the respective packages.
+Note, however, that Latin Modern is the default family of fonts
+for ConTeXt, therefore users do not need to load any specific files.
+
+                           *   *   *
+
+The package consists of the files in the directories conforming
+to the TeX Directory Structure (v. 1.1), splitted into three archives:
+
+lm2.003-bas.zip -- basic set; the directories contain:
+~~~~~~~~~~~~~~
+doc/fonts/lm             this file plus a few LaTeX examples (test files);
+tex/latex/lm             the relevant LaTeX support files (very many thanks
+                         to Daniel Flipo and Marcin Woli\'nski).
+fonts/enc/dvips/lm       support files for dvips (*.enc files); besides
+                         the basic encoding files for Latin Modern fonts
+                         (cf. also tfm files), the encoding files
+                         for the substitution of CM, CS, PL, and VN fonts
+                         with LMs are provided
+fonts/map/dvips/lm       support file for dvips (lm.map file); besides
+                         the basic map files for Latin Modern fonts
+                         (cf. also tfm files), the map files for
+                         the substitution of CM, CS, PL, and VN fonts
+                         with LMs are provided (substitution maps
+                         were prepared by Staszek Wawrykiewicz
+                         and Thomas Esser -- thanks for the help)
+fonts/map/dvipdfm/lm     map files for dvipdfm (mostly for math fonts
+                         used in ConTeXt with XeTeX)
+fonts/opentype/public/lm OpenType format (*.otf);
+fonts/type1/public/lm    PostScript (Type 1) font files and printer font
+                         metric files (*.pfb and *.pfm, respectively);
+fonts/tfm/public/lm      TeX font metric files (*.tfm) for:
+                         -- CS (CS TUG) encoding (cs-*.tfm),
+                         -- EC (Cork) encoding (ec-*.tfm),
+                         -- L7X (Lithuanian) encoding (l7x-*.tfm),
+                         -- QX encoding (qx-*.tfm),
+                         -- RM (``regular math'', used in OT1 and OT4)
+                            encoding (qx-*.tfm),
+                         -- Y&Y's TeX'n'ANSI aka LY1 encoding
+                            (texnansi-*.tfm),
+                         -- T5 (Vietnamese) encoding (t5-*.tfm),
+                         -- Text Companion for EC fonts aka TS1 (ts1-*.tfm).
+fonts/afm/public/lm      Adobe font metric files (*.afm);
+
+lm2.003mt1.zip -- Latin Modern source font files for the METATYPE1 package
+~~~~~~~~~~~~~~    (fonts/source/public/lm); the version 0.48y of METATYPE1
+                  is required, see ftp://ftp.bop.com.pl/pub/metatype1 ,
+                  for the current version of the engine; in order to generate
+                  a TeX font metrics with a given encoding, the respective
+                  encoding file should be placed in the current directory
+                  and renamed to lm-tex.mpe; otherwise a default encoding
+                  (QX) will be used
+
+lm2.003-otf.zip -- Latin Modern OpenType font files, for those who are not
+~~~~~~~~~~~~~~~~   interested in the whole bundle
+
+The project has been launched and is supported by TeX USERS GROUPS
+(CS TUG, DANTE eV, GUST, GUTenberg, NTG, TUG).
+
+Hearty thanks to the representatives of these groups and also to all
+people who helped with comments, ideas, remarks, bug reports, objections,
+hints, consolations, etc. Perhaps the largest number of corrections
+is the result of Karel P\'\i\v{s}ka's exhaustive and methodical efforts
+in checking the quality of our results; also, he redesigned the `ring'
+accent -- very many thanks, Karel.
+
+Email contact: Bogus\l{}aw Jackowski aka Jacko, B_Jackowski@gust.org.pl
+
+                           *   *   *
+
+Last but not least: hearty thanks to all people who helped with comments,
+ideas, remarks, bug reports, objections, hints, consolations, etc.
+
+                           *   *   *
+
+Latin Modern text fonts contents details:
+
+---------------------------------
+total number of fonts          72
+total number of characters  58604
+total number of kern pairs 532383
+---------------------------------
+
+LAYOUT 1 (824)
+lmssq8 lmssqbo8 lmssqbx8 lmssqo8
+ Extra chars: varI varIJ varIogonek
+
+LAYOUT 2 (821; basic)
+lmb10 lmbo10 lmbx10 lmbx12 lmbx5 lmbx6 lmbx7 lmbx8 lmbx9 lmbxi10 lmbxo10
+lmdunh10 lmduno10 lmr10 lmr12 lmr17 lmr5 lmr6 lmr7 lmr8 lmr9 lmri10 lmri12
+lmri7 lmri8 lmri9 lmro10 lmro12 lmro17 lmro8 lmro9 lmss10 lmss12 lmss17
+lmss8 lmss9 lmssbo10 lmssbx10 lmssdc10 lmssdo10 lmsso10 lmsso12 lmsso17
+lmsso8 lmsso9 lmu10 lmvtk10 lmvtko10 lmvtl10 lmvtlo10 lmvtt10 lmvtto10
+
+LAYOUT 3 (814)
+lmcsc10 lmcsco10
+ Missing chars: f_k ff ffi ffl fi fl longs
+
+LAYOUT 4 (785)
+lmtk10 lmtko10 lmtl10 lmtlc10 lmtlco10 lmtlo10 lmtt10 lmtt12 lmtt8 lmtt9
+lmtti10 lmtto10
+ Missing chars: eight.oldstyle eight.prop f_k ff ffi ffl fi five.oldstyle
+five.prop fl four.oldstyle four.prop Germandbls hyphen.prop IJ ij
+nine.oldstyle nine.prop one.oldstyle one.prop permyriad servicemark
+seven.oldstyle seven.prop six.oldstyle six.prop suppress three.oldstyle
+three.prop trademark two.oldstyle two.prop varcopyright varregistered
+zero.oldstyle zero.prop
+
+LAYOUT 5 (784)
+lmtcsc10 lmtcso10
+ Missing chars: eight.oldstyle eight.prop f_k ff ffi ffl fi five.oldstyle
+five.prop fl four.oldstyle four.prop Germandbls hyphen.prop IJ ij longs
+nine.oldstyle nine.prop one.oldstyle one.prop permyriad servicemark
+seven.oldstyle seven.prop six.oldstyle six.prop suppress three.oldstyle
+three.prop trademark two.oldstyle two.prop varcopyright varregistered
+zero.oldstyle zero.prop
+
+
+              LAYOUTS: 12345
+----------------------------
+A                      +++++
+a                      +++++
+Aacute                 +++++
+aacute                 +++++
+Abreve                 +++++
+abreve                 +++++
+Abreveacute            +++++
+abreveacute            +++++
+Abrevedotbelow         +++++
+abrevedotbelow         +++++
+Abrevegrave            +++++
+abrevegrave            +++++
+Abrevehookabove        +++++
+abrevehookabove        +++++
+Abrevetilde            +++++
+abrevetilde            +++++
+Acaron                 +++++
+acaron                 +++++
+Acircumflex            +++++
+acircumflex            +++++
+Acircumflexacute       +++++
+acircumflexacute       +++++
+Acircumflexdotbelow    +++++
+acircumflexdotbelow    +++++
+Acircumflexgrave       +++++
+acircumflexgrave       +++++
+Acircumflexhookabove   +++++
+acircumflexhookabove   +++++
+Acircumflextilde       +++++
+acircumflextilde       +++++
+Acute                  +++++
+acute                  +++++
+acute.dup              +++++
+acute.ts1              +++++
+Acutecomb              +++++
+acutecomb              +++++
+Adblgrave              +++++
+adblgrave              +++++
+Adieresis              +++++
+adieresis              +++++
+Adotbelow              +++++
+adotbelow              +++++
+AE                     +++++
+ae                     +++++
+AE.dup                 +++++
+ae.dup                 +++++
+AEacute                +++++
+aeacute                +++++
+Agrave                 +++++
+agrave                 +++++
+Ahookabove             +++++
+ahookabove             +++++
+Alpha                  +++++
+Amacron                +++++
+amacron                +++++
+ampersand              +++++
+anglearc               +++++
+angleleft              +++++
+angleright             +++++
+Aogonek                +++++
+aogonek                +++++
+Aogonekacute           +++++
+aogonekacute           +++++
+Aring                  +++++
+aring                  +++++
+Aringacute             +++++
+aringacute             +++++
+arrowdown              +++++
+arrowleft              +++++
+arrowright             +++++
+arrowup                +++++
+asciicircum            +++++
+asciitilde             +++++
+asterisk               +++++
+asteriskmath           +++++
+at                     +++++
+Atilde                 +++++
+atilde                 +++++
+B                      +++++
+b                      +++++
+backslash              +++++
+baht                   +++++
+bar                    +++++
+Beta                   +++++
+bigcircle              +++++
+blanksymbol            +++++
+born                   +++++
+braceleft              +++++
+braceright             +++++
+bracketleft            +++++
+bracketright           +++++
+Breve                  +++++
+breve                  +++++
+breve.ts1              +++++
+Breveacute             +++++
+breveacute             +++++
+brevebelow             +++++
+brevebelowcomb         +++++
+brevebelowinverted     +++++
+brevebelowinvertedcomb +++++
+Brevecomb              +++++
+brevecomb              +++++
+Brevegrave             +++++
+brevegrave             +++++
+Brevehookabove         +++++
+brevehookabove         +++++
+Breveinverted          +++++
+breveinverted          +++++
+Breveinvertedcomb      +++++
+breveinvertedcomb      +++++
+Brevetilde             +++++
+brevetilde             +++++
+brokenbar              +++++
+bullet                 +++++
+C                      +++++
+c                      +++++
+Cacute                 +++++
+cacute                 +++++
+Caron                  +++++
+caron                  +++++
+caron.ts1              +++++
+Caroncomb              +++++
+caroncomb              +++++
+Ccaron                 +++++
+ccaron                 +++++
+Ccedilla               +++++
+ccedilla               +++++
+Ccircumflex            +++++
+ccircumflex            +++++
+Cdotaccent             +++++
+cdotaccent             +++++
+cedilla                +++++
+cedilla.dup            +++++
+cent                   +++++
+cent.oldstyle          +++++
+centigrade             +++++
+Chi                    +++++
+Circumflex             +++++
+circumflex             +++++
+circumflex.dup         +++++
+Circumflexacute        +++++
+circumflexacute        +++++
+Circumflexcomb         +++++
+circumflexcomb         +++++
+Circumflexgrave        +++++
+circumflexgrave        +++++
+Circumflexhookabove    +++++
+circumflexhookabove    +++++
+Circumflextilde        +++++
+circumflextilde        +++++
+colon                  +++++
+colonmonetary          +++++
+comma                  +++++
+commaaccent            +++++
+commaaccentcomb        +++++
+copyleft               +++++
+copyright              +++++
+currency               +++++
+cwm                    +++++
+cwmascender            +++++
+cwmcapital             +++++
+D                      +++++
+d                      +++++
+dagger                 +++++
+daggerdbl              +++++
+dblbracketleft         +++++
+dblbracketright        +++++
+dblGrave               +++++
+dblgrave               +++++
+dblgrave.ts1           +++++
+dblGravecomb           +++++
+dblgravecomb           +++++
+dblverticalbar         +++++
+Dcaron                 +++++
+dcaron                 +++++
+Dcroat                 +++++
+dcroat                 +++++
+Ddotbelow              +++++
+ddotbelow              +++++
+degree                 +++++
+Delta                  +++++
+diameter               +++++
+died                   +++++
+Dieresis               +++++
+dieresis               +++++
+dieresis.dup           +++++
+dieresis.ts1           +++++
+Dieresisacute          +++++
+dieresisacute          +++++
+Dieresiscaron          +++++
+dieresiscaron          +++++
+Dieresiscomb           +++++
+dieresiscomb           +++++
+Dieresisgrave          +++++
+dieresisgrave          +++++
+discount               +++++
+divide                 +++++
+divorced               +++++
+Dlinebelow             +++++
+dlinebelow             +++++
+dollar                 +++++
+dollar.oldstyle        +++++
+dong                   +++++
+Dotaccent              +++++
+dotaccent              +++++
+Dotaccentcomb          +++++
+dotaccentcomb          +++++
+dotbelow               +++++
+dotbelowcomb           +++++
+dotlessi               +++++
+dotlessj               +++++
+dotlessj.dup           +++++
+E                      +++++
+e                      +++++
+Eacute                 +++++
+eacute                 +++++
+Ebreve                 +++++
+ebreve                 +++++
+Ecaron                 +++++
+ecaron                 +++++
+Ecircumflex            +++++
+ecircumflex            +++++
+Ecircumflexacute       +++++
+ecircumflexacute       +++++
+Ecircumflexdotbelow    +++++
+ecircumflexdotbelow    +++++
+Ecircumflexgrave       +++++
+ecircumflexgrave       +++++
+Ecircumflexhookabove   +++++
+ecircumflexhookabove   +++++
+Ecircumflextilde       +++++
+ecircumflextilde       +++++
+Edblgrave              +++++
+edblgrave              +++++
+Edieresis              +++++
+edieresis              +++++
+Edotaccent             +++++
+edotaccent             +++++
+Edotbelow              +++++
+edotbelow              +++++
+Egrave                 +++++
+egrave                 +++++
+Ehookabove             +++++
+ehookabove             +++++
+eight                  +++++
+eight.oldstyle         +++--
+eight.prop             +++--
+eight.taboldstyle      +++++
+ellipsis               +++++
+Emacron                +++++
+emacron                +++++
+emdash                 +++++
+endash                 +++++
+Eng                    +++++
+eng                    +++++
+Eogonek                +++++
+eogonek                +++++
+Eogonekacute           +++++
+eogonekacute           +++++
+Epsilon                +++++
+equal                  +++++
+Ereversed              +++++
+ereversed              +++++
+estimated              +++++
+Eta                    +++++
+Eth                    +++++
+eth                    +++++
+Etilde                 +++++
+etilde                 +++++
+eturned                +++++
+Euro                   +++++
+exclam                 +++++
+exclamdown             +++++
+F                      +++++
+f                      +++++
+f_k                    ++---
+ff                     ++---
+ffi                    ++---
+ffl                    ++---
+fi                     +++++
+five                   +++++
+five.oldstyle          +++--
+five.prop              +++--
+five.taboldstyle       +++++
+fl                     +++++
+florin                 +++++
+four                   +++++
+four.oldstyle          +++--
+four.prop              +++--
+four.taboldstyle       +++++
+fraction               +++++
+fraction.alt           +++++
+G                      +++++
+g                      +++++
+Gacute                 +++++
+gacute                 +++++
+Gamma                  +++++
+Gbreve                 +++++
+gbreve                 +++++
+Gcaron                 +++++
+gcaron                 +++++
+Gcedilla               +++++
+gcedilla               +++++
+Gcircumflex            +++++
+gcircumflex            +++++
+Gcommaaccent           +++++
+gcommaaccent           +++++
+Gdotaccent             +++++
+gdotaccent             +++++
+Germandbls             +++--
+germandbls             +++++
+germandbls.dup         +++++
+gnaborretni            +++++
+Grave                  +++++
+grave                  +++++
+grave.ts1              +++++
+Gravecomb              +++++
+gravecomb              +++++
+greater                +++++
+guarani                +++++
+guillemotleft          +++++
+guillemotright         +++++
+guilsinglleft          +++++
+guilsinglright         +++++
+H                      +++++
+h                      +++++
+Hbar                   +++++
+hbar                   +++++
+Hbrevebelow            +++++
+hbrevebelow            +++++
+Hcircumflex            +++++
+hcircumflex            +++++
+Hdieresis              +++++
+hdieresis              +++++
+Hdotbelow              +++++
+hdotbelow              +++++
+Hookabove              +++++
+hookabove              +++++
+Hookabovecomb          +++++
+hookabovecomb          +++++
+Htilde                 +++++
+htilde                 +++++
+Hungarumlaut           +++++
+hungarumlaut           +++++
+hungarumlaut.ts1       +++++
+Hungarumlautcomb       +++++
+hungarumlautcomb       +++++
+hyphen                 +++++
+hyphen.alt             +++++
+hyphen.dup             +++++
+hyphen.prop            +++--
+hyphendbl              +++++
+hyphendbl.alt          +++++
+I                      +++++
+i                      +++++
+Iacute                 +++++
+iacute                 +++++
+Ibreve                 +++++
+ibreve                 +++++
+Icaron                 +++++
+icaron                 +++++
+Icircumflex            +++++
+icircumflex            +++++
+Idblgrave              +++++
+idblgrave              +++++
+Idieresis              +++++
+idieresis              +++++
+Idieresisacute         +++++
+idieresisacute         +++++
+Idotaccent             +++++
+Idotbelow              +++++
+idotbelow              +++++
+Igrave                 +++++
+igrave                 +++++
+Ihookabove             +++++
+ihookabove             +++++
+IJ                     +++--
+ij                     +++--
+Imacron                +++++
+imacron                +++++
+Imacron.alt            +++++
+imacron.alt            +++++
+infinity               +++++
+interrobang            +++++
+Iogonek                +++++
+iogonek                +++++
+Iogonekacute           +++++
+iogonekacute           +++++
+Iota                   +++++
+Itilde                 +++++
+itilde                 +++++
+J                      +++++
+j                      +++++
+J_caron                +++++
+Jacute                 +++++
+jacute                 +++++
+jcaron                 +++++
+Jcircumflex            +++++
+jcircumflex            +++++
+K                      +++++
+k                      +++++
+Kappa                  +++++
+Kcedilla               +++++
+kcedilla               +++++
+Kcommaaccent           +++++
+kcommaaccent           +++++
+L                      +++++
+l                      +++++
+Lacute                 +++++
+lacute                 +++++
+Lambda                 +++++
+Lcaron                 +++++
+lcaron                 +++++
+Lcedilla               +++++
+lcedilla               +++++
+Lcommaaccent           +++++
+lcommaaccent           +++++
+Ldot                   +++++
+ldot                   +++++
+Ldotbelow              +++++
+ldotbelow              +++++
+Ldotbelowmacron        +++++
+ldotbelowmacron        +++++
+leaf                   +++++
+less                   +++++
+linebelow              +++++
+linebelowcomb          +++++
+lira                   +++++
+logicalnot             +++++
+longs                  ++-+-
+Lslash                 +++++
+lslash                 +++++
+Ltilde                 +++++
+ltilde                 +++++
+M                      +++++
+m                      +++++
+Macron                 +++++
+macron                 +++++
+Macron.alt             +++++
+macron.alt             +++++
+macron.dup             +++++
+macron.ts1             +++++
+macronbelow            +++++
+macronbelowcomb        +++++
+Macroncomb             +++++
+macroncomb             +++++
+married                +++++
+Mdotbelow              +++++
+mdotbelow              +++++
+mho                    +++++
+minus                  +++++
+Mu                     +++++
+mu                     +++++
+multiply               +++++
+musicalnote            +++++
+N                      +++++
+n                      +++++
+Nacute                 +++++
+nacute                 +++++
+naira                  +++++
+nbspace                +++++
+Ncaron                 +++++
+ncaron                 +++++
+Ncedilla               +++++
+ncedilla               +++++
+Ncommaaccent           +++++
+ncommaaccent           +++++
+Ndotaccent             +++++
+ndotaccent             +++++
+Ndotbelow              +++++
+ndotbelow              +++++
+nine                   +++++
+nine.oldstyle          +++--
+nine.prop              +++--
+nine.taboldstyle       +++++
+Ntilde                 +++++
+ntilde                 +++++
+Nu                     +++++
+numbersign             +++++
+numero                 +++++
+O                      +++++
+o                      +++++
+Oacute                 +++++
+oacute                 +++++
+Obreve                 +++++
+obreve                 +++++
+Ocaron                 +++++
+ocaron                 +++++
+Ocircumflex            +++++
+ocircumflex            +++++
+Ocircumflexacute       +++++
+ocircumflexacute       +++++
+Ocircumflexdotbelow    +++++
+ocircumflexdotbelow    +++++
+Ocircumflexgrave       +++++
+ocircumflexgrave       +++++
+Ocircumflexhookabove   +++++
+ocircumflexhookabove   +++++
+Ocircumflextilde       +++++
+ocircumflextilde       +++++
+Odblgrave              +++++
+odblgrave              +++++
+Odieresis              +++++
+odieresis              +++++
+Odotbelow              +++++
+odotbelow              +++++
+OE                     +++++
+oe                     +++++
+OE.dup                 +++++
+oe.dup                 +++++
+ogonek                 +++++
+Ograve                 +++++
+ograve                 +++++
+ohm                    +++++
+Ohookabove             +++++
+ohookabove             +++++
+Ohorn                  +++++
+ohorn                  +++++
+Ohornacute             +++++
+ohornacute             +++++
+Ohorndotbelow          +++++
+ohorndotbelow          +++++
+Ohorngrave             +++++
+ohorngrave             +++++
+Ohornhookabove         +++++
+ohornhookabove         +++++
+Ohorntilde             +++++
+ohorntilde             +++++
+Ohungarumlaut          +++++
+ohungarumlaut          +++++
+Omacron                +++++
+omacron                +++++
+Omega                  +++++
+Omicron                +++++
+one                    +++++
+one.oldstyle           +++--
+one.prop               +++--
+one.superior           +++++
+one.taboldstyle        +++++
+onehalf                +++++
+onequarter             +++++
+Oogonek                +++++
+oogonek                +++++
+Oogonekacute           +++++
+oogonekacute           +++++
+openbullet             +++++
+ordfeminine            +++++
+ordmasculine           +++++
+Orogate                +++++
+orogate                +++++
+Oslash                 +++++
+oslash                 +++++
+Oslash.dup             +++++
+oslash.dup             +++++
+Oslashacute            +++++
+oslashacute            +++++
+Otilde                 +++++
+otilde                 +++++
+P                      +++++
+p                      +++++
+paragraph              +++++
+paragraph.alt          +++++
+parenleft              +++++
+parenright             +++++
+percent                +++++
+period                 +++++
+periodcentered         +++++
+permyriad              +++--
+perthousand            +++++
+perthousandzero        +++++
+peso                   +++++
+Phi                    +++++
+Pi                     +++++
+plus                   +++++
+plusminus              +++++
+Psi                    +++++
+published              +++++
+Q                      +++++
+q                      +++++
+question               +++++
+questiondown           +++++
+quillbracketleft       +++++
+quillbracketright      +++++
+quotedbl               +++++
+quotedblbase           +++++
+quotedblbase.cm        +++++
+quotedblbase.cs        +++++
+quotedblbase.ts1       +++++
+quotedblleft           +++++
+quotedblleft.cm        +++++
+quotedblright          +++++
+quotedblright.cm       +++++
+quotedblright.cs       +++++
+quoteleft              +++++
+quoteleft.dup          +++++
+quoteright             +++++
+quoteright.dup         +++++
+quotesinglbase         +++++
+quotesinglbase.ts1     +++++
+quotesingle            +++++
+quotesingle.ts1        +++++
+R                      +++++
+r                      +++++
+Racute                 +++++
+racute                 +++++
+radical                +++++
+Rcaron                 +++++
+rcaron                 +++++
+Rcedilla               +++++
+rcedilla               +++++
+Rcommaaccent           +++++
+rcommaaccent           +++++
+Rdblgrave              +++++
+rdblgrave              +++++
+Rdotaccent             +++++
+rdotaccent             +++++
+Rdotbelow              +++++
+rdotbelow              +++++
+Rdotbelowmacron        +++++
+rdotbelowmacron        +++++
+recipe                 +++++
+referencemark          +++++
+registered             +++++
+registered.alt         +++++
+Rho                    +++++
+Ring                   +++++
+ring                   +++++
+Ringacute              +++++
+ringacute              +++++
+Ringcomb               +++++
+ringcomb               +++++
+ringhalfleft           +++++
+ringhalfright          +++++
+S                      +++++
+s                      +++++
+Sacute                 +++++
+sacute                 +++++
+Scaron                 +++++
+scaron                 +++++
+Scedilla               +++++
+scedilla               +++++
+schwa                  +++++
+Scircumflex            +++++
+scircumflex            +++++
+Scommaaccent           +++++
+scommaaccent           +++++
+Sdotbelow              +++++
+sdotbelow              +++++
+section                +++++
+semicolon              +++++
+servicemark            +++--
+seven                  +++++
+seven.oldstyle         +++--
+seven.prop             +++--
+seven.taboldstyle      +++++
+sfthyphen              +++++
+Sigma                  +++++
+six                    +++++
+six.oldstyle           +++--
+six.prop               +++--
+six.taboldstyle        +++++
+slash                  +++++
+space                  +++++
+sterling               +++++
+suppress               +++--
+T                      +++++
+t                      +++++
+Tau                    +++++
+Tcaron                 +++++
+tcaron                 +++++
+Tcedilla               +++++
+tcedilla               +++++
+Tcommaaccent           +++++
+tcommaaccent           +++++
+Tdieresis              +++++
+tdieresis              +++++
+Tdotbelow              +++++
+tdotbelow              +++++
+Theta                  +++++
+Thorn                  +++++
+thorn                  +++++
+three                  +++++
+three.oldstyle         +++--
+three.prop             +++--
+three.superior         +++++
+three.taboldstyle      +++++
+threequarters          +++++
+threequartersemdash    +++++
+tie                    +++++
+tieaccentcapital       +++++
+tieaccentcapital.new   +++++
+tieaccentlowercase     +++++
+tieaccentlowercase.new +++++
+Tilde                  +++++
+tilde                  +++++
+tilde.dup              +++++
+tildebelow             +++++
+tildebelowcomb         +++++
+Tildecomb              +++++
+tildecomb              +++++
+tildelow               +++++
+Tlinebelow             +++++
+tlinebelow             +++++
+trademark              +++--
+Ttilde                 +++++
+ttilde                 +++++
+twelveudash            +++++
+two                    +++++
+two.oldstyle           +++--
+two.prop               +++--
+two.superior           +++++
+two.taboldstyle        +++++
+U                      +++++
+u                      +++++
+Uacute                 +++++
+uacute                 +++++
+Ubreve                 +++++
+ubreve                 +++++
+Ubrevebelowinverted    +++++
+ubrevebelowinverted    +++++
+Ucaron                 +++++
+ucaron                 +++++
+Ucircumflex            +++++
+ucircumflex            +++++
+Udblgrave              +++++
+udblgrave              +++++
+Udieresis              +++++
+udieresis              +++++
+Udieresisacute         +++++
+udieresisacute         +++++
+Udieresiscaron         +++++
+udieresiscaron         +++++
+Udieresisgrave         +++++
+udieresisgrave         +++++
+Udotbelow              +++++
+udotbelow              +++++
+Ugrave                 +++++
+ugrave                 +++++
+Uhookabove             +++++
+uhookabove             +++++
+Uhorn                  +++++
+uhorn                  +++++
+Uhornacute             +++++
+uhornacute             +++++
+Uhorndotbelow          +++++
+uhorndotbelow          +++++
+Uhorngrave             +++++
+uhorngrave             +++++
+Uhornhookabove         +++++
+uhornhookabove         +++++
+Uhorntilde             +++++
+uhorntilde             +++++
+Uhungarumlaut          +++++
+uhungarumlaut          +++++
+Umacron                +++++
+umacron                +++++
+underscore             +++++
+undertie               +++++
+undertieinverted       +++++
+uni2010                +++++
+uni2011                +++++
+uni2423                +++++
+Uogonek                +++++
+uogonek                +++++
+Upsilon                +++++
+Uring                  +++++
+uring                  +++++
+Utilde                 +++++
+utilde                 +++++
+V                      +++++
+v                      +++++
+varcopyright           +++--
+vardotaccent           +++++
+varI                   +----
+varIJ                  +----
+varIogonek             +----
+varregistered          +++--
+W                      +++++
+w                      +++++
+Wacute                 +++++
+wacute                 +++++
+Wcircumflex            +++++
+wcircumflex            +++++
+Wdieresis              +++++
+wdieresis              +++++
+Wgrave                 +++++
+wgrave                 +++++
+won                    +++++
+X                      +++++
+x                      +++++
+Xi                     +++++
+Y                      +++++
+y                      +++++
+Yacute                 +++++
+yacute                 +++++
+Ycircumflex            +++++
+ycircumflex            +++++
+Ydieresis              +++++
+ydieresis              +++++
+Ydotbelow              +++++
+ydotbelow              +++++
+yen                    +++++
+Ygrave                 +++++
+ygrave                 +++++
+Yhookabove             +++++
+yhookabove             +++++
+Ytilde                 +++++
+ytilde                 +++++
+Z                      +++++
+z                      +++++
+Zacute                 +++++
+zacute                 +++++
+Zcaron                 +++++
+zcaron                 +++++
+Zdotaccent             +++++
+zdotaccent             +++++
+Zdotbelow              +++++
+zdotbelow              +++++
+zero                   +++++
+zero.oldstyle          +++--
+zero.prop              +++--
+zero.slash             +++++
+zero.taboldstyle       +++++
+Zeta                   +++++
+
+
+licenses/LPPL.txt
+The LaTeX Project Public License
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+LPPL Version 1.3c  2008-05-04
+
+Copyright 1999 2002-2008 LaTeX3 Project
+    Everyone is allowed to distribute verbatim copies of this
+    license document, but modification of it is not allowed.
+
+
+PREAMBLE
+========
+
+The LaTeX Project Public License (LPPL) is the primary license under
+which the LaTeX kernel and the base LaTeX packages are distributed.
+
+You may use this license for any work of which you hold the copyright
+and which you wish to distribute.  This license may be particularly
+suitable if your work is TeX-related (such as a LaTeX package), but
+it is written in such a way that you can use it even if your work is
+unrelated to TeX.
+
+The section `WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE',
+below, gives instructions, examples, and recommendations for authors
+who are considering distributing their works under this license.
+
+This license gives conditions under which a work may be distributed
+and modified, as well as conditions under which modified versions of
+that work may be distributed.
+
+We, the LaTeX3 Project, believe that the conditions below give you
+the freedom to make and distribute modified versions of your work
+that conform with whatever technical specifications you wish while
+maintaining the availability, integrity, and reliability of
+that work.  If you do not see how to achieve your goal while
+meeting these conditions, then read the document `cfgguide.tex'
+and `modguide.tex' in the base LaTeX distribution for suggestions.
+
+
+DEFINITIONS
+===========
+
+In this license document the following terms are used:
+
+   `Work'
+    Any work being distributed under this License.
+
+   `Derived Work'
+    Any work that under any applicable law is derived from the Work.
+
+   `Modification'
+    Any procedure that produces a Derived Work under any applicable
+    law -- for example, the production of a file containing an
+    original file associated with the Work or a significant portion of
+    such a file, either verbatim or with modifications and/or
+    translated into another language.
+
+   `Modify'
+    To apply any procedure that produces a Derived Work under any
+    applicable law.
+
+   `Distribution'
+    Making copies of the Work available from one person to another, in
+    whole or in part.  Distribution includes (but is not limited to)
+    making any electronic components of the Work accessible by
+    file transfer protocols such as FTP or HTTP or by shared file
+    systems such as Sun's Network File System (NFS).
+
+   `Compiled Work'
+    A version of the Work that has been processed into a form where it
+    is directly usable on a computer system.  This processing may
+    include using installation facilities provided by the Work,
+    transformations of the Work, copying of components of the Work, or
+    other activities.  Note that modification of any installation
+    facilities provided by the Work constitutes modification of the Work.
+
+   `Current Maintainer'
+    A person or persons nominated as such within the Work.  If there is
+    no such explicit nomination then it is the `Copyright Holder' under
+    any applicable law.
+
+   `Base Interpreter'
+    A program or process that is normally needed for running or
+    interpreting a part or the whole of the Work.
+
+    A Base Interpreter may depend on external components but these
+    are not considered part of the Base Interpreter provided that each
+    external component clearly identifies itself whenever it is used
+    interactively.  Unless explicitly specified when applying the
+    license to the Work, the only applicable Base Interpreter is a
+    `LaTeX-Format' or in the case of files belonging to the
+    `LaTeX-format' a program implementing the `TeX language'.
+
+
+
+CONDITIONS ON DISTRIBUTION AND MODIFICATION
+===========================================
+
+1.  Activities other than distribution and/or modification of the Work
+are not covered by this license; they are outside its scope.  In
+particular, the act of running the Work is not restricted and no
+requirements are made concerning any offers of support for the Work.
+
+2.  You may distribute a complete, unmodified copy of the Work as you
+received it.  Distribution of only part of the Work is considered
+modification of the Work, and no right to distribute such a Derived
+Work may be assumed under the terms of this clause.
+
+3.  You may distribute a Compiled Work that has been generated from a
+complete, unmodified copy of the Work as distributed under Clause 2
+above, as long as that Compiled Work is distributed in such a way that
+the recipients may install the Compiled Work on their system exactly
+as it would have been installed if they generated a Compiled Work
+directly from the Work.
+
+4.  If you are the Current Maintainer of the Work, you may, without
+restriction, modify the Work, thus creating a Derived Work.  You may
+also distribute the Derived Work without restriction, including
+Compiled Works generated from the Derived Work.  Derived Works
+distributed in this manner by the Current Maintainer are considered to
+be updated versions of the Work.
+
+5.  If you are not the Current Maintainer of the Work, you may modify
+your copy of the Work, thus creating a Derived Work based on the Work,
+and compile this Derived Work, thus creating a Compiled Work based on
+the Derived Work.
+
+6.  If you are not the Current Maintainer of the Work, you may
+distribute a Derived Work provided the following conditions are met
+for every component of the Work unless that component clearly states
+in the copyright notice that it is exempt from that condition.  Only
+the Current Maintainer is allowed to add such statements of exemption
+to a component of the Work.
+
+  a. If a component of this Derived Work can be a direct replacement
+     for a component of the Work when that component is used with the
+     Base Interpreter, then, wherever this component of the Work
+     identifies itself to the user when used interactively with that
+     Base Interpreter, the replacement component of this Derived Work
+     clearly and unambiguously identifies itself as a modified version
+     of this component to the user when used interactively with that
+     Base Interpreter.
+
+  b. Every component of the Derived Work contains prominent notices
+     detailing the nature of the changes to that component, or a
+     prominent reference to another file that is distributed as part
+     of the Derived Work and that contains a complete and accurate log
+     of the changes.
+
+  c. No information in the Derived Work implies that any persons,
+     including (but not limited to) the authors of the original version
+     of the Work, provide any support, including (but not limited to)
+     the reporting and handling of errors, to recipients of the
+     Derived Work unless those persons have stated explicitly that
+     they do provide such support for the Derived Work.
+
+  d. You distribute at least one of the following with the Derived Work:
+
+       1. A complete, unmodified copy of the Work;
+          if your distribution of a modified component is made by
+          offering access to copy the modified component from a
+          designated place, then offering equivalent access to copy
+          the Work from the same or some similar place meets this
+          condition, even though third parties are not compelled to
+          copy the Work along with the modified component;
+
+       2. Information that is sufficient to obtain a complete,
+          unmodified copy of the Work.
+
+7.  If you are not the Current Maintainer of the Work, you may
+distribute a Compiled Work generated from a Derived Work, as long as
+the Derived Work is distributed to all recipients of the Compiled
+Work, and as long as the conditions of Clause 6, above, are met with
+regard to the Derived Work.
+
+8.  The conditions above are not intended to prohibit, and hence do not
+apply to, the modification, by any method, of any component so that it
+becomes identical to an updated version of that component of the Work as
+it is distributed by the Current Maintainer under Clause 4, above.
+
+9.  Distribution of the Work or any Derived Work in an alternative
+format, where the Work or that Derived Work (in whole or in part) is
+then produced by applying some process to that format, does not relax or
+nullify any sections of this license as they pertain to the results of
+applying that process.
+
+10. a. A Derived Work may be distributed under a different license
+       provided that license itself honors the conditions listed in
+       Clause 6 above, in regard to the Work, though it does not have
+       to honor the rest of the conditions in this license.
+
+    b. If a Derived Work is distributed under a different license, that
+       Derived Work must provide sufficient documentation as part of
+       itself to allow each recipient of that Derived Work to honor the
+       restrictions in Clause 6 above, concerning changes from the Work.
+
+11. This license places no restrictions on works that are unrelated to
+the Work, nor does this license place any restrictions on aggregating
+such works with the Work by any means.
+
+12.  Nothing in this license is intended to, or may be used to, prevent
+complete compliance by all parties with all applicable laws.
+
+
+NO WARRANTY
+===========
+
+There is no warranty for the Work.  Except when otherwise stated in
+writing, the Copyright Holder provides the Work `as is', without
+warranty of any kind, either expressed or implied, including, but not
+limited to, the implied warranties of merchantability and fitness for a
+particular purpose.  The entire risk as to the quality and performance
+of the Work is with you.  Should the Work prove defective, you assume
+the cost of all necessary servicing, repair, or correction.
+
+In no event unless required by applicable law or agreed to in writing
+will The Copyright Holder, or any author named in the components of the
+Work, or any other party who may distribute and/or modify the Work as
+permitted above, be liable to you for damages, including any general,
+special, incidental or consequential damages arising out of any use of
+the Work or out of inability to use the Work (including, but not limited
+to, loss of data, data being rendered inaccurate, or losses sustained by
+anyone as a result of any failure of the Work to operate with any other
+programs), even if the Copyright Holder or said author or said other
+party has been advised of the possibility of such damages.
+
+
+MAINTENANCE OF THE WORK
+=======================
+
+The Work has the status `author-maintained' if the Copyright Holder
+explicitly and prominently states near the primary copyright notice in
+the Work that the Work can only be maintained by the Copyright Holder
+or simply that it is `author-maintained'.
+
+The Work has the status `maintained' if there is a Current Maintainer
+who has indicated in the Work that they are willing to receive error
+reports for the Work (for example, by supplying a valid e-mail
+address). It is not required for the Current Maintainer to acknowledge
+or act upon these error reports.
+
+The Work changes from status `maintained' to `unmaintained' if there
+is no Current Maintainer, or the person stated to be Current
+Maintainer of the work cannot be reached through the indicated means
+of communication for a period of six months, and there are no other
+significant signs of active maintenance.
+
+You can become the Current Maintainer of the Work by agreement with
+any existing Current Maintainer to take over this role.
+
+If the Work is unmaintained, you can become the Current Maintainer of
+the Work through the following steps:
+
+ 1.  Make a reasonable attempt to trace the Current Maintainer (and
+     the Copyright Holder, if the two differ) through the means of
+     an Internet or similar search.
+
+ 2.  If this search is successful, then enquire whether the Work
+     is still maintained.
+
+  a. If it is being maintained, then ask the Current Maintainer
+     to update their communication data within one month.
+
+  b. If the search is unsuccessful or no action to resume active
+     maintenance is taken by the Current Maintainer, then announce
+     within the pertinent community your intention to take over
+     maintenance.  (If the Work is a LaTeX work, this could be
+     done, for example, by posting to comp.text.tex.)
+
+ 3a. If the Current Maintainer is reachable and agrees to pass
+     maintenance of the Work to you, then this takes effect
+     immediately upon announcement.
+
+  b. If the Current Maintainer is not reachable and the Copyright
+     Holder agrees that maintenance of the Work be passed to you,
+     then this takes effect immediately upon announcement.
+
+ 4.  If you make an `intention announcement' as described in 2b. above
+     and after three months your intention is challenged neither by
+     the Current Maintainer nor by the Copyright Holder nor by other
+     people, then you may arrange for the Work to be changed so as
+     to name you as the (new) Current Maintainer.
+
+ 5.  If the previously unreachable Current Maintainer becomes
+     reachable once more within three months of a change completed
+     under the terms of 3b) or 4), then that Current Maintainer must
+     become or remain the Current Maintainer upon request provided
+     they then update their communication data within one month.
+
+A change in the Current Maintainer does not, of itself, alter the fact
+that the Work is distributed under the LPPL license.
+
+If you become the Current Maintainer of the Work, you should
+immediately provide, within the Work, a prominent and unambiguous
+statement of your status as Current Maintainer.  You should also
+announce your new status to the same pertinent community as
+in 2b) above.
+
+
+WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE
+======================================================
+
+This section contains important instructions, examples, and
+recommendations for authors who are considering distributing their
+works under this license.  These authors are addressed as `you' in
+this section.
+
+Choosing This License or Another License
+----------------------------------------
+
+If for any part of your work you want or need to use *distribution*
+conditions that differ significantly from those in this license, then
+do not refer to this license anywhere in your work but, instead,
+distribute your work under a different license.  You may use the text
+of this license as a model for your own license, but your license
+should not refer to the LPPL or otherwise give the impression that
+your work is distributed under the LPPL.
+
+The document `modguide.tex' in the base LaTeX distribution explains
+the motivation behind the conditions of this license.  It explains,
+for example, why distributing LaTeX under the GNU General Public
+License (GPL) was considered inappropriate.  Even if your work is
+unrelated to LaTeX, the discussion in `modguide.tex' may still be
+relevant, and authors intending to distribute their works under any
+license are encouraged to read it.
+
+A Recommendation on Modification Without Distribution
+-----------------------------------------------------
+
+It is wise never to modify a component of the Work, even for your own
+personal use, without also meeting the above conditions for
+distributing the modified component.  While you might intend that such
+modifications will never be distributed, often this will happen by
+accident -- you may forget that you have modified that component; or
+it may not occur to you when allowing others to access the modified
+version that you are thus distributing it and violating the conditions
+of this license in ways that could have legal implications and, worse,
+cause problems for the community.  It is therefore usually in your
+best interest to keep your copy of the Work identical with the public
+one.  Many works provide ways to control the behavior of that work
+without altering any of its licensed components.
+
+How to Use This License
+-----------------------
+
+To use this license, place in each of the components of your work both
+an explicit copyright notice including your name and the year the work
+was authored and/or last substantially modified.  Include also a
+statement that the distribution and/or modification of that
+component is constrained by the conditions in this license.
+
+Here is an example of such a notice and statement:
+
+  %% pig.dtx
+  %% Copyright 2005 M. Y. Name
+  %
+  % This work may be distributed and/or modified under the
+  % conditions of the LaTeX Project Public License, either version 1.3
+  % of this license or (at your option) any later version.
+  % The latest version of this license is in
+  %   https://www.latex-project.org/lppl.txt
+  % and version 1.3 or later is part of all distributions of LaTeX
+  % version 2005/12/01 or later.
+  %
+  % This work has the LPPL maintenance status `maintained'.
+  %
+  % The Current Maintainer of this work is M. Y. Name.
+  %
+  % This work consists of the files pig.dtx and pig.ins
+  % and the derived file pig.sty.
+
+Given such a notice and statement in a file, the conditions
+given in this license document would apply, with the `Work' referring
+to the three files `pig.dtx', `pig.ins', and `pig.sty' (the last being
+generated from `pig.dtx' using `pig.ins'), the `Base Interpreter'
+referring to any `LaTeX-Format', and both `Copyright Holder' and
+`Current Maintainer' referring to the person `M. Y. Name'.
+
+If you do not want the Maintenance section of LPPL to apply to your
+Work, change `maintained' above into `author-maintained'.
+However, we recommend that you use `maintained', as the Maintenance
+section was added in order to ensure that your Work remains useful to
+the community even when you can no longer maintain and support it
+yourself.
+
+Derived Works That Are Not Replacements
+---------------------------------------
+
+Several clauses of the LPPL specify means to provide reliability and
+stability for the user community. They therefore concern themselves
+with the case that a Derived Work is intended to be used as a
+(compatible or incompatible) replacement of the original Work. If
+this is not the case (e.g., if a few lines of code are reused for a
+completely different task), then clauses 6b and 6d shall not apply.
+
+
+Important Recommendations
+-------------------------
+
+ Defining What Constitutes the Work
+
+   The LPPL requires that distributions of the Work contain all the
+   files of the Work.  It is therefore important that you provide a
+   way for the licensee to determine which files constitute the Work.
+   This could, for example, be achieved by explicitly listing all the
+   files of the Work near the copyright notice of each file or by
+   using a line such as:
+
+    % This work consists of all files listed in manifest.txt.
+
+   in that place.  In the absence of an unequivocal list it might be
+   impossible for the licensee to determine what is considered by you
+   to comprise the Work and, in such a case, the licensee would be
+   entitled to make reasonable conjectures as to which files comprise
+   the Work.
+
+
+licenses/NOTICE.txt
+Unmodified Computer Modern/AMS (SIL OFL), Latin Modern (GUST Font License), and RSFS fonts. Font declaration metadata is derived from LaTeX/AMS sources. The corresponding licenses, credits and manifests accompany this bundle. These assets retain their own licenses.
+
+
+licenses/RSFS-README.txt
+RSFS - Ralph Smith's Formal Script Symbol Fonts
+------------------------------------------------
+
+Version 1.0,  Released October 1991
+
+This package contains METAFONT sources for fonts of uppercase
+script letters for use as symbols in scientific and mathematical
+typesetting.  For example, script D, N, and S are often used in
+functional analysis for domain, nullspace, and Schwartz class.
+Script L and H are the standard symbols for lagrangian and
+hamiltonian densities in quantum field theory.  These formal
+script symbols may be contrasted with informal scripts such
+as the one designed by H. Zapf and used as `calligraphic'
+symbols in the TeX math symbol font.
+I have tried to be fairly conservative, and closely imitated
+a formal script type designed by R. Hunter Middleton.  This is
+similar to Typo Script and Marina, as well as the font used
+by the typesetters at Springer Verlag.  All are based on the
+so-called Spencerian or Copperplate hand lettering which
+prevailed in the eighteenth century.
+
+These programs were not designed with much `meta-ness' in mind.
+Although formal script is subject to many stylistic variations,
+radical changes in weight or slant violate my sense of taste.
+This is a first revision, and certainly does not reflect much
+expertise in METAFONT programming. It has been checked for
+legibility and spacing.
+
+I have tested these fonts on some 300dpi printers (ink-jet and laser),
+but not at other resolutions.  I suspect they won't look very good at
+low resolution (because of the instrinsic detail).  Comments from users
+of the fonts are welcome; please describe your printer and metafont
+parameters when relevant.  I will probably revise the sources and hope
+to add lowercase letters to make a text font.
+
+You are welcome to use and distribute these files; if you modify them,
+please change the name but give credit to the original author!
+
+			- Ralph Smith
+			  Physics 0319
+			  Univ. of California -- San Diego
+			  9500 Gilman Drive, La Jolla CA 92093-0319
+			  
+			  E-mail: rasmith@ucsd.edu
+
+
+Notes on the files:
+
+README - this file
+rsfsX.mf (X = 5,7,10) - set sizes for Xpt font and calls driver
+script.mf - driver
+scriptu.mf - character programs
+scrload.tex -  TeX code to make these symbols available with
+		a \scr macro (to be used like \cal)
+
+To compile a font, run Metafont with CMBASE:  at the MF prompt, type
+
+    &cm \mode=localfont; input rsfs10
+
+Then run gftopk, put the PK and TFM files in the appropriate places,
+and TeX away.
+
+
+
+licenses/RSFS-TYPE1.txt
+
+Hi there,
+
+This directory contains a Type 1 version of (some of) the
+Metafont sources from the directory above. The pfb files 
+are intended to be used with the original TFM files, 
+_don't_ run finst or afmtotfm on the afm files! 
+
+The afm and pfm files are provided just in case you want to
+install the files on your windowing system. I'm sorry for
+the Macintosh users amongst you, but I don't know how to 
+create the MacType1 files.
+
+The fonts should give exactly the same output results as 
+the .mf originals, up to the point of sillyness. All bugs 
+in the metafont sources have been kept (and there might be
+new ones).
+
+Files are herewith donated to the public domain, and 
+provided as is. Note that I feel that the copyright 
+from the metafont sources still applies, my only statement 
+here is that I do not impose extra restrictions.
+
+Conversion process:
+    .mf   -> metapost (c) Hobby -> .eps
+    .eps  -> metafog  (c) Kinch -> .pfb
+    .pfb  -> hinted & touched up with FontLab v3.0c
+
+More fonts should follow in the next few months. I can be reached for 
+propositions/bugs at: taco.hoekwater@wkap.nl
+
+Greetings,
+
+Taco Hoekwater
+
+

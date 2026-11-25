@@ -1,0 +1,37 @@
+% SPDX-License-Identifier: GPL-3.0-or-later
+\documentclass{article}
+\usepackage{amsmath,subfiles,booktabs,hyperref}
+\newcommand{\pair}[1]{\left(#1\right)}
+% Uncomment to compile only these include/subfileinclude files:
+% \includeonly{results,appendix}
+\title{A document assembled from subfiles}
+\author{PasTeX example}
+\date{}
+\begin{document}
+\maketitle
+Open this master in PasTeX to edit its linked files in place. Click
+\texttt{[hide]} or \texttt{[show]} on a separator to fold a file;
+Ctrl+click its name to open it separately. Saving keeps the original files.
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Command & Page breaks & Child compiles alone? \\
+\midrule
+\texttt{\textbackslash input} & None & Body fragment \\
+\texttt{\textbackslash include} & Before and after & Body fragment \\
+\texttt{\textbackslash subfile} & None & Yes, with the subfiles class \\
+\texttt{\textbackslash subfileinclude} & Before and after & Yes, with the subfiles class \\
+\bottomrule
+\end{tabular}
+\end{center}
+\verb|\includeonly| filters included chapters; ordinary inputs and subfiles
+are still read. The Methods chapter also contains nested subfiles in
+\texttt{details/}; expand or fold each level independently.
+
+\input{introduction}
+\subfile{methods}
+\subfileinclude{results}
+\appendix
+\include{appendix}
+\end{document}
